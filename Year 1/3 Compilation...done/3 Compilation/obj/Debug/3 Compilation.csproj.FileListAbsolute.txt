@@ -1,0 +1,15 @@
+E:\Programing\test\3 Compilation\3 Compilation\bin\Debug\3 Compilation.exe.config
+E:\Programing\test\3 Compilation\3 Compilation\bin\Debug\3 Compilation.exe
+E:\Programing\test\3 Compilation\3 Compilation\bin\Debug\3 Compilation.pdb
+E:\Programing\test\3 Compilation\3 Compilation\obj\Debug\3 Compilation.csprojResolveAssemblyReference.cache
+E:\Programing\test\3 Compilation\3 Compilation\obj\Debug\3 Compilation.exe
+E:\Programing\test\3 Compilation\3 Compilation\obj\Debug\3 Compilation.pdb
+E:\Programing\test\3 Compilation...done\3 Compilation\bin\Debug\3 Compilation.exe.config
+E:\Programing\test\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.exe
+E:\Programing\test\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.pdb
+H:\Programing\test - C#\3 Compilation...done\3 Compilation\bin\Debug\3 Compilation.exe.config
+H:\Programing\test - C#\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.exe
+H:\Programing\test - C#\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.pdb
+D:\Programing\Programming\test - C#\3 Compilation...done\3 Compilation\bin\Debug\3 Compilation.exe.config
+D:\Programing\Programming\test - C#\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.exe
+D:\Programing\Programming\test - C#\3 Compilation...done\3 Compilation\obj\Debug\3 Compilation.pdb

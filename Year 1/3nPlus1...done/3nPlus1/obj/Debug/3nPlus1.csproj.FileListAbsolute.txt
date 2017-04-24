@@ -1,0 +1,6 @@
+D:\Programing\test\3nPlus1\3nPlus1\bin\Debug\3nPlus1.exe.config
+D:\Programing\test\3nPlus1\3nPlus1\bin\Debug\3nPlus1.exe
+D:\Programing\test\3nPlus1\3nPlus1\bin\Debug\3nPlus1.pdb
+D:\Programing\test\3nPlus1\3nPlus1\obj\Debug\3nPlus1.csprojResolveAssemblyReference.cache
+D:\Programing\test\3nPlus1\3nPlus1\obj\Debug\3nPlus1.exe
+D:\Programing\test\3nPlus1\3nPlus1\obj\Debug\3nPlus1.pdb
