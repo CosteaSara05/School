@@ -1,0 +1,18 @@
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe.config
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.csprojResolveAssemblyReference.cache
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.pdb
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.exe
+E:\Programing\test\Afisare cifre numar in ordine inversa\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.pdb
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe.config
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.exe
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.pdb
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.pdb
+E:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.csprojResolveAssemblyReference.cache
+D:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe.config
+D:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.exe
+D:\Programing\test\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.pdb
+D:\Programing\Programming\test - C#\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\bin\Debug\Afisare cifre numar in ordine inversa.exe.config
+D:\Programing\Programming\test - C#\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.exe
+D:\Programing\Programming\test - C#\Afisare cifre numar in ordine inversa...done\Afisare cifre numar in ordine inversa\obj\Debug\Afisare cifre numar in ordine inversa.pdb

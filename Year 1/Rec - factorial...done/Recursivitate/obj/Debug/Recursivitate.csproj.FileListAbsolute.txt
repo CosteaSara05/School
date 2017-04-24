@@ -1,0 +1,9 @@
+D:\Programing\test - C#\Recursivitate\Recursivitate\bin\Debug\Recursivitate.exe.config
+D:\Programing\test - C#\Recursivitate\Recursivitate\bin\Debug\Recursivitate.exe
+D:\Programing\test - C#\Recursivitate\Recursivitate\bin\Debug\Recursivitate.pdb
+D:\Programing\test - C#\Recursivitate\Recursivitate\obj\Debug\Recursivitate.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Recursivitate\Recursivitate\obj\Debug\Recursivitate.exe
+D:\Programing\test - C#\Recursivitate\Recursivitate\obj\Debug\Recursivitate.pdb
+d:\Programing\test - C#\Rec - factorial...done\Recursivitate\bin\Debug\Recursivitate.exe.config
+d:\Programing\test - C#\Rec - factorial...done\Recursivitate\obj\Debug\Recursivitate.exe
+d:\Programing\test - C#\Rec - factorial...done\Recursivitate\obj\Debug\Recursivitate.pdb

@@ -1,0 +1,5 @@
+D:\Programing\Programming\test - C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\Programing\Programming\test - C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\Programing\Programming\test - C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\Programing\Programming\test - C#\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\Programing\Programming\test - C#\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

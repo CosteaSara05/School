@@ -1,0 +1,8 @@
+C:\Users\Student\Desktop\nfm\nfm\bin\Debug\nfm.exe.config
+C:\Users\Student\Desktop\nfm\nfm\bin\Debug\nfm.exe
+C:\Users\Student\Desktop\nfm\nfm\bin\Debug\nfm.pdb
+C:\Users\Student\Desktop\nfm\nfm\obj\Debug\nfm.Form1.resources
+C:\Users\Student\Desktop\nfm\nfm\obj\Debug\nfm.Properties.Resources.resources
+C:\Users\Student\Desktop\nfm\nfm\obj\Debug\nfm.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\nfm\nfm\obj\Debug\nfm.exe
+C:\Users\Student\Desktop\nfm\nfm\obj\Debug\nfm.pdb

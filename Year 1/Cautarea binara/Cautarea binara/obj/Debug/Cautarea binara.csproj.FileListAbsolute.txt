@@ -1,0 +1,11 @@
+D:\Programing\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.exe.config
+D:\Programing\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.exe
+D:\Programing\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.pdb
+D:\Programing\test - C#\Cautarea binara\Cautarea binara\obj\Debug\Cautarea binara.exe
+D:\Programing\test - C#\Cautarea binara\Cautarea binara\obj\Debug\Cautarea binara.pdb
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.exe.config
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\obj\Debug\Cautarea binara.exe
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\obj\Debug\Cautarea binara.pdb
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.exe
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\bin\Debug\Cautarea binara.pdb
+D:\Programing\Programming\test - C#\Cautarea binara\Cautarea binara\obj\Debug\Cautarea binara.csprojResolveAssemblyReference.cache

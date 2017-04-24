@@ -1,0 +1,6 @@
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\bin\Debug\Afisare binar pe BCD.exe.config
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\bin\Debug\Afisare binar pe BCD.exe
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\bin\Debug\Afisare binar pe BCD.pdb
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\obj\Debug\Afisare binar pe BCD.csprojResolveAssemblyReference.cache
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\obj\Debug\Afisare binar pe BCD.exe
+D:\Programing\test\Afisare binar pe BCD\Afisare binar pe BCD\obj\Debug\Afisare binar pe BCD.pdb

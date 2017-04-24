@@ -1,0 +1,9 @@
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\bin\Debug\Ridicarea la putere.exe.config
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\bin\Debug\Ridicarea la putere.exe
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\bin\Debug\Ridicarea la putere.pdb
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\obj\Debug\Ridicarea la putere.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\obj\Debug\Ridicarea la putere.exe
+D:\Programing\test - C#\Ridicarea la putere\Ridicarea la putere\obj\Debug\Ridicarea la putere.pdb
+D:\Programing\Programming\test - C#\Ridicarea la putere DC...done\Ridicarea la putere\bin\Debug\Ridicarea la putere.exe.config
+D:\Programing\Programming\test - C#\Ridicarea la putere DC...done\Ridicarea la putere\obj\Debug\Ridicarea la putere.exe
+D:\Programing\Programming\test - C#\Ridicarea la putere DC...done\Ridicarea la putere\obj\Debug\Ridicarea la putere.pdb

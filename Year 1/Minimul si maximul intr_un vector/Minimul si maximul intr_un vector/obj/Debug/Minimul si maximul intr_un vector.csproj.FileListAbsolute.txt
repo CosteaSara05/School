@@ -1,0 +1,6 @@
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\bin\Debug\Minimul si maximul intr_un vector.exe.config
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\bin\Debug\Minimul si maximul intr_un vector.exe
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\bin\Debug\Minimul si maximul intr_un vector.pdb
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\obj\Debug\Minimul si maximul intr_un vector.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\obj\Debug\Minimul si maximul intr_un vector.exe
+D:\Programing\test - C#\Minimul si maximul intr_un vector\Minimul si maximul intr_un vector\obj\Debug\Minimul si maximul intr_un vector.pdb

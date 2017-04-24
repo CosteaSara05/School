@@ -1,0 +1,5 @@
+d:\Programing\Programming\test - C#\LandLord\LandLord\bin\Release\LandLord.exe.config
+d:\Programing\Programming\test - C#\LandLord\LandLord\obj\Release\LandLord.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\test - C#\LandLord\LandLord\obj\Release\LandLord.Form1.resources
+d:\Programing\Programming\test - C#\LandLord\LandLord\obj\Release\LandLord.Properties.Resources.resources
+d:\Programing\Programming\test - C#\LandLord\LandLord\obj\Release\LandLord.csproj.GenerateResource.Cache

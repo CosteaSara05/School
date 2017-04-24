@@ -1,0 +1,6 @@
+D:\Programing\test - C#\ceas\ceas\bin\Debug\ceas.exe.config
+D:\Programing\test - C#\ceas\ceas\bin\Debug\ceas.exe
+D:\Programing\test - C#\ceas\ceas\bin\Debug\ceas.pdb
+D:\Programing\test - C#\ceas\ceas\obj\Debug\ceas.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\ceas\ceas\obj\Debug\ceas.exe
+D:\Programing\test - C#\ceas\ceas\obj\Debug\ceas.pdb

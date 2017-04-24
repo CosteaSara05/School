@@ -1,0 +1,21 @@
+E:\testere 1\testere 1\Test de parietate\bin\Debug\Test de parietate.exe.config
+E:\testere 1\testere 1\Test de parietate\bin\Debug\Test de parietate.exe
+E:\testere 1\testere 1\Test de parietate\bin\Debug\Test de parietate.pdb
+E:\testere 1\testere 1\Test de parietate\obj\Debug\Test de parietate.csprojResolveAssemblyReference.cache
+E:\testere 1\testere 1\Test de parietate\obj\Debug\Test de parietate.exe
+E:\testere 1\testere 1\Test de parietate\obj\Debug\Test de parietate.pdb
+E:\test\Test de parietate\bin\Debug\Test de parietate.exe.config
+E:\test\Test de parietate\obj\Debug\Test de parietate.exe
+E:\test\Test de parietate\obj\Debug\Test de parietate.pdb
+e:\test\Test de parietate\bin\Debug\Test de parietate.exe
+e:\test\Test de parietate\bin\Debug\Test de parietate.pdb
+e:\test\Test de parietate\obj\Debug\Test de parietate.csprojResolveAssemblyReference.cache
+e:\test\Test de parietate....done\bin\Debug\Test de parietate.exe.config
+e:\test\Test de parietate....done\obj\Debug\Test de parietate.exe
+e:\test\Test de parietate....done\obj\Debug\Test de parietate.pdb
+E:\Programing\test\Test de parietate...done\bin\Debug\Test de parietate.exe.config
+E:\Programing\test\Test de parietate...done\obj\Debug\Test de parietate.exe
+E:\Programing\test\Test de parietate...done\obj\Debug\Test de parietate.pdb
+E:\Programing\test\Test de parietate...done\bin\Debug\Test de parietate.exe
+E:\Programing\test\Test de parietate...done\bin\Debug\Test de parietate.pdb
+E:\Programing\test\Test de parietate...done\obj\Debug\Test de parietate.csprojResolveAssemblyReference.cache

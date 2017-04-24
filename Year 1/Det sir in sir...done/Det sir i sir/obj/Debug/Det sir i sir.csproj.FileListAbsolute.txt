@@ -1,0 +1,6 @@
+D:\Programing\test\Det sir i sir\Det sir i sir\bin\Debug\Det sir i sir.exe.config
+D:\Programing\test\Det sir i sir\Det sir i sir\obj\Debug\Det sir i sir.csprojResolveAssemblyReference.cache
+D:\Programing\test\Det sir i sir\Det sir i sir\bin\Debug\Det sir i sir.exe
+D:\Programing\test\Det sir i sir\Det sir i sir\bin\Debug\Det sir i sir.pdb
+D:\Programing\test\Det sir i sir\Det sir i sir\obj\Debug\Det sir i sir.exe
+D:\Programing\test\Det sir i sir\Det sir i sir\obj\Debug\Det sir i sir.pdb

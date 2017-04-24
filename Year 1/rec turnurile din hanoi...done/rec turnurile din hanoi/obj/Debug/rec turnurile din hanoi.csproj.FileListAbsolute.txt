@@ -1,0 +1,12 @@
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.exe.config
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.exe
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.pdb
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.exe
+D:\Programing\test - C#\rec turnurile din hanoi\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.pdb
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.exe.config
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.exe
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.pdb
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.exe
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\bin\Debug\rec turnurile din hanoi.pdb
+D:\Programing\Programming\test - C#\rec turnurile din hanoi...done\rec turnurile din hanoi\obj\Debug\rec turnurile din hanoi.csprojResolveAssemblyReference.cache

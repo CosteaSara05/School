@@ -1,0 +1,6 @@
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\bin\Debug\Liste inlantuite.exe.config
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\bin\Debug\Liste inlantuite.exe
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\bin\Debug\Liste inlantuite.pdb
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\obj\Debug\Liste inlantuite.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\obj\Debug\Liste inlantuite.exe
+D:\Programing\Programming\test - C#\Liste inlantuite\Liste inlantuite\obj\Debug\Liste inlantuite.pdb

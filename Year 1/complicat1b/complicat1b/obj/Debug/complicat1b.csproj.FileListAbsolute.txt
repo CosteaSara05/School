@@ -1,0 +1,6 @@
+D:\Programing\test - C#\complicat1b\complicat1b\bin\Debug\complicat1b.exe.config
+D:\Programing\test - C#\complicat1b\complicat1b\obj\Debug\complicat1b.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\complicat1b\complicat1b\bin\Debug\complicat1b.exe
+D:\Programing\test - C#\complicat1b\complicat1b\bin\Debug\complicat1b.pdb
+D:\Programing\test - C#\complicat1b\complicat1b\obj\Debug\complicat1b.exe
+D:\Programing\test - C#\complicat1b\complicat1b\obj\Debug\complicat1b.pdb

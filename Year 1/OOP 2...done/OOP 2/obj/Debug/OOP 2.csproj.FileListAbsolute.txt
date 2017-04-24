@@ -1,0 +1,6 @@
+D:\Programing\test - C#\OOP 2\OOP 2\bin\Debug\OOP 2.exe.config
+D:\Programing\test - C#\OOP 2\OOP 2\bin\Debug\OOP 2.exe
+D:\Programing\test - C#\OOP 2\OOP 2\bin\Debug\OOP 2.pdb
+D:\Programing\test - C#\OOP 2\OOP 2\obj\Debug\OOP 2.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\OOP 2\OOP 2\obj\Debug\OOP 2.exe
+D:\Programing\test - C#\OOP 2\OOP 2\obj\Debug\OOP 2.pdb

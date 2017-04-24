@@ -1,0 +1,1 @@
+Suma numerelor din fisier este: 1164

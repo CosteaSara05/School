@@ -1,0 +1,30 @@
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.csprojResolveAssemblyReference.cache
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.pdb
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+E:\Programing\Algoritmul lui Euclid\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.pdb
+E:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.csprojResolveAssemblyReference.cache
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.pdb
+\\DD-WRT\usb stic\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.csprojResolveAssemblyReference.cache
+D:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+D:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+D:\Programing\test\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.pdb
+D:\Programing\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\bin\Debug\Algoritmul lui Euclid.exe.config
+D:\Programing\Programming\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.exe
+D:\Programing\Programming\test - C#\Algoritmul lui Euclid...done\Algoritmul lui Euclid\obj\Debug\Algoritmul lui Euclid.pdb

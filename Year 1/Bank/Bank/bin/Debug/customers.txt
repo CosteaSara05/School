@@ -1,0 +1,2 @@
+Customers and bank accounts:
+dasd|dasd|50|1|20

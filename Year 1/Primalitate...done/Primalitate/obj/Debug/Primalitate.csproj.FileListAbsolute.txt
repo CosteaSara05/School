@@ -1,0 +1,15 @@
+E:\Programing\test\Primalitate\Primalitate\bin\Debug\Primalitate.exe.config
+E:\Programing\test\Primalitate\Primalitate\obj\Debug\Primalitate.csprojResolveAssemblyReference.cache
+E:\Programing\test\Primalitate\Primalitate\bin\Debug\Primalitate.exe
+E:\Programing\test\Primalitate\Primalitate\bin\Debug\Primalitate.pdb
+E:\Programing\test\Primalitate\Primalitate\obj\Debug\Primalitate.exe
+E:\Programing\test\Primalitate\Primalitate\obj\Debug\Primalitate.pdb
+D:\Programing\test\Primalitate...done\Primalitate\bin\Debug\Primalitate.exe.config
+D:\Programing\test\Primalitate...done\Primalitate\obj\Debug\Primalitate.exe
+D:\Programing\test\Primalitate...done\Primalitate\obj\Debug\Primalitate.pdb
+D:\Programing\test\Primalitate...done\Primalitate\bin\Debug\Primalitate.exe
+D:\Programing\test\Primalitate...done\Primalitate\bin\Debug\Primalitate.pdb
+D:\Programing\test\Primalitate...done\Primalitate\obj\Debug\Primalitate.csprojResolveAssemblyReference.cache
+E:\Programing\test\Primalitate...done\Primalitate\bin\Debug\Primalitate.exe.config
+E:\Programing\test\Primalitate...done\Primalitate\obj\Debug\Primalitate.exe
+E:\Programing\test\Primalitate...done\Primalitate\obj\Debug\Primalitate.pdb

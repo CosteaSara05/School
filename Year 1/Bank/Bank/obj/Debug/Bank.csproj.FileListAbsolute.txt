@@ -1,0 +1,12 @@
+D:\Programing\Programming\test - C#\Bank\Bank\bin\Debug\Bank.exe.config
+D:\Programing\Programming\test - C#\Bank\Bank\bin\Debug\Bank.exe
+D:\Programing\Programming\test - C#\Bank\Bank\bin\Debug\Bank.pdb
+D:\Programing\Programming\test - C#\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Bank\Bank\obj\Debug\Bank.exe
+D:\Programing\Programming\test - C#\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\AcerV3\Desktop\programming\dd_all\Programming\test - C#\Bank\Bank\bin\Debug\Bank.pdb

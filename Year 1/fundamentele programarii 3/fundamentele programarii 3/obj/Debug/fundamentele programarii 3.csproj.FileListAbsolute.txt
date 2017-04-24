@@ -1,0 +1,7 @@
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\bin\Debug\fundamentele programarii 3.exe.config
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\bin\Debug\fundamentele programarii 3.exe
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\bin\Debug\fundamentele programarii 3.pdb
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\obj\Debug\fundamentele programarii 3.csprojResolveAssemblyReference.cache
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\obj\Debug\fundamentele programarii 3.exe
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\obj\Debug\fundamentele programarii 3.pdb
+D:\Programing\test\fundamentele programarii 3\fundamentele programarii 3\bin\Debug\input.txt

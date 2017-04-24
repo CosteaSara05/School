@@ -1,0 +1,6 @@
+D:\Programing\test - C#\OOP 3\OOP 3\bin\Debug\OOP 3.exe.config
+D:\Programing\test - C#\OOP 3\OOP 3\bin\Debug\OOP 3.exe
+D:\Programing\test - C#\OOP 3\OOP 3\bin\Debug\OOP 3.pdb
+D:\Programing\test - C#\OOP 3\OOP 3\obj\Debug\OOP 3.exe
+D:\Programing\test - C#\OOP 3\OOP 3\obj\Debug\OOP 3.pdb
+D:\Programing\test - C#\OOP 3\OOP 3\obj\Debug\OOP 3.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.exe.config
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.exe
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.pdb
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.csprojResolveAssemblyReference.cache
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.exe
+D:\Programing\test\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.pdb
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.exe.config
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.exe
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.pdb
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.exe
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\bin\Debug\Det daca 2 siruri sunt simetrice.pdb
+D:\Programing\test - C#\Det daca 2 siruri sunt simetrice\Det daca 2 siruri sunt simetrice\obj\Debug\Det daca 2 siruri sunt simetrice.csprojResolveAssemblyReference.cache

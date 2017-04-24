@@ -1,0 +1,9 @@
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\bin\Debug\Platouri in Matrice.exe.config
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\obj\Debug\Platouri in Matrice.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\bin\Debug\Platouri in Matrice.exe
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\bin\Debug\Platouri in Matrice.pdb
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\obj\Debug\Platouri in Matrice.exe
+D:\Programing\test - C#\Platouri in Matrice\Platouri in Matrice\obj\Debug\Platouri in Matrice.pdb
+D:\Programing\Programming\test - C#\Platouri in Matrice\Platouri in Matrice\bin\Debug\Platouri in Matrice.exe.config
+D:\Programing\Programming\test - C#\Platouri in Matrice\Platouri in Matrice\obj\Debug\Platouri in Matrice.exe
+D:\Programing\Programming\test - C#\Platouri in Matrice\Platouri in Matrice\obj\Debug\Platouri in Matrice.pdb

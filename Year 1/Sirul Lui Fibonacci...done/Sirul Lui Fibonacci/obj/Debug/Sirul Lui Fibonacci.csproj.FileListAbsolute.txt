@@ -1,0 +1,9 @@
+D:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\bin\Debug\Sirul Lui Fibonacci.exe.config
+D:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\bin\Debug\Sirul Lui Fibonacci.exe
+D:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\bin\Debug\Sirul Lui Fibonacci.pdb
+D:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\obj\Debug\Sirul Lui Fibonacci.exe
+D:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\obj\Debug\Sirul Lui Fibonacci.pdb
+d:\Programing\test\Sirul Lui Fibonacci\Sirul Lui Fibonacci\obj\Debug\Sirul Lui Fibonacci.csprojResolveAssemblyReference.cache
+d:\Programing\test - C#\Sirul Lui Fibonacci...done\Sirul Lui Fibonacci\bin\Debug\Sirul Lui Fibonacci.exe.config
+d:\Programing\test - C#\Sirul Lui Fibonacci...done\Sirul Lui Fibonacci\obj\Debug\Sirul Lui Fibonacci.exe
+d:\Programing\test - C#\Sirul Lui Fibonacci...done\Sirul Lui Fibonacci\obj\Debug\Sirul Lui Fibonacci.pdb

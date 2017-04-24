@@ -1,0 +1,15 @@
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Programing\test - C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Programing\test - C#\tick la ceas...done\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Programing\test - C#\tick la ceas...done\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Programing\test - C#\tick la ceas...done\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Programing\Programming\test - C#\tick la ceas...done\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Programing\Programming\test - C#\tick la ceas...done\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Programing\Programming\test - C#\tick la ceas...done\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

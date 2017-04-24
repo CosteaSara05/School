@@ -1,0 +1,5 @@
+D:\Programing\test - C#\POO - laborator 1 (4)\POO - laborator 1 (4)\bin\Release\POO - laborator 1 (4).exe.config
+D:\Programing\test - C#\POO - laborator 1 (4)\POO - laborator 1 (4)\bin\Release\POO - laborator 1 (4).exe
+D:\Programing\test - C#\POO - laborator 1 (4)\POO - laborator 1 (4)\bin\Release\POO - laborator 1 (4).pdb
+D:\Programing\test - C#\POO - laborator 1 (4)\POO - laborator 1 (4)\obj\Release\POO - laborator 1 (4).exe
+D:\Programing\test - C#\POO - laborator 1 (4)\POO - laborator 1 (4)\obj\Release\POO - laborator 1 (4).pdb

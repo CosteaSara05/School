@@ -1,0 +1,6 @@
+D:\Programing\test - C#\testeri\testeri\bin\Debug\testeri.exe.config
+D:\Programing\test - C#\testeri\testeri\bin\Debug\testeri.exe
+D:\Programing\test - C#\testeri\testeri\bin\Debug\testeri.pdb
+D:\Programing\test - C#\testeri\testeri\obj\Debug\testeri.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\testeri\testeri\obj\Debug\testeri.exe
+D:\Programing\test - C#\testeri\testeri\obj\Debug\testeri.pdb

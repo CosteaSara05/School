@@ -1,0 +1,9 @@
+D:\Programing\Programming\test - C#\Speeds\Speeds\bin\Debug\Speeds.exe.config
+D:\Programing\Programming\test - C#\Speeds\Speeds\bin\Debug\Speeds.exe
+D:\Programing\Programming\test - C#\Speeds\Speeds\bin\Debug\Speeds.pdb
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.Form1.resources
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.Properties.Resources.resources
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.csproj.GenerateResource.Cache
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.exe
+D:\Programing\Programming\test - C#\Speeds\Speeds\obj\Debug\Speeds.pdb

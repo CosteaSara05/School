@@ -1,0 +1,6 @@
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\bin\Debug\POO - laborator 1 (3).exe.config
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\bin\Debug\POO - laborator 1 (3).exe
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\bin\Debug\POO - laborator 1 (3).pdb
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\obj\Debug\POO - laborator 1 (3).csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\obj\Debug\POO - laborator 1 (3).exe
+D:\Programing\test - C#\POO - laborator 1 (3)\POO - laborator 1 (3)\obj\Debug\POO - laborator 1 (3).pdb

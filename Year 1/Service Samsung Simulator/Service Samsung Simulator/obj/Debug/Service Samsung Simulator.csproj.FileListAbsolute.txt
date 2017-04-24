@@ -1,0 +1,9 @@
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\bin\Debug\Service Samsung Simulator.exe.config
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\bin\Debug\Service Samsung Simulator.exe
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\bin\Debug\Service Samsung Simulator.pdb
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service Samsung Simulator.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service_Samsung_Simulator.Form1.resources
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service_Samsung_Simulator.Properties.Resources.resources
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service Samsung Simulator.csproj.GenerateResource.Cache
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service Samsung Simulator.exe
+D:\Programing\Programming\test - C#\Service Samsung Simulator\Service Samsung Simulator\obj\Debug\Service Samsung Simulator.pdb

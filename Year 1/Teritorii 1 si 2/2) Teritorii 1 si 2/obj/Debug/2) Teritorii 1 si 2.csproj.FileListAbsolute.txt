@@ -1,0 +1,18 @@
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe.config
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.pdb
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.csprojResolveAssemblyReference.cache
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.exe
+C:\Users\Puscas\Desktop\Facultate\algoritmi si structuri de date\Laborator 4\2) Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.pdb
+d:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe.config
+d:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.exe
+d:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.pdb
+D:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe
+D:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.pdb
+D:\Programing\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe.config
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.exe
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.pdb
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.exe
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\bin\Debug\2) Teritorii 1 si 2.pdb
+D:\Programing\Programming\test - C#\Teritorii 1 si 2\2) Teritorii 1 si 2\obj\Debug\2) Teritorii 1 si 2.csprojResolveAssemblyReference.cache

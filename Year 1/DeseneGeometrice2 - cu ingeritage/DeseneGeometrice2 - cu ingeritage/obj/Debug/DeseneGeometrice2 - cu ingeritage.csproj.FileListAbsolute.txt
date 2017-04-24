@@ -1,0 +1,9 @@
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\bin\Debug\DeseneGeometrice2 - cu ingeritage.exe.config
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\bin\Debug\DeseneGeometrice2 - cu ingeritage.exe
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\bin\Debug\DeseneGeometrice2 - cu ingeritage.pdb
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2 - cu ingeritage.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2___cu_ingeritage.Form1.resources
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2___cu_ingeritage.Properties.Resources.resources
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2 - cu ingeritage.csproj.GenerateResource.Cache
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2 - cu ingeritage.exe
+D:\Programing\test - C#\DeseneGeometrice2 - cu ingeritage\DeseneGeometrice2 - cu ingeritage\obj\Debug\DeseneGeometrice2 - cu ingeritage.pdb

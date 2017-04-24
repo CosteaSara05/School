@@ -1,0 +1,7 @@
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\bin\Debug\fundamentele programarii 1.exe.config
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\bin\Debug\fundamentele programarii 1.exe
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\bin\Debug\fundamentele programarii 1.pdb
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\obj\Debug\fundamentele programarii 1.csprojResolveAssemblyReference.cache
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\obj\Debug\fundamentele programarii 1.exe
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\obj\Debug\fundamentele programarii 1.pdb
+D:\Programing\test\fundamentele programarii 1\fundamentele programarii 1\bin\Debug\Numere.txt

@@ -1,0 +1,9 @@
+D:\Programing\test - C#\Agenda\Agenda\bin\Debug\Agenda.exe.config
+D:\Programing\test - C#\Agenda\Agenda\bin\Debug\Agenda.exe
+D:\Programing\test - C#\Agenda\Agenda\bin\Debug\Agenda.pdb
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.Form1.resources
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.Cache
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.exe
+D:\Programing\test - C#\Agenda\Agenda\obj\Debug\Agenda.pdb

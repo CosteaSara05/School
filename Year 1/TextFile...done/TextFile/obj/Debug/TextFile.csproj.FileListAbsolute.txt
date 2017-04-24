@@ -1,0 +1,7 @@
+D:\Programing\test - C#\TextFile\TextFile\bin\Debug\TextFile.exe.config
+D:\Programing\test - C#\TextFile\TextFile\bin\Debug\TextFile.exe
+D:\Programing\test - C#\TextFile\TextFile\bin\Debug\TextFile.pdb
+D:\Programing\test - C#\TextFile\TextFile\obj\Debug\TextFile.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\TextFile\TextFile\obj\Debug\TextFile.exe
+D:\Programing\test - C#\TextFile\TextFile\obj\Debug\TextFile.pdb
+D:\Programing\test - C#\TextFile\TextFile\bin\Debug\Values.txt

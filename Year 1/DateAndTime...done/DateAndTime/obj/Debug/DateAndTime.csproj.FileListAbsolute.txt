@@ -1,0 +1,5 @@
+D:\Programing\test - C#\DateAndTime\DateAndTime\bin\Debug\DateAndTime.exe.config
+D:\Programing\test - C#\DateAndTime\DateAndTime\bin\Debug\DateAndTime.exe
+D:\Programing\test - C#\DateAndTime\DateAndTime\bin\Debug\DateAndTime.pdb
+D:\Programing\test - C#\DateAndTime\DateAndTime\obj\Debug\DateAndTime.exe
+D:\Programing\test - C#\DateAndTime\DateAndTime\obj\Debug\DateAndTime.pdb

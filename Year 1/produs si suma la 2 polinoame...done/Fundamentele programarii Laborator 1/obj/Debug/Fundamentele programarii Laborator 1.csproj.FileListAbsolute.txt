@@ -1,0 +1,6 @@
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\bin\Debug\Fundamentele programarii Laborator 1.exe.config
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\bin\Debug\Fundamentele programarii Laborator 1.exe
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\bin\Debug\Fundamentele programarii Laborator 1.pdb
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\obj\Debug\Fundamentele programarii Laborator 1.csprojResolveAssemblyReference.cache
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\obj\Debug\Fundamentele programarii Laborator 1.exe
+D:\Programing\test\Fundamentele programarii Laborator 1\Fundamentele programarii Laborator 1\obj\Debug\Fundamentele programarii Laborator 1.pdb

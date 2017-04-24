@@ -1,0 +1,6 @@
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\bin\Debug\AgendacuLista.exe.config
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\obj\Debug\AgendacuLista.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\bin\Debug\AgendacuLista.exe
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\bin\Debug\AgendacuLista.pdb
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\obj\Debug\AgendacuLista.exe
+D:\Programing\test - C#\AgendacuLista\AgendacuLista\obj\Debug\AgendacuLista.pdb

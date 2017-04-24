@@ -1,0 +1,15 @@
+E:\test\Suma n numere\Suma n numere\bin\Debug\Suma n numere.exe.config
+e:\test\Suma n numere\Suma n numere\obj\Debug\Suma n numere.csprojResolveAssemblyReference.cache
+e:\test\Suma n numere\Suma n numere\bin\Debug\Suma n numere.exe
+e:\test\Suma n numere\Suma n numere\bin\Debug\Suma n numere.pdb
+e:\test\Suma n numere\Suma n numere\obj\Debug\Suma n numere.exe
+e:\test\Suma n numere\Suma n numere\obj\Debug\Suma n numere.pdb
+e:\Programing\test\Suma n numere...done\Suma n numere\bin\Debug\Suma n numere.exe.config
+e:\Programing\test\Suma n numere...done\Suma n numere\obj\Debug\Suma n numere.exe
+e:\Programing\test\Suma n numere...done\Suma n numere\obj\Debug\Suma n numere.pdb
+e:\Programing\test\Suma n numere...done\Suma n numere\bin\Debug\Suma n numere.exe
+e:\Programing\test\Suma n numere...done\Suma n numere\bin\Debug\Suma n numere.pdb
+e:\Programing\test\Suma n numere...done\Suma n numere\obj\Debug\Suma n numere.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Suma n numere...done\Suma n numere\bin\Debug\Suma n numere.exe.config
+D:\Programing\Programming\test - C#\Suma n numere...done\Suma n numere\obj\Debug\Suma n numere.exe
+D:\Programing\Programming\test - C#\Suma n numere...done\Suma n numere\obj\Debug\Suma n numere.pdb

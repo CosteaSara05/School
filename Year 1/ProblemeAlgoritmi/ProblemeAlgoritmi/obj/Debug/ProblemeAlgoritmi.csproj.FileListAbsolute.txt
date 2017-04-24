@@ -1,0 +1,9 @@
+c:\users\tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\bin\Debug\ProblemeAlgoritmi.exe.config
+C:\Users\Tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\bin\Debug\ProblemeAlgoritmi.exe
+C:\Users\Tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\bin\Debug\ProblemeAlgoritmi.pdb
+C:\Users\Tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\obj\Debug\ProblemeAlgoritmi.csprojResolveAssemblyReference.cache
+C:\Users\Tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\obj\Debug\ProblemeAlgoritmi.exe
+C:\Users\Tiberiu\documents\visual studio 2015\Projects\ProblemeAlgoritmi\ProblemeAlgoritmi\obj\Debug\ProblemeAlgoritmi.pdb
+D:\Programing\Programming\test - C#\ProblemeAlgoritmi\ProblemeAlgoritmi\bin\Debug\ProblemeAlgoritmi.exe.config
+D:\Programing\Programming\test - C#\ProblemeAlgoritmi\ProblemeAlgoritmi\obj\Debug\ProblemeAlgoritmi.exe
+D:\Programing\Programming\test - C#\ProblemeAlgoritmi\ProblemeAlgoritmi\obj\Debug\ProblemeAlgoritmi.pdb

@@ -1,0 +1,15 @@
+c:\users\aston rivll\documents\visual studio 2015\Projects\ASC 4\ASC 4\bin\Debug\ASC 4.exe.config
+c:\users\aston rivll\documents\visual studio 2015\Projects\ASC 4\ASC 4\obj\Debug\ASC 4.csprojResolveAssemblyReference.cache
+D:\Programing\test\Cod morse\ASC 4\bin\Debug\ASC 4.exe.config
+H:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.exe.config
+H:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.exe
+H:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.pdb
+H:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.csprojResolveAssemblyReference.cache
+H:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.exe
+H:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.pdb
+D:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.exe.config
+D:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.exe
+D:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.pdb
+D:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.exe
+D:\Programing\test - C#\Cod morse\ASC 4\bin\Debug\ASC 4.pdb
+D:\Programing\test - C#\Cod morse\ASC 4\obj\Debug\ASC 4.csprojResolveAssemblyReference.cache

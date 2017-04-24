@@ -1,0 +1,12 @@
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.exe.config
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.exe
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.pdb
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.exe
+D:\Programing\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.pdb
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.exe.config
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.exe
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.pdb
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.exe
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\bin\Debug\Matrici recursive.pdb
+D:\Programing\Programming\test - C#\Matrici recursive\Matrici recursive\obj\Debug\Matrici recursive.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\bin\Debug\OOP - laborator 2(1).exe.config
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\bin\Debug\OOP - laborator 2(1).exe
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\bin\Debug\OOP - laborator 2(1).pdb
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP - laborator 2(1).csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP___laborator_2_1_.Form1.resources
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP___laborator_2_1_.Properties.Resources.resources
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP - laborator 2(1).csproj.GenerateResource.Cache
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP - laborator 2(1).exe
+D:\Programing\test - C#\OOP - laborator 2(1)\OOP - laborator 2(1)\obj\Debug\OOP - laborator 2(1).pdb

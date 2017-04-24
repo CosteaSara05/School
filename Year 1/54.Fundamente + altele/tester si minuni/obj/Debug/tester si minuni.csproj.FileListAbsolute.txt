@@ -1,0 +1,51 @@
+E:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+E:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe
+E:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.pdb
+E:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache
+E:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+E:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+D:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+D:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+D:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+D:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe
+D:\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.pdb
+D:\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache
+\\DD-WRT\usb stic\Programing\test\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+\\DD-WRT\usb stic\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+\\DD-WRT\usb stic\Programing\test\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+H:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+H:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+H:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+z:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+z:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+z:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+Z:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe
+Z:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.pdb
+Z:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+D:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+D:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+D:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe
+D:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.pdb
+D:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache
+j:\Programing\test - C#\tester si minuni\tester si minuni\bin\Debug\tester si minuni.exe.config
+j:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.exe
+j:\Programing\test - C#\tester si minuni\tester si minuni\obj\Debug\tester si minuni.pdb
+d:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.exe.config
+d:\Programing\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.exe
+d:\Programing\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.pdb
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.exe
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.pdb
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\p46.txt
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\p47copy.txt
+D:\Programing\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\add.txt
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.exe.config
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.exe
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.pdb
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\p46.txt
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\p47copy.txt
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\add.txt
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.exe
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\bin\Debug\tester si minuni.pdb
+D:\Programing\Programming\test - C#\54.Fundamente + altele\tester si minuni\obj\Debug\tester si minuni.csprojResolveAssemblyReference.cache

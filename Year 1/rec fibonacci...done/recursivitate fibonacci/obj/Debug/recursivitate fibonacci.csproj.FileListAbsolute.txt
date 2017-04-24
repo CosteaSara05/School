@@ -1,0 +1,12 @@
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\bin\Debug\recursivitate fibonacci.exe.config
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\bin\Debug\recursivitate fibonacci.exe
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\bin\Debug\recursivitate fibonacci.pdb
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.exe
+D:\Programing\test - C#\recursivitate fibonacci\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.pdb
+d:\Programing\test - C#\rec fibonacci...done\recursivitate fibonacci\bin\Debug\recursivitate fibonacci.exe.config
+d:\Programing\test - C#\rec fibonacci...done\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.exe
+d:\Programing\test - C#\rec fibonacci...done\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.pdb
+D:\Programing\Programming\test - C#\rec fibonacci...done\recursivitate fibonacci\bin\Debug\recursivitate fibonacci.exe.config
+D:\Programing\Programming\test - C#\rec fibonacci...done\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.exe
+D:\Programing\Programming\test - C#\rec fibonacci...done\recursivitate fibonacci\obj\Debug\recursivitate fibonacci.pdb

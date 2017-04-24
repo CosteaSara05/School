@@ -1,0 +1,6 @@
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\bin\Debug\Problema Rucsacului.exe.config
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\bin\Debug\Problema Rucsacului.exe
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\bin\Debug\Problema Rucsacului.pdb
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\obj\Debug\Problema Rucsacului.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\obj\Debug\Problema Rucsacului.exe
+D:\Programing\Programming\test - C#\Problema Rucsacului\Problema Rucsacului\obj\Debug\Problema Rucsacului.pdb

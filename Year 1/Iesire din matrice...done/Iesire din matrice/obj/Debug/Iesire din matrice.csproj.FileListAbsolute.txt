@@ -1,0 +1,12 @@
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\bin\Debug\Iesire din matrice.exe.config
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\obj\Debug\Iesire din matrice.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\bin\Debug\Iesire din matrice.exe
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\bin\Debug\Iesire din matrice.pdb
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\obj\Debug\Iesire din matrice.exe
+D:\Programing\test - C#\Iesire din matrice\Iesire din matrice\obj\Debug\Iesire din matrice.pdb
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\bin\Debug\Iesire din matrice.exe.config
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\obj\Debug\Iesire din matrice.exe
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\obj\Debug\Iesire din matrice.pdb
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\bin\Debug\Iesire din matrice.exe
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\bin\Debug\Iesire din matrice.pdb
+D:\Programing\test - C#\Iesire din matrice...done\Iesire din matrice\obj\Debug\Iesire din matrice.csprojResolveAssemblyReference.cache

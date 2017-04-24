@@ -1,0 +1,8 @@
+D:\Programing\test\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\bin\Debug\suma a 4 cifre dintr-un sir.exe.config
+D:\Programing\test\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\obj\Debug\suma a 4 cifre dintr-un sir.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\bin\Debug\suma a 4 cifre dintr-un sir.exe.config
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\bin\Debug\suma a 4 cifre dintr-un sir.exe
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\bin\Debug\suma a 4 cifre dintr-un sir.pdb
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\obj\Debug\suma a 4 cifre dintr-un sir.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\obj\Debug\suma a 4 cifre dintr-un sir.exe
+D:\Programing\test - C#\suma a 4 cifre dintr-un sir\suma a 4 cifre dintr-un sir\obj\Debug\suma a 4 cifre dintr-un sir.pdb

@@ -1,0 +1,18 @@
+D:\Projects\LandLord\LandLord\bin\Debug\LandLord.exe.config
+D:\Projects\LandLord\LandLord\bin\Debug\LandLord.exe
+D:\Projects\LandLord\LandLord\bin\Debug\LandLord.pdb
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.csprojResolveAssemblyReference.cache
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.Form1.resources
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.Properties.Resources.resources
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.csproj.GenerateResource.Cache
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.exe
+D:\Projects\LandLord\LandLord\obj\Debug\LandLord.pdb
+D:\Programing\Programming\test - C#\LandLord\LandLord\bin\Debug\LandLord.exe.config
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.exe
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.pdb
+D:\Programing\Programming\test - C#\LandLord\LandLord\bin\Debug\LandLord.exe
+D:\Programing\Programming\test - C#\LandLord\LandLord\bin\Debug\LandLord.pdb
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.Form1.resources
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.Properties.Resources.resources
+D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.csproj.GenerateResource.Cache

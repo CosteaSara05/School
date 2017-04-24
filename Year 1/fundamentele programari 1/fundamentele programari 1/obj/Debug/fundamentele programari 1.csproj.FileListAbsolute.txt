@@ -1,0 +1,7 @@
+D:\Programing\test\fundamentele programari 1\fundamentele programari 1\bin\Debug\fundamentele programari 1.exe.config
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\bin\Debug\fundamentele programari 1.exe.config
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\bin\Debug\fundamentele programari 1.exe
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\bin\Debug\fundamentele programari 1.pdb
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\obj\Debug\fundamentele programari 1.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\obj\Debug\fundamentele programari 1.exe
+D:\Programing\test - C#\fundamentele programari 1\fundamentele programari 1\obj\Debug\fundamentele programari 1.pdb

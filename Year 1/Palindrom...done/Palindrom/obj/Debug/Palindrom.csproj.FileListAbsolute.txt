@@ -1,0 +1,18 @@
+E:\Programing\test\Palindrom\Palindrom\bin\Debug\Palindrom.exe.config
+E:\Programing\test\Palindrom\Palindrom\bin\Debug\Palindrom.exe
+E:\Programing\test\Palindrom\Palindrom\bin\Debug\Palindrom.pdb
+E:\Programing\test\Palindrom\Palindrom\obj\Debug\Palindrom.csprojResolveAssemblyReference.cache
+E:\Programing\test\Palindrom\Palindrom\obj\Debug\Palindrom.exe
+E:\Programing\test\Palindrom\Palindrom\obj\Debug\Palindrom.pdb
+E:\Programing\test\Palindrom...done\Palindrom\bin\Debug\Palindrom.exe.config
+E:\Programing\test\Palindrom...done\Palindrom\obj\Debug\Palindrom.exe
+E:\Programing\test\Palindrom...done\Palindrom\obj\Debug\Palindrom.pdb
+E:\Programing\test\Palindrom...done\Palindrom\bin\Debug\Palindrom.exe
+E:\Programing\test\Palindrom...done\Palindrom\bin\Debug\Palindrom.pdb
+E:\Programing\test\Palindrom...done\Palindrom\obj\Debug\Palindrom.csprojResolveAssemblyReference.cache
+D:\Programing\test\Palindrom...done\Palindrom\bin\Debug\Palindrom.exe.config
+D:\Programing\test\Palindrom...done\Palindrom\obj\Debug\Palindrom.exe
+D:\Programing\test\Palindrom...done\Palindrom\obj\Debug\Palindrom.pdb
+D:\Programing\Programming\test - C#\Palindrom...done\Palindrom\bin\Debug\Palindrom.exe.config
+D:\Programing\Programming\test - C#\Palindrom...done\Palindrom\obj\Debug\Palindrom.exe
+D:\Programing\Programming\test - C#\Palindrom...done\Palindrom\obj\Debug\Palindrom.pdb

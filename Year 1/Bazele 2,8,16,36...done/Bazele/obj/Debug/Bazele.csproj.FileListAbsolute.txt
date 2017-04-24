@@ -1,0 +1,21 @@
+D:\Programing\test\Bazele\Bazele\bin\Debug\Bazele.exe.config
+D:\Programing\test\Bazele\Bazele\bin\Debug\Bazele.exe
+D:\Programing\test\Bazele\Bazele\bin\Debug\Bazele.pdb
+D:\Programing\test\Bazele\Bazele\obj\Debug\Bazele.exe
+D:\Programing\test\Bazele\Bazele\obj\Debug\Bazele.pdb
+D:\Programing\test\Bazele\Bazele\obj\Debug\Bazele.csprojResolveAssemblyReference.cache
+H:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.exe.config
+H:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.exe
+H:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.pdb
+H:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.exe
+H:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.pdb
+H:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.csprojResolveAssemblyReference.cache
+Z:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.exe.config
+Z:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.exe
+Z:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.pdb
+D:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.exe.config
+D:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.exe
+D:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.pdb
+D:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.exe
+D:\Programing\test - C#\Bazele\Bazele\bin\Debug\Bazele.pdb
+D:\Programing\test - C#\Bazele\Bazele\obj\Debug\Bazele.csprojResolveAssemblyReference.cache

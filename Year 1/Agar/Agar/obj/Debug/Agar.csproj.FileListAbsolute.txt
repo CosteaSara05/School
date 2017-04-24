@@ -1,0 +1,9 @@
+D:\Programing\Programming\test - C#\Agar\Agar\bin\Debug\Agar.exe.config
+D:\Programing\Programming\test - C#\Agar\Agar\bin\Debug\Agar.exe
+D:\Programing\Programming\test - C#\Agar\Agar\bin\Debug\Agar.pdb
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.Form1.resources
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.Properties.Resources.resources
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.csproj.GenerateResource.Cache
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.exe
+D:\Programing\Programming\test - C#\Agar\Agar\obj\Debug\Agar.pdb

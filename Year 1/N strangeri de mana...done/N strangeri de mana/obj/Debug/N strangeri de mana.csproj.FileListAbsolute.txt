@@ -1,0 +1,19 @@
+E:\Programing\test\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe.config
+d:\Programing\test\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe.config
+d:\Programing\test\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe
+d:\Programing\test\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.pdb
+d:\Programing\test\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.csprojResolveAssemblyReference.cache
+d:\Programing\test\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.exe
+d:\Programing\test\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.pdb
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe.config
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.exe
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.pdb
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.pdb
+H:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe.config
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.exe
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.pdb
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.exe
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\bin\Debug\N strangeri de mana.pdb
+D:\Programing\test - C#\N strangeri de mana\N strangeri de mana\obj\Debug\N strangeri de mana.csprojResolveAssemblyReference.cache

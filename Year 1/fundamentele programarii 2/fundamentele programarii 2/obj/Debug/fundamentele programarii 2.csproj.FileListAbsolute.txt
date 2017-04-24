@@ -1,0 +1,6 @@
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\bin\Debug\fundamentele programarii 2.exe.config
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\obj\Debug\fundamentele programarii 2.csprojResolveAssemblyReference.cache
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\bin\Debug\fundamentele programarii 2.exe
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\bin\Debug\fundamentele programarii 2.pdb
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\obj\Debug\fundamentele programarii 2.exe
+D:\Programing\test\fundamentele programarii 2\fundamentele programarii 2\obj\Debug\fundamentele programarii 2.pdb

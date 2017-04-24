@@ -1,0 +1,6 @@
+D:\Programing\test - C#\criptare\criptare\bin\Debug\criptare.exe.config
+D:\Programing\test - C#\criptare\criptare\bin\Debug\criptare.exe
+D:\Programing\test - C#\criptare\criptare\bin\Debug\criptare.pdb
+D:\Programing\test - C#\criptare\criptare\obj\Debug\criptare.exe
+D:\Programing\test - C#\criptare\criptare\obj\Debug\criptare.pdb
+D:\Programing\test - C#\criptare\criptare\obj\Debug\criptare.csprojResolveAssemblyReference.cache

@@ -1,0 +1,24 @@
+D:\Programing\test\Matrice in spirala\Matrice in spirala\bin\Debug\Matrice in spirala.exe.config
+D:\Programing\test\Matrice in spirala\Matrice in spirala\obj\Debug\Matrice in spirala.csprojResolveAssemblyReference.cache
+D:\Programing\test\Matrice in spirala\Matrice in spirala\bin\Debug\Matrice in spirala.exe
+D:\Programing\test\Matrice in spirala\Matrice in spirala\bin\Debug\Matrice in spirala.pdb
+D:\Programing\test\Matrice in spirala\Matrice in spirala\obj\Debug\Matrice in spirala.exe
+D:\Programing\test\Matrice in spirala\Matrice in spirala\obj\Debug\Matrice in spirala.pdb
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe.config
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.exe
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.pdb
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.pdb
+d:\Programing\test\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.csprojResolveAssemblyReference.cache
+E:\Programing\test\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe.config
+E:\Programing\test\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.exe
+E:\Programing\test\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.pdb
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe.config
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.exe
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.pdb
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.pdb
+d:\Programing\test - C#\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Matrice in spirala...done\Matrice in spirala\bin\Debug\Matrice in spirala.exe.config
+D:\Programing\Programming\test - C#\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.exe
+D:\Programing\Programming\test - C#\Matrice in spirala...done\Matrice in spirala\obj\Debug\Matrice in spirala.pdb

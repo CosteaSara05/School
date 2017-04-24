@@ -1,0 +1,9 @@
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\bin\Debug\DeseneGeometrice.exe.config
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.Form1.resources
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.Properties.Resources.resources
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.csproj.GenerateResource.Cache
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\bin\Debug\DeseneGeometrice.exe
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\bin\Debug\DeseneGeometrice.pdb
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.exe
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.pdb
+D:\Programing\test - C#\DeseneGeometrice\DeseneGeometrice\obj\Debug\DeseneGeometrice.csprojResolveAssemblyReference.cache

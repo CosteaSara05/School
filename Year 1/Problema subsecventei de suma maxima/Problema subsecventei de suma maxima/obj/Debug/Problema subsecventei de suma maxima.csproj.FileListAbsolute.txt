@@ -1,0 +1,6 @@
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\bin\Debug\Problema subsecventei de suma maxima.exe.config
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\bin\Debug\Problema subsecventei de suma maxima.exe
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\bin\Debug\Problema subsecventei de suma maxima.pdb
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\obj\Debug\Problema subsecventei de suma maxima.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\obj\Debug\Problema subsecventei de suma maxima.exe
+D:\Programing\Programming\test - C#\Problema subsecventei de suma maxima\Problema subsecventei de suma maxima\obj\Debug\Problema subsecventei de suma maxima.pdb

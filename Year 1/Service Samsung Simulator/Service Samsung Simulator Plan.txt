@@ -1,0 +1,49 @@
+1.0	implement phones 
+	phone status - where is at each operation (name)
+	phone repair costs
+	phone income
+	date in
+	phone profit penalty
+1.1	Implement Workers
+	- operation worker status name
+	- process a diferent time at each operation per day
+	- pay per day.
+	- worked hours.
+1.2	Implement the equipment necesary
+	- cost
+	- needed at operation xx
+1.3	implement every type of operation and graphics
+	0.1 at each operation do a graphics panel
+	1.0 inbound in/out
+	2.0 block cell in/out
+	2.1 PBA repair
+	2.2 OCTA
+	3.0 final 
+		collecting in/out
+	3.1 Download
+	3.2.1 RF
+	3.2.2 Calibration
+	3.3 IMEI
+	3.4 PQC
+	3.5 Visual
+	3.6 Laser
+	3.7 Packing
+2.0 Implement hiring tab
+2.1 Implement hiring workers panel
+2.2 Implement the flow of time
+	- count time in minutes
+	- setup the shifts and the changing times
+2.3 Set a chance that a worker can stay over for 2x
+    times more paid for 2 hours
+2.4 Implement the phone repair in operations
+2.5 Manage workers tab
+3.0 Implement the money balance
+	1.0 set at each op the expenses
+	1.1 if the phone is longer than xx set penalty at profit
+3.1 at inbound out get the profit from each phone
+3.2 each day pay the workers
+4.0 End every operation process
+4.1 implement risk to fails
+4.2 Implement engineers - lower the damage risk 1% each when at work
+4.3 Implement the RDC - update phone statistics
+4.4 Implement programmer - maintain the RDC
