@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryUtility", "GeometryUtility\GeometryUtility.csproj", "{FD47D6AC-8238-4975-91C8-51E88326F27F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonCuttingEar", "PolygonCuttingEar\PolygonCuttingEar.csproj", "{BAA6D355-C95D-4714-8989-D9891EFC5DB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD47D6AC-8238-4975-91C8-51E88326F27F} = {FD47D6AC-8238-4975-91C8-51E88326F27F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonCuttingEarInterface", "PolygonCuttingEarInterface\PolygonCuttingEarInterface.csproj", "{1AD8D0FD-89CD-4C72-81ED-E4FBDB78B00F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD47D6AC-8238-4975-91C8-51E88326F27F}.Debug.ActiveCfg = Debug|.NET
+		{FD47D6AC-8238-4975-91C8-51E88326F27F}.Debug.Build.0 = Debug|.NET
+		{FD47D6AC-8238-4975-91C8-51E88326F27F}.Release.ActiveCfg = Release|.NET
+		{FD47D6AC-8238-4975-91C8-51E88326F27F}.Release.Build.0 = Release|.NET
+		{BAA6D355-C95D-4714-8989-D9891EFC5DB6}.Debug.ActiveCfg = Debug|.NET
+		{BAA6D355-C95D-4714-8989-D9891EFC5DB6}.Debug.Build.0 = Debug|.NET
+		{BAA6D355-C95D-4714-8989-D9891EFC5DB6}.Release.ActiveCfg = Release|.NET
+		{BAA6D355-C95D-4714-8989-D9891EFC5DB6}.Release.Build.0 = Release|.NET
+		{1AD8D0FD-89CD-4C72-81ED-E4FBDB78B00F}.Debug.ActiveCfg = Debug|.NET
+		{1AD8D0FD-89CD-4C72-81ED-E4FBDB78B00F}.Debug.Build.0 = Debug|.NET
+		{1AD8D0FD-89CD-4C72-81ED-E4FBDB78B00F}.Release.ActiveCfg = Release|.NET
+		{1AD8D0FD-89CD-4C72-81ED-E4FBDB78B00F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

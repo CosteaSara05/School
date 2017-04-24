@@ -1,0 +1,12 @@
+C:\Users\Dulaus\Desktop\Voronoi CSharp\Voronoi2\bin\Debug\Voronoi2.exe
+C:\Users\Dulaus\Desktop\Voronoi CSharp\Voronoi2\bin\Debug\Voronoi2.pdb
+C:\Users\Dulaus\Desktop\Voronoi CSharp\Voronoi2\obj\Debug\Voronoi2.csprojResolveAssemblyReference.cache
+C:\Users\Dulaus\Desktop\Voronoi CSharp\Voronoi2\obj\Debug\Voronoi2.exe
+C:\Users\Dulaus\Desktop\Voronoi CSharp\Voronoi2\obj\Debug\Voronoi2.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Debug\Voronoi2.exe
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Debug\Voronoi2.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\bin\Debug\Voronoi2.exe
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\bin\Debug\Voronoi2.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Debug\Voronoi2.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Debug\Voronoi2.MainForm.resources
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Debug\Voronoi2.csproj.GenerateResource.Cache

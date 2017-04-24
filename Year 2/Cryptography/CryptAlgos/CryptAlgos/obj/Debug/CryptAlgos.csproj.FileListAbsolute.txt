@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\bin\Debug\CryptAlgos.exe.config
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\bin\Debug\CryptAlgos.exe
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\bin\Debug\CryptAlgos.pdb
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.Form1.resources
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.exe
+D:\Programing\Programming\Year 2\Cryptography\CryptAlgos\CryptAlgos\obj\Debug\CryptAlgos.pdb

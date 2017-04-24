@@ -1,0 +1,14 @@
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\bin\Debug\Lab 1.exe.config
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\bin\Debug\Lab 1.exe
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\bin\Debug\Lab 1.pdb
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\MainWindow.g.cs
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\App.g.cs
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1_MarkupCompile.cache
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1_MarkupCompile.lref
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\MainWindow.baml
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1.g.resources
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab_1.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1.exe
+D:\Programing\Programming\Year 2\Medii Vizuale\Lab 1\Lab 1\obj\Debug\Lab 1.pdb

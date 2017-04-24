@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\bin\Debug\Computational Geometry - Laszlo Explain.exe.config
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational Geometry - Laszlo Explain.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational_Geometry___Laszlo_Explain.Form1.resources
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational_Geometry___Laszlo_Explain.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational Geometry - Laszlo Explain.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\bin\Debug\Computational Geometry - Laszlo Explain.exe
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\bin\Debug\Computational Geometry - Laszlo Explain.pdb
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational Geometry - Laszlo Explain.exe
+D:\Programing\Programming\Year 2\Computational Geometry\Computational Geometry - Laszlo Explain\Computational Geometry - Laszlo Explain\obj\Debug\Computational Geometry - Laszlo Explain.pdb

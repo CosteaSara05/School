@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\bin\Debug\Tema 1 - LineDraw.exe.config
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\bin\Debug\Tema 1 - LineDraw.exe
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\bin\Debug\Tema 1 - LineDraw.pdb
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema 1 - LineDraw.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema_1___LineDraw.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema 1 - LineDraw.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema 1 - LineDraw.exe
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema 1 - LineDraw.pdb
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 1 - LineDraw\Tema 1 - LineDraw\obj\Debug\Tema_1___LineDraw.Form1.resources

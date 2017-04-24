@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\bin\Debug\6th Lab.exe.config
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\bin\Debug\6th Lab.exe
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\bin\Debug\6th Lab.pdb
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\6th Lab.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\_6th_Lab.Form1.resources
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\_6th_Lab.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\6th Lab.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\6th Lab.exe
+D:\Programing\Programming\Year 2\Computational Geometry\6th Lab\6th Lab\obj\Debug\6th Lab.pdb

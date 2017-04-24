@@ -1,0 +1,6 @@
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\bin\Debug\Lab 13.exe.config
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\bin\Debug\Lab 13.exe
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\bin\Debug\Lab 13.pdb
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\obj\Debug\Lab 13.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\obj\Debug\Lab 13.exe
+D:\Programing\Programming\Year 2\Numeric Calculus\Lab 13\Lab 13\obj\Debug\Lab 13.pdb

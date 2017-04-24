@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\bin\Debug\Tema 3 - Cerc.exe.config
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\bin\Debug\Tema 3 - Cerc.exe
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\bin\Debug\Tema 3 - Cerc.pdb
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema 3 - Cerc.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema_3___Cerc.Form1.resources
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema_3___Cerc.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema 3 - Cerc.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema 3 - Cerc.exe
+D:\Programing\Programming\Year 2\Grafica pe calculator\Tema 3 - Cerc\Tema 3 - Cerc\obj\Debug\Tema 3 - Cerc.pdb

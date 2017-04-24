@@ -1,0 +1,5 @@
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\bin\Release\Voronoi2.exe
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Release\Voronoi2.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Release\Voronoi2.MainForm.resources
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Release\Voronoi2.csproj.GenerateResource.Cache
+d:\Programing\Programming\Year 2\Computational Geometry\Voronoi Tringulation\Voronoi2\obj\Release\Voronoi2.exe

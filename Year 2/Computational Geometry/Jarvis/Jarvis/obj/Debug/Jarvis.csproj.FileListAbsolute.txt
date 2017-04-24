@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\bin\Debug\Jarvis.exe.config
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\bin\Debug\Jarvis.exe
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\bin\Debug\Jarvis.pdb
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.Form1.resources
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.exe
+D:\Programing\Programming\Year 2\Computational Geometry\Jarvis\Jarvis\obj\Debug\Jarvis.pdb

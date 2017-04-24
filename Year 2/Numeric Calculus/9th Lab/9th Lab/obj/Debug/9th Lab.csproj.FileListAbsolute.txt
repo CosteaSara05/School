@@ -1,0 +1,6 @@
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\bin\Debug\9th Lab.exe.config
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\bin\Debug\9th Lab.exe
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\bin\Debug\9th Lab.pdb
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\obj\Debug\9th Lab.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\obj\Debug\9th Lab.exe
+D:\Programing\Programming\Year 2\Numeric Calculus\9th Lab\9th Lab\obj\Debug\9th Lab.pdb

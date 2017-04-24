@@ -1,0 +1,4 @@
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEar\bin\Release\PolygonCuttingEar.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEar\bin\Release\GeometryUtility.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEar\obj\Release\PolygonCuttingEar.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEar\obj\Release\PolygonCuttingEar.dll

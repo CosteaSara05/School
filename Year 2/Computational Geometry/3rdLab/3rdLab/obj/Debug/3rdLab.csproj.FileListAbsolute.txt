@@ -1,0 +1,9 @@
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\bin\Debug\3rdLab.exe.config
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\bin\Debug\3rdLab.exe
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\bin\Debug\3rdLab.pdb
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\3rdLab.csprojResolveAssemblyReference.cache
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\_3rdLab.Form1.resources
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\_3rdLab.Properties.Resources.resources
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\3rdLab.csproj.GenerateResource.Cache
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\3rdLab.exe
+D:\Programing\Programming\Year 2\Computational Geometry\3rdLab\3rdLab\obj\Debug\3rdLab.pdb

@@ -1,0 +1,14 @@
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\PolygonCuttingEarInterface.exe
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\PolygonCuttingEarInterface.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\GeometryUtility.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\PolygonCuttingEar.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\GeometryUtility.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Debug\PolygonCuttingEar.pdb
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.frmCuttingEars.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.frmHelp_About.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.frmHelp_SimplePolygon.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.frmHelpWindow.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.csproj.GenerateResource.Cache
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.exe
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Debug\PolygonCuttingEarInterface.pdb

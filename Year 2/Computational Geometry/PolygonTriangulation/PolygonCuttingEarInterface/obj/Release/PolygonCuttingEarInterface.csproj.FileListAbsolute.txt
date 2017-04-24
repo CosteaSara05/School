@@ -1,0 +1,10 @@
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Release\PolygonCuttingEarInterface.exe
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Release\GeometryUtility.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\bin\Release\PolygonCuttingEar.dll
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.csprojResolveAssemblyReference.cache
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.frmCuttingEars.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.frmHelp_About.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.frmHelp_SimplePolygon.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.frmHelpWindow.resources
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.csproj.GenerateResource.Cache
+d:\Programing\Programming\Year 2\Computational Geometry\PolygonTriangulation\PolygonCuttingEarInterface\obj\Release\PolygonCuttingEarInterface.exe
