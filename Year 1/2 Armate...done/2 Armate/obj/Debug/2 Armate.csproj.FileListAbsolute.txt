@@ -1,0 +1,9 @@
+D:\Programing\test - C#\2 Armate\2 Armate\bin\Debug\2 Armate.exe.config
+D:\Programing\test - C#\2 Armate\2 Armate\bin\Debug\2 Armate.exe
+D:\Programing\test - C#\2 Armate\2 Armate\bin\Debug\2 Armate.pdb
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\2 Armate.csprojResolveAssemblyReference.cache
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\_2_Armate.Form1.resources
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\_2_Armate.Properties.Resources.resources
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\2 Armate.csproj.GenerateResource.Cache
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\2 Armate.exe
+D:\Programing\test - C#\2 Armate\2 Armate\obj\Debug\2 Armate.pdb
