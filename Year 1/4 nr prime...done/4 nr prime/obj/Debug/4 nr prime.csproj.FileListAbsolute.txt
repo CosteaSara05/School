@@ -1,0 +1,13 @@
+c:\users\aston rivll\documents\visual studio 2015\Projects\4 nr prime\4 nr prime\bin\Debug\4 nr prime.exe.config
+D:\Programing\test\4 nr prime\4 nr prime\bin\Debug\4 nr prime.exe.config
+D:\Programing\test\4 nr prime\4 nr prime\bin\Debug\4 nr prime.exe
+D:\Programing\test\4 nr prime\4 nr prime\bin\Debug\4 nr prime.pdb
+D:\Programing\test\4 nr prime\4 nr prime\obj\Debug\4 nr prime.csprojResolveAssemblyReference.cache
+D:\Programing\test\4 nr prime\4 nr prime\obj\Debug\4 nr prime.exe
+D:\Programing\test\4 nr prime\4 nr prime\obj\Debug\4 nr prime.pdb
+E:\Programing\test\4 nr prime...done\4 nr prime\bin\Debug\4 nr prime.exe.config
+E:\Programing\test\4 nr prime...done\4 nr prime\obj\Debug\4 nr prime.exe
+E:\Programing\test\4 nr prime...done\4 nr prime\obj\Debug\4 nr prime.pdb
+D:\Programing\Programming\test - C#\4 nr prime...done\4 nr prime\bin\Debug\4 nr prime.exe.config
+D:\Programing\Programming\test - C#\4 nr prime...done\4 nr prime\obj\Debug\4 nr prime.exe
+D:\Programing\Programming\test - C#\4 nr prime...done\4 nr prime\obj\Debug\4 nr prime.pdb
