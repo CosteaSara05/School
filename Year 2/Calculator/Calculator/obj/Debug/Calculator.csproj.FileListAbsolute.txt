@@ -1,0 +1,14 @@
+D:\Programing\School\Year 2\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Programing\School\Year 2\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Programing\School\Year 2\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\App.g.cs
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\MainWindow.baml
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.g.resources
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Programing\School\Year 2\Calculator\Calculator\obj\Debug\Calculator.pdb

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="500" Width="350" MinWidth="350" MinHeight="500" MaxWidth="350" MaxHeight="500" KeyDown="Window_KeyDown">
+	<Grid Margin="0,0,2,1">
+		<TextBox x:Name="Resultor" HorizontalAlignment="Left" Height="61"  TextWrapping="Wrap" BorderThickness="0" TextAlignment="Right" VerticalAlignment="Top" Width="330" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom"/>
+		<Button x:Name="BtnClear" Content="C" HorizontalAlignment="Left" Margin="0,61,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnClear_Click"/>
+		<Button x:Name="BtnKey1" Content="1" HorizontalAlignment="Left" Margin="0,136,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey1_Click"/>
+		<Button x:Name="BtnKey2" Content="2" HorizontalAlignment="Left" Margin="75,136,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey2_Click"/>
+		<Button x:Name="BtnKey3" Content="3" HorizontalAlignment="Left" Margin="150,136,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey3_Click"/>
+		<Button x:Name="BtnKey4" Content="4" HorizontalAlignment="Left" Margin="0,211,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey4_Click"/>
+		<Button x:Name="BtnKey5" Content="5" HorizontalAlignment="Left" Margin="75,211,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey5_Click"/>
+		<Button x:Name="BtnKey6" Content="6" HorizontalAlignment="Left" Margin="150,211,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey6_Click"/>
+		<Button x:Name="BtnKey7" Content="7" HorizontalAlignment="Left" Margin="0,286,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey7_Click"/>
+		<Button x:Name="BtnKey8" Content="8" HorizontalAlignment="Left" Margin="75,286,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey8_Click"/>
+		<Button x:Name="BtnKey9" Content="9" HorizontalAlignment="Left" Margin="150,286,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey9_Click"/>
+		<Button x:Name="BtnKey0" Content="0" HorizontalAlignment="Left" Margin="75,361,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnKey0_Click"/>
+
+	</Grid>
+</Window>
