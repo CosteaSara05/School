@@ -33,6 +33,8 @@
 		<Button x:Name="BtnMinus" Content="-" HorizontalAlignment="Left" Margin="230,219,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnMinus_Click" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontSize="36" FontFamily="Microsoft YaHei UI"/>
 		<Button x:Name="BtnInmultire" Content="*" HorizontalAlignment="Left" Margin="230,144,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnInmultire_Click" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontSize="36" FontFamily="Microsoft YaHei UI"/>
 		<Button x:Name="BtnImpartire" Content="/" HorizontalAlignment="Left" Margin="227,69,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnImpartire_Click" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontSize="36" FontFamily="Microsoft YaHei UI"/>
+		<Button x:Name="BtnPeriod" Content="." HorizontalAlignment="Left" Margin="152,373,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BtnPeriod_Click" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontSize="36" FontFamily="Microsoft YaHei UI"/>
+		
 
 	</Grid>
 </Window>

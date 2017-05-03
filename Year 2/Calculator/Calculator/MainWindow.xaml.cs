@@ -25,6 +25,7 @@ namespace Calculator
 		public static char[] numerics = {'0','1','2','3','4','5','6', '7', '8', '9'};
 		public static char[] calculTokens = {'+', '-', '*', '/'};
 		public static char[] specialTokens = { '(', ')', '.'};
+		public static double NumericClicked = -1;
 		public static bool EqualClicked = false;
 		public static bool NumericToken = false;
 		public static bool CalculToken = false;
@@ -178,30 +179,54 @@ namespace Calculator
 
 		private void Checker(string KeyValue)
 		{
-			if (!NumericToken && count != 0)
-			{
-				tbCountWither.Text += tbCalculToken.Text + KeyValue;
-			}
-			else if (!NumericToken && count == 0)
-			{
-				tbCountWither.Text += KeyValue;
-			}
-			else if (NumericToken && count > 0)
-			{
-				tbCountWither.Text += KeyValue;
-			}
-			else if (NumericToken && count == 0)
-			{
-				tbCountWither.Text += KeyValue;
-			}
-			//tbCalculToken.Clear();
+			NumericClicked = Convert.ToDouble(KeyValue);
 			if (EqualClicked)
 			{
 				tbCountWither.Clear();
 				tbResultor.Clear();
+				tbCalculToken.Clear();
 				EqualClicked = false;
 			}
+			tbResultor.Text += KeyValue;
 			NumericToken = true;
+		}
+
+		private void CalculusChecker()
+		{
+			if (tbResultor.Text != "")
+			{
+				if (CalculToken)
+				{
+					//if (tbCalculToken.Text == "-")
+					//{
+					//	if (tbCountWither.Text == "")
+					//	{
+					//		tbCountWither.Text += " " + tbCalculToken.Text + tbResultor.Text + " ";
+					//	}
+					//}
+					//else
+					//{
+						tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
+					//}
+				}
+				else if (!CalculToken)
+				{
+					tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
+				}
+				//else if (NumericToken && CalculToken)
+				//{
+				//	tbCountWither.Text += tbResultor.Text + " ";
+				//}
+				//else if (NumericToken && !CalculToken)
+				//{
+				//	tbCountWither.Text += tbResultor.Text + " ";
+				//}
+			}
+			else if (tbCountWither.Text == "" && tbResultor.Text == "")
+			{
+				tbCountWither.Text = "-";
+				//tbCountWither.Text += tbResultor.Text + " ";
+			}
 		}
 
 		private void BtnEqual_Click(object sender, RoutedEventArgs e)
@@ -214,6 +239,7 @@ namespace Calculator
 			tbCalculToken.Clear();
 			tbCountWither.Clear();
 			NumericToken = false;
+			NumericClicked = -1;
 			count = 0;
 			Sum = 0;
 			Imp = 0;
@@ -223,19 +249,31 @@ namespace Calculator
 		private void BtnKeyPlus_Click(object sender, RoutedEventArgs e)
 		{
 			count = 2;
-			tbCalculToken.Text = "+";
-			compute(count);
-			NumericToken = false;
 			CalculToken = true;
+			NumericToken = false;
+			tbCalculToken.Text = "+";
+			CalculusChecker();
+			if (tbCountWither.Text != "+")
+			{
+				compute(count);
+			}
+			tbResultor.Clear();
+			NumericClicked = -1;
 		}
 
 		private void BtnMinus_Click(object sender, RoutedEventArgs e)
 		{
 			count = 1;
-			tbCalculToken.Text = "-";
-			compute(count);
-			NumericToken = false;
 			CalculToken = true;
+			NumericToken = false;
+			tbCalculToken.Text = "-";
+			CalculusChecker();
+			if (tbCountWither.Text != "-")
+			{
+				compute(count);
+			}
+			tbResultor.Clear();
+			NumericClicked = -1;
 		}
 
 		private void BtnInmultire_Click(object sender, RoutedEventArgs e)
@@ -245,10 +283,16 @@ namespace Calculator
 				Sum = 1;
 			}
 			count = 3;
-			tbCalculToken.Text = "*";
-			compute(count);
-			NumericToken = false;
 			CalculToken = true;
+			NumericToken = false;
+			tbCalculToken.Text = "*";
+			CalculusChecker();
+			if (tbCountWither.Text != "*")
+			{
+				compute(count);
+			}
+			tbResultor.Clear();
+			NumericClicked = -1;
 		}
 
 		private void BtnImpartire_Click(object sender, RoutedEventArgs e)
@@ -259,13 +303,42 @@ namespace Calculator
 			}
 			else
 			{
-				compute(count);
+				if (tbCountWither.Text != "/")
+				{
+					compute(count);
+				}
 			}
 			count = 4;
-			tbCalculToken.Text = "/";
-			NumericToken = false;
 			CalculToken = true;
+			NumericToken = false;
+			tbCalculToken.Text = "/";
+			CalculusChecker();
+			tbResultor.Clear();
+			NumericClicked = -1;
 		}
+
+		private void BtnPeriod_Click(object sender, EventArgs e)
+		{
+			int c = tbResultor.Text.Length;
+			int flag = 0;
+			string text = tbResultor.Text;
+			for (int i = 0; i < c; i++)
+			{
+				if (text[i].ToString() == ".")
+				{
+					flag = 1; break;
+				}
+				else
+				{
+					flag = 0;
+				}
+			}
+			if (flag == 0)
+			{
+				tbResultor.Text = tbResultor.Text + ".";
+			}
+		}
+
 	}
 }
 
