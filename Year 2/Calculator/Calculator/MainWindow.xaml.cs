@@ -26,6 +26,8 @@ namespace Calculator
 		public static char[] calculTokens = {'+', '-', '*', '/'};
 		public static char[] specialTokens = { '(', ')', '.'};
 		public static bool EqualClicked = false;
+		public static bool NumericToken = false;
+		public static bool CalculToken = false;
 		public static int count = 0;
 
 		public MainWindow()
@@ -38,7 +40,10 @@ namespace Calculator
 			tbResultor.Clear();
 			tbCountWither.Clear();
 			tbCalculToken.Clear();
+			NumericToken = false;
+			CalculToken = false;
 			Sum = 0;
+			count = 0;
 			Imp = 0;
 		}
 
@@ -133,15 +138,19 @@ namespace Calculator
 				string resAux = tbResultor.Text;
 				resAux = resAux.Substring(0, resAux.Length - 1);
 				tbResultor.Text = resAux;
+				if (tbResultor.Text.Length - 1 > 0)
+				{
+					NumericToken = true;
+				}
+				else
+				{
+					NumericToken = false;
+				}
 			}
 		}
 
 		public void compute(int count)
 		{
-			if (true)
-			{
-
-			}
 			switch (count)
 			{
 				case 1:
@@ -164,22 +173,35 @@ namespace Calculator
 					break;
 			}
 			count = 0;
+			CalculToken = false;
 		}
 
 		private void Checker(string KeyValue)
 		{
-			if (count != 0)
+			if (!NumericToken && count != 0)
 			{
-				tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
-				tbResultor.Clear();
+				tbCountWither.Text += tbCalculToken.Text + KeyValue;
 			}
-			tbCalculToken.Clear();
+			else if (!NumericToken && count == 0)
+			{
+				tbCountWither.Text += KeyValue;
+			}
+			else if (NumericToken && count > 0)
+			{
+				tbCountWither.Text += KeyValue;
+			}
+			else if (NumericToken && count == 0)
+			{
+				tbCountWither.Text += KeyValue;
+			}
+			//tbCalculToken.Clear();
 			if (EqualClicked)
 			{
+				tbCountWither.Clear();
 				tbResultor.Clear();
 				EqualClicked = false;
 			}
-			tbResultor.Text += KeyValue;
+			NumericToken = true;
 		}
 
 		private void BtnEqual_Click(object sender, RoutedEventArgs e)
@@ -191,6 +213,8 @@ namespace Calculator
 			tbResultor.Text = Sum.ToString();
 			tbCalculToken.Clear();
 			tbCountWither.Clear();
+			NumericToken = false;
+			count = 0;
 			Sum = 0;
 			Imp = 0;
 			EqualClicked = true;
@@ -201,6 +225,8 @@ namespace Calculator
 			count = 2;
 			tbCalculToken.Text = "+";
 			compute(count);
+			NumericToken = false;
+			CalculToken = true;
 		}
 
 		private void BtnMinus_Click(object sender, RoutedEventArgs e)
@@ -208,6 +234,8 @@ namespace Calculator
 			count = 1;
 			tbCalculToken.Text = "-";
 			compute(count);
+			NumericToken = false;
+			CalculToken = true;
 		}
 
 		private void BtnInmultire_Click(object sender, RoutedEventArgs e)
@@ -219,6 +247,8 @@ namespace Calculator
 			count = 3;
 			tbCalculToken.Text = "*";
 			compute(count);
+			NumericToken = false;
+			CalculToken = true;
 		}
 
 		private void BtnImpartire_Click(object sender, RoutedEventArgs e)
@@ -233,6 +263,8 @@ namespace Calculator
 			}
 			count = 4;
 			tbCalculToken.Text = "/";
+			NumericToken = false;
+			CalculToken = true;
 		}
 	}
 }
