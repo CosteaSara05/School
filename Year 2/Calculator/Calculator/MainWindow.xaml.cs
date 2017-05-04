@@ -139,7 +139,7 @@ namespace Calculator
 				string resAux = tbResultor.Text;
 				resAux = resAux.Substring(0, resAux.Length - 1);
 				tbResultor.Text = resAux;
-				if (tbResultor.Text.Length - 1 > 0)
+				if (tbResultor.Text.Trim('-').Length - 1 > 0)
 				{
 					NumericToken = true;
 				}
@@ -193,10 +193,17 @@ namespace Calculator
 
 		private void CalculusChecker()
 		{
+			if (EqualClicked)
+			{
+				tbCountWither.Clear();
+				tbResultor.Clear();
+				tbCalculToken.Clear();
+				EqualClicked = false;
+			}
 			if (tbResultor.Text != "")
 			{
-				if (CalculToken)
-				{
+				//if (CalculToken)
+				//{
 					//if (tbCalculToken.Text == "-")
 					//{
 					//	if (tbCountWither.Text == "")
@@ -208,11 +215,11 @@ namespace Calculator
 					//{
 						tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
 					//}
-				}
-				else if (!CalculToken)
-				{
-					tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
-				}
+				//}
+				//else if (!CalculToken)
+				//{
+				//	tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
+				//}
 				//else if (NumericToken && CalculToken)
 				//{
 				//	tbCountWither.Text += tbResultor.Text + " ";
@@ -221,10 +228,10 @@ namespace Calculator
 				//{
 				//	tbCountWither.Text += tbResultor.Text + " ";
 				//}
-			}
-			else if (tbCountWither.Text == "" && tbResultor.Text == "")
-			{
-				tbCountWither.Text = "-";
+			//}
+			//else if (tbCountWither.Text == "" && tbResultor.Text == "")
+			//{
+				//tbCountWither.Text = "-";
 				//tbCountWither.Text += tbResultor.Text + " ";
 			}
 		}
@@ -268,11 +275,18 @@ namespace Calculator
 			NumericToken = false;
 			tbCalculToken.Text = "-";
 			CalculusChecker();
-			if (tbCountWither.Text != "-")
+			if (tbCountWither.Text != "-" && tbResultor.Text != "")
 			{
 				compute(count);
 			}
-			tbResultor.Clear();
+			if (tbResultor.Text == "")
+			{
+				tbResultor.Text += "-";
+			}
+			else
+			{
+				tbResultor.Clear();
+			}
 			NumericClicked = -1;
 		}
 
@@ -337,6 +351,7 @@ namespace Calculator
 			{
 				tbResultor.Text = tbResultor.Text + ".";
 			}
+			CalculusChecker();
 		}
 
 	}
