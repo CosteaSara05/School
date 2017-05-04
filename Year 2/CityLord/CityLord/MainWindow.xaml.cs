@@ -1,18 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-namespace LandLord
+namespace CityLord
 {
-	public partial class Form1 : Form
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
 	{
+		public MainWindow()
+		{
+			InitializeComponent();
+		}
+
 		public int Money;
 		public Player owner;
 		private List<Building> OwnerProps = new List<Building>();
@@ -29,11 +41,6 @@ namespace LandLord
 		public int TotalBuildings;
 		public int Rent;
 		public int Imposit;
-
-		public Form1()
-		{
-			InitializeComponent();
-		}
 
 		public void MapGenerator()
 		{
@@ -349,21 +356,21 @@ namespace LandLord
 						DecisionNoMoneyPanel.Visible = true;
 				}
 			}
-					int All = owner.PlayerProps.Count;
-					if (All == 0.5 * TotalBuildings)
-					{
-						WONpanel.Visible = true;
-						textBox50.Visible = true;
-						textBoxYW.Visible = false;
-					}
-						if (All == TotalBuildings)
-					{
-						textBox50.Visible = false;
-						Timeflow.Enabled = false;
-						textBoxYW.Visible = true;
-						WONpanel.Visible = true;
-						AvQGPanel.Visible = true;
-					}
+			int All = owner.PlayerProps.Count;
+			if (All == 0.5 * TotalBuildings)
+			{
+				WONpanel.Visible = true;
+				textBox50.Visible = true;
+				textBoxYW.Visible = false;
+			}
+			if (All == TotalBuildings)
+			{
+				textBox50.Visible = false;
+				Timeflow.Enabled = false;
+				textBoxYW.Visible = true;
+				WONpanel.Visible = true;
+				AvQGPanel.Visible = true;
+			}
 			MoneyDisplaylabel.Text = owner.Money.ToString();
 		}
 
@@ -403,37 +410,38 @@ namespace LandLord
 		{
 			CentralBoard.Clear();
 			CentralBoard.View = View.List;
-				if (PlayersListBoard.Text == owner.Name)
-				{
-					CentralBoard.Items.Add("Name: " + owner.Name);
-					CentralBoard.Items.Add("Money: " + owner.Money);
-					CentralBoard.Items.Add("# of Buildings: " + owner.PlayerProps.Count);
-					int value = 0;
-					foreach (Building props in owner.PlayerProps)
-						value += props.price;
-					CentralBoard.Items.Add("Value of the empire: " + value);
-				}
-			
+			if (PlayersListBoard.Text == owner.Name)
+			{
+				CentralBoard.Items.Add("Name: " + owner.Name);
+				CentralBoard.Items.Add("Money: " + owner.Money);
+				CentralBoard.Items.Add("# of Buildings: " + owner.PlayerProps.Count);
+				int value = 0;
+				foreach (Building props in owner.PlayerProps)
+					value += props.price;
+				CentralBoard.Items.Add("Value of the empire: " + value);
+			}
+
 		}
+
 
 		#endregion
 
-		private void Form1_Load(object sender, EventArgs e)
+		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
-			    Building.DrawSize = 55;
-			    InitialMoneyComboBox.Items.Add(50000);
-			    InitialMoneyComboBox.Items.Add(75000);
-			    InitialMoneyComboBox.Items.Add(100000);
-			    InitialMoneyComboBox.Items.Add(150000);
-			    InitialMoneyComboBox.SelectedIndex = 2;
-			    PlayerColorComboBox.Items.Add("Blue");
-			    PlayerColorComboBox.Items.Add("Black");
-			    PlayerColorComboBox.Items.Add("Green");
-			    PlayerColorComboBox.Items.Add("Yellow");
-			    PlayerColorComboBox.SelectedIndex = 0;
-			    PNameTextBox.Text = "Player1";
-			    flowing = 0;
-			    Flowinglbl.Text = flowing.ToString();
+			Building.DrawSize = 55;
+			InitialMoneyComboBox.Items.Add(50000);
+			InitialMoneyComboBox.Items.Add(75000);
+			InitialMoneyComboBox.Items.Add(100000);
+			InitialMoneyComboBox.Items.Add(150000);
+			InitialMoneyComboBox.SelectedIndex = 2;
+			PlayerColorComboBox.Items.Add("Blue");
+			PlayerColorComboBox.Items.Add("Black");
+			PlayerColorComboBox.Items.Add("Green");
+			PlayerColorComboBox.Items.Add("Yellow");
+			PlayerColorComboBox.SelectedIndex = 0;
+			PNameTextBox.Text = "Player1";
+			flowing = 0;
+			Flowinglbl.Text = flowing.ToString();
 		}
 
 		private void Timeflow_Tick(object sender, EventArgs e)
@@ -441,27 +449,27 @@ namespace LandLord
 			flowing++;
 			int Timposit, Trent;
 			Flowinglbl.Text = flowing.ToString();
-				Trent = 0;
-				foreach (Building item in BuildingList)
-					if ((item.PB.BackColor != Color.Green) && (item.Owner != null))
-					{
-						Rent = (int)(item.price * 0.005);
-						item.Owner.Money += Rent;
-						MoneyDisplaylabel.Text = owner.Money.ToString();
-						DecisionSuccessSoldPanel.Visible = false;
-						DecisionSuccessBoughtPanel.Visible = false;
-						DecisionNoMoneyPanel.Visible = false;
-						Trent += Rent;
-					}
-				RenttextBox.Clear();
-				RenttextBox.Text += "+" + Trent.ToString();
+			Trent = 0;
+			foreach (Building item in BuildingList)
+				if ((item.PB.BackColor != Color.Green) && (item.Owner != null))
+				{
+					Rent = (int)(item.price * 0.005);
+					item.Owner.Money += Rent;
+					MoneyDisplaylabel.Text = owner.Money.ToString();
+					DecisionSuccessSoldPanel.Visible = false;
+					DecisionSuccessBoughtPanel.Visible = false;
+					DecisionNoMoneyPanel.Visible = false;
+					Trent += Rent;
+				}
+			RenttextBox.Clear();
+			RenttextBox.Text += "+" + Trent.ToString();
 			if (flowing % 7 == 0)
 			{
 				Timposit = 0;
 				foreach (Building item in BuildingList)
 					if ((item.PB.BackColor != Color.Green) && (item.Owner != null))
 					{
-						Imposit = (int)(r.Next(20,51) * 0.3 * item.Owner.PlayerProps.Count);
+						Imposit = (int)(r.Next(20, 51) * 0.3 * item.Owner.PlayerProps.Count);
 						item.Owner.Money -= Imposit;
 						MoneyDisplaylabel.Text = owner.Money.ToString();
 						DecisionBuyPanel.Visible = false;
@@ -478,6 +486,5 @@ namespace LandLord
 				ImpositstextBox.Clear();
 			}
 		}
-			
 	}
 }

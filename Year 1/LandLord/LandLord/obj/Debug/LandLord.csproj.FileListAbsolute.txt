@@ -16,3 +16,6 @@ D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.csprojR
 D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.Form1.resources
 D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.Properties.Resources.resources
 D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.csproj.GenerateResource.Cache
+C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\bin\Debug\LandLord.exe.config
+C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.exe
+C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.pdb
