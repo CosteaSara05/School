@@ -20,7 +20,8 @@ namespace Calculator
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		public static double Sum = 0;
+		public static double Ans = 0;
+		public static double num = 0;
 		public static double Imp = 0;
 		public static char[] numerics = {'0','1','2','3','4','5','6', '7', '8', '9'};
 		public static char[] calculTokens = {'+', '-', '*', '/'};
@@ -43,7 +44,7 @@ namespace Calculator
 			tbCalculToken.Clear();
 			NumericToken = false;
 			CalculToken = false;
-			Sum = 0;
+			Ans = 0;
 			count = 0;
 			Imp = 0;
 		}
@@ -155,20 +156,24 @@ namespace Calculator
 			switch (count)
 			{
 				case 1:
-					Sum = Sum - double.Parse(tbResultor.Text);
-					tbResultor.Text = tbResultor.Text.ToString();
+					Ans = num - double.Parse(tbResultor.Text);
+					//tbResultor.Text = tbResultor.Text.ToString();
+					tbResultor.Text = Ans.ToString();
 					break;
 				case 2:
-					Sum = Sum + double.Parse(tbResultor.Text);
-					tbResultor.Text = tbResultor.Text.ToString();
+					Ans = num + double.Parse(tbResultor.Text);
+					//tbResultor.Text = tbResultor.Text.ToString();
+					tbResultor.Text = Ans.ToString();
 					break;
 				case 3:
-					Sum = Sum * double.Parse(tbResultor.Text);
-					tbResultor.Text = tbResultor.Text.ToString();
+					Ans = num * double.Parse(tbResultor.Text);
+					//tbResultor.Text = tbResultor.Text.ToString();
+					tbResultor.Text = Ans.ToString();
 					break;
 				case 4:
-					Sum = Imp / double.Parse(tbResultor.Text);
-					tbResultor.Text = tbResultor.Text.ToString();
+					Ans = num / double.Parse(tbResultor.Text);
+					//tbResultor.Text = tbResultor.Text.ToString();
+					tbResultor.Text = Ans.ToString();
 					break;
 				default:
 					break;
@@ -202,37 +207,7 @@ namespace Calculator
 			}
 			if (tbResultor.Text != "")
 			{
-				//if (CalculToken)
-				//{
-					//if (tbCalculToken.Text == "-")
-					//{
-					//	if (tbCountWither.Text == "")
-					//	{
-					//		tbCountWither.Text += " " + tbCalculToken.Text + tbResultor.Text + " ";
-					//	}
-					//}
-					//else
-					//{
-						tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
-					//}
-				//}
-				//else if (!CalculToken)
-				//{
-				//	tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
-				//}
-				//else if (NumericToken && CalculToken)
-				//{
-				//	tbCountWither.Text += tbResultor.Text + " ";
-				//}
-				//else if (NumericToken && !CalculToken)
-				//{
-				//	tbCountWither.Text += tbResultor.Text + " ";
-				//}
-			//}
-			//else if (tbCountWither.Text == "" && tbResultor.Text == "")
-			//{
-				//tbCountWither.Text = "-";
-				//tbCountWither.Text += tbResultor.Text + " ";
+				tbCountWither.Text += tbResultor.Text + " " + tbCalculToken.Text + " ";
 			}
 		}
 
@@ -242,13 +217,13 @@ namespace Calculator
 			{
 				compute(count);
 			}
-			tbResultor.Text = Sum.ToString();
+			tbResultor.Text = Ans.ToString();
 			tbCalculToken.Clear();
 			tbCountWither.Clear();
 			NumericToken = false;
 			NumericClicked = -1;
 			count = 0;
-			Sum = 0;
+			Ans = 0;
 			Imp = 0;
 			EqualClicked = true;
 		}
@@ -260,9 +235,10 @@ namespace Calculator
 			NumericToken = false;
 			tbCalculToken.Text = "+";
 			CalculusChecker();
+			num = double.Parse(tbResultor.Text);
 			if (tbCountWither.Text != "+")
 			{
-				compute(count);
+				//compute(count);
 			}
 			tbResultor.Clear();
 			NumericClicked = -1;
@@ -275,9 +251,11 @@ namespace Calculator
 			NumericToken = false;
 			tbCalculToken.Text = "-";
 			CalculusChecker();
-			if (tbCountWither.Text != "-" && tbResultor.Text != "")
+			//if (tbCountWither.Text != "-" && tbResultor.Text != "")
+			if (tbResultor.Text != "")
 			{
-				compute(count);
+				num = double.Parse(tbResultor.Text);
+				//compute(count);
 			}
 			if (tbResultor.Text == "")
 			{
@@ -292,18 +270,19 @@ namespace Calculator
 
 		private void BtnInmultire_Click(object sender, RoutedEventArgs e)
 		{
-			if (Sum == 0)
-			{
-				Sum = 1;
-			}
+			//if (Ans == 0)
+			//{
+			//	Ans = 1;
+			//}
 			count = 3;
 			CalculToken = true;
 			NumericToken = false;
 			tbCalculToken.Text = "*";
 			CalculusChecker();
+			num = double.Parse(tbResultor.Text);
 			if (tbCountWither.Text != "*")
 			{
-				compute(count);
+				//compute(count);
 			}
 			tbResultor.Clear();
 			NumericClicked = -1;
@@ -311,17 +290,18 @@ namespace Calculator
 
 		private void BtnImpartire_Click(object sender, RoutedEventArgs e)
 		{
-			if (Imp == 0)
-			{
-				Imp = Convert.ToDouble(tbResultor.Text);
-			}
-			else
-			{
-				if (tbCountWither.Text != "/")
-				{
-					compute(count);
-				}
-			}
+			//if (Imp == 0)
+			//{
+			//	Imp = Convert.ToDouble(tbResultor.Text);
+			//}
+			//else
+			//{
+			//	if (tbCountWither.Text != "/")
+			//	{
+			//		compute(count);
+			//	}
+			//}
+			num = double.Parse(tbResultor.Text);
 			count = 4;
 			CalculToken = true;
 			NumericToken = false;
