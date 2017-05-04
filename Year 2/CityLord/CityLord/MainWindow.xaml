@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityLord"
         mc:Ignorable="d"
-        Title="MainWindow" Height="904" Width="1920" Loaded="Window_Loaded">
+        Title="MainWindow" Height="1080" Width="1920" Loaded="Window_Loaded">
     <Grid Background="Wheat">
-		<StackPanel HorizontalAlignment="Left" Height="1040" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray"/>
+		<StackPanel x:Name="StartMenu" HorizontalAlignment="Left" Height="1050" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray"/>
 
 	</Grid>
 </Window>
