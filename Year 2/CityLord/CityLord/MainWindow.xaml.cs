@@ -79,7 +79,7 @@ namespace CityLord
 					}
 					else
 						BorGs[i, j].BackColor = Color.Green;
-					BorGs[i, j].Visible = true;
+					BorGs[i, j].Visibility = true;
 					BorGs[i, j].BorderStyle = BorderStyle.FixedSingle;
 					if (BorGsItem >= 2)
 					{
@@ -124,41 +124,41 @@ namespace CityLord
 		#region Butons and Menus
 		private void QuitGameBtn_Click(object sender, EventArgs e)
 		{
-			AvQGPanel.Visible = true;
+			AvQGPanel.Visibility = true;
 			Timeflow.Enabled = false;
 		}
 
 		private void newGamItem_Click(object sender, EventArgs e)
 		{
-			AvNGPanel.Visible = true;
+			AvNGPanel.Visibility = true;
 			Timeflow.Enabled = false;
 		}
 
 		private void QuitGameItem_Click(object sender, EventArgs e)
 		{
-			AvQGPanel.Visible = true;
+			AvQGPanel.Visibility = true;
 			Timeflow.Enabled = false;
 		}
 
 		private void NewGameBtn_Click(object sender, EventArgs e)
 		{
-			NewGameMenu.Visible = true;
-			StartMenu.Visible = false;
+			NewGameMenu.Visibility = true;
+			StartMenu.Visibility = false;
 			Timeflow.Enabled = false;
 		}
 
 		private void StartBtn_Click(object sender, EventArgs e)
 		{
-			progressBar1.Visible = true;
+			progressBar1.Visibility = true;
 			progressBar1.Maximum = 100;
 			progressBar1.Step = 1;
 			progressBar1.PerformStep();
-			QuitGameBtn.Visible = true;
-			MoneyDisplaylabel.Visible = true;
-			Moneylabel.Visible = true;
-			menuStrip1.Visible = true;
-			GameMenu.Visible = true;
-			NewGameMenu.Visible = false;
+			QuitGameBtn.Visibility = true;
+			MoneyDisplaylabel.Visibility = true;
+			Moneylabel.Visibility = true;
+			menuStrip1.Visibility = true;
+			GameMenu.Visibility = true;
+			NewGameMenu.Visibility = false;
 			progressBar1.Step = 6;
 			owner = new Player(PNameTextBox.Text, ColorChooser(), Money = InitialMoneyChooser(), OwnerProps);
 			PlayersListBoard.Items.Add(owner.Name);
@@ -169,10 +169,10 @@ namespace CityLord
 			BuildingList.Clear();
 			MapGenerator();
 			progressBar1.PerformStep();
-			progressBar1.Visible = false;
+			progressBar1.Visibility = false;
 			Timeflow.Enabled = true;
 			flowing = 0;
-			Flowinglbl.Visible = true;
+			Flowinglbl.Visibility = true;
 
 		}
 
@@ -248,7 +248,7 @@ namespace CityLord
 			PictureBox clickedPictureBox = sender as PictureBox;
 			foreach (var item in PictureBoxList)
 			{
-				DecisionBuyPanel.Visible = false;
+				DecisionBuyPanel.Visibility = false;
 				item.BorderStyle = BorderStyle.FixedSingle;
 			}
 		}
@@ -259,21 +259,21 @@ namespace CityLord
 			foreach (var item in BuildingList)
 				if (item.PB == clickedBuilding)
 				{
-					DecisionSuccessBoughtPanel.Visible = false;
-					DecisionSuccessSoldPanel.Visible = false;
-					DecisionNoMoneyPanel.Visible = false;
+					DecisionSuccessBoughtPanel.Visibility = false;
+					DecisionSuccessSoldPanel.Visibility = false;
+					DecisionNoMoneyPanel.Visibility = false;
 					item.IsClicked = true;
 					item.PB.BorderStyle = BorderStyle.Fixed3D;
 					if (!item.IsBought)
 					{
-						DecisionBuyPanel.Visible = true;
+						DecisionBuyPanel.Visibility = true;
 						BuildingBuyValueLbl.Text = item.price.ToString();
-						DecisionSellPanel.Visible = false;
+						DecisionSellPanel.Visibility = false;
 					}
 					else
 					{
-						DecisionBuyPanel.Visible = false;
-						DecisionSellPanel.Visible = true;
+						DecisionBuyPanel.Visibility = false;
+						DecisionSellPanel.Visibility = true;
 						BuildingActualPriceLbl.Text = item.price.ToString();
 						BuildingSellValueLbl.Text = ((int)(item.price) * 0.9).ToString();
 					}
@@ -284,50 +284,50 @@ namespace CityLord
 
 		private void QGLeaveBtn_Click(object sender, EventArgs e)
 		{
-			QuitGameBtn.Visible = false;
-			MoneyDisplaylabel.Visible = false;
-			GameMenu.Visible = false;
-			DecisionSuccessBoughtPanel.Visible = false;
-			DecisionSuccessSoldPanel.Visible = false;
-			DecisionBuyPanel.Visible = false;
-			DecisionSellPanel.Visible = false;
-			menuStrip1.Visible = false;
-			WONpanel.Visible = false;
-			AvQGPanel.Visible = false;
-			StartMenu.Visible = true;
+			QuitGameBtn.Visibility = false;
+			MoneyDisplaylabel.Visibility = false;
+			GameMenu.Visibility = false;
+			DecisionSuccessBoughtPanel.Visibility = false;
+			DecisionSuccessSoldPanel.Visibility = false;
+			DecisionBuyPanel.Visibility = false;
+			DecisionSellPanel.Visibility = false;
+			menuStrip1.Visibility = false;
+			WONpanel.Visibility = false;
+			AvQGPanel.Visibility = false;
+			StartMenu.Visibility = true;
 			for (int i = 0; i < BorGsL - 5; i++)
 				for (int j = 0; j < BorGsL; j++)
-					BorGs[i, j].Visible = false;
+					BorGs[i, j].Visibility = false;
 		}
 
 		private void CancelBtn_Click(object sender, EventArgs e)
 		{
-			AvQGPanel.Visible = false;
+			AvQGPanel.Visibility = false;
 			Timeflow.Enabled = true;
-			WONpanel.Visible = false;
+			WONpanel.Visibility = false;
 		}
 
 		private void NGLeaveBtn_Click(object sender, EventArgs e)
 		{
-			QuitGameBtn.Visible = false;
-			MoneyDisplaylabel.Visible = false;
-			GameMenu.Visible = false;
-			DecisionSuccessBoughtPanel.Visible = false;
-			DecisionSuccessSoldPanel.Visible = false;
-			DecisionBuyPanel.Visible = false;
-			DecisionSellPanel.Visible = false;
-			Moneylabel.Visible = false;
-			menuStrip1.Visible = false;
-			AvNGPanel.Visible = false;
-			NewGameMenu.Visible = true;
+			QuitGameBtn.Visibility = false;
+			MoneyDisplaylabel.Visibility = false;
+			GameMenu.Visibility = false;
+			DecisionSuccessBoughtPanel.Visibility = false;
+			DecisionSuccessSoldPanel.Visibility = false;
+			DecisionBuyPanel.Visibility = false;
+			DecisionSellPanel.Visibility = false;
+			Moneylabel.Visibility = false;
+			menuStrip1.Visibility = false;
+			AvNGPanel.Visibility = false;
+			NewGameMenu.Visibility = true;
 			for (int i = 0; i < BorGsL - 5; i++)
 				for (int j = 0; j < BorGsL; j++)
-					BorGs[i, j].Visible = false;
+					BorGs[i, j].Visibility = false;
 		}
 
 		private void NGCancelBtn_Click(object sender, EventArgs e)
 		{
-			AvNGPanel.Visible = false;
+			AvNGPanel.Visibility = false;
 			Timeflow.Enabled = true;
 		}
 
@@ -347,29 +347,29 @@ namespace CityLord
 						OwnerLbl1.Text = owner.Name;
 						item.Owner = owner;
 						OwnerProps.Add(item);
-						DecisionSuccessBoughtPanel.Visible = true;
-						DecisionNoMoneyPanel.Visible = false;
-						DecisionSuccessSoldPanel.Visible = false;
-						DecisionBuyPanel.Visible = false;
+						DecisionSuccessBoughtPanel.Visibility = true;
+						DecisionNoMoneyPanel.Visibility = false;
+						DecisionSuccessSoldPanel.Visibility = false;
+						DecisionBuyPanel.Visibility = false;
 					}
 					else
-						DecisionNoMoneyPanel.Visible = true;
+						DecisionNoMoneyPanel.Visibility = true;
 				}
 			}
 			int All = owner.PlayerProps.Count;
 			if (All == 0.5 * TotalBuildings)
 			{
-				WONpanel.Visible = true;
-				textBox50.Visible = true;
-				textBoxYW.Visible = false;
+				WONpanel.Visibility = true;
+				textBox50.Visibility = true;
+				textBoxYW.Visibility = false;
 			}
 			if (All == TotalBuildings)
 			{
-				textBox50.Visible = false;
+				textBox50.Visibility = false;
 				Timeflow.Enabled = false;
-				textBoxYW.Visible = true;
-				WONpanel.Visible = true;
-				AvQGPanel.Visible = true;
+				textBoxYW.Visibility = true;
+				WONpanel.Visibility = true;
+				AvQGPanel.Visibility = true;
 			}
 			MoneyDisplaylabel.Text = owner.Money.ToString();
 		}
@@ -389,9 +389,9 @@ namespace CityLord
 					SellColorChanger(item);
 					owner.Money = owner.Money + (int)(0.9 * item.price);
 					item.Owner = null;
-					DecisionSuccessBoughtPanel.Visible = false;
-					DecisionSuccessSoldPanel.Visible = true;
-					DecisionSellPanel.Visible = false;
+					DecisionSuccessBoughtPanel.Visibility = false;
+					DecisionSuccessSoldPanel.Visibility = true;
+					DecisionSellPanel.Visibility = false;
 					OwnerLbl2.Text = "Nobody";
 				}
 			MoneyDisplaylabel.Text = owner.Money.ToString();
@@ -456,9 +456,9 @@ namespace CityLord
 					Rent = (int)(item.price * 0.005);
 					item.Owner.Money += Rent;
 					MoneyDisplaylabel.Text = owner.Money.ToString();
-					DecisionSuccessSoldPanel.Visible = false;
-					DecisionSuccessBoughtPanel.Visible = false;
-					DecisionNoMoneyPanel.Visible = false;
+					DecisionSuccessSoldPanel.Visibility = false;
+					DecisionSuccessBoughtPanel.Visibility = false;
+					DecisionNoMoneyPanel.Visibility = false;
 					Trent += Rent;
 				}
 			RenttextBox.Clear();
@@ -472,9 +472,9 @@ namespace CityLord
 						Imposit = (int)(r.Next(20, 51) * 0.3 * item.Owner.PlayerProps.Count);
 						item.Owner.Money -= Imposit;
 						MoneyDisplaylabel.Text = owner.Money.ToString();
-						DecisionBuyPanel.Visible = false;
-						DecisionSellPanel.Visible = false;
-						WONpanel.Visible = false;
+						DecisionBuyPanel.Visibility = false;
+						DecisionSellPanel.Visibility = false;
+						WONpanel.Visibility = false;
 						Timposit += Imposit;
 					}
 				Timposit /= 7;

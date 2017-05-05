@@ -247,7 +247,7 @@
 			this.AvQGPanel.Controls.Add(this.AvQGTB);
 			this.AvQGPanel.Controls.Add(this.QGCancelBtn);
 			this.AvQGPanel.Controls.Add(this.QGLeaveBtn);
-			this.AvQGPanel.Location = new System.Drawing.Point(801, 281);
+			this.AvQGPanel.Location = new System.Drawing.Point(581, 190);
 			this.AvQGPanel.Name = "AvQGPanel";
 			this.AvQGPanel.Size = new System.Drawing.Size(300, 100);
 			this.AvQGPanel.TabIndex = 10;
@@ -301,7 +301,7 @@
 			this.AvNGPanel.Controls.Add(this.AvNGTB);
 			this.AvNGPanel.Controls.Add(this.NGCancelBtn);
 			this.AvNGPanel.Controls.Add(this.NGLeaveBtn);
-			this.AvNGPanel.Location = new System.Drawing.Point(770, 293);
+			this.AvNGPanel.Location = new System.Drawing.Point(508, 293);
 			this.AvNGPanel.Name = "AvNGPanel";
 			this.AvNGPanel.Size = new System.Drawing.Size(357, 117);
 			this.AvNGPanel.TabIndex = 11;
@@ -858,7 +858,7 @@
 			this.WONpanel.BackColor = System.Drawing.Color.Red;
 			this.WONpanel.Controls.Add(this.textBox50);
 			this.WONpanel.Controls.Add(this.textBoxYW);
-			this.WONpanel.Location = new System.Drawing.Point(792, 140);
+			this.WONpanel.Location = new System.Drawing.Point(598, 50);
 			this.WONpanel.Name = "WONpanel";
 			this.WONpanel.Size = new System.Drawing.Size(300, 100);
 			this.WONpanel.TabIndex = 88;
@@ -907,7 +907,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Wheat;
-			this.ClientSize = new System.Drawing.Size(1900, 1038);
+			this.ClientSize = new System.Drawing.Size(1900, 869);
 			this.Controls.Add(this.progressBar1);
 			this.Controls.Add(this.WONpanel);
 			this.Controls.Add(this.DecisionNoMoneyPanel);

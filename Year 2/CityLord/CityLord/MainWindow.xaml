@@ -5,9 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityLord"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920" Loaded="Window_Loaded">
-    <Grid Background="Wheat">
+        Title="CityLord" Height="1080" Width="1920" Loaded="Window_Loaded">
+	<Grid Background="Wheat">
 		<StackPanel x:Name="StartMenu" HorizontalAlignment="Left" Height="1050" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray"/>
+		<Button x:Name="NewGameBtn" Content="New" HorizontalAlignment="Left" Margin="915,135,0,0" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="NewGameBtn_Click"/>
+		<Button x:Name="ExitAppBtn" Content="Exit Game" HorizontalAlignment="Left" Margin="915,907,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="0.16,12.174" Background="CadetBlue" Foreground="Crimson" Click="ExitAppBtn_Click"/>
+		<StackPanel x:Name="NewGameMenu" HorizontalAlignment="Left" Height="202" Margin="868,453,0,0" VerticalAlignment="Top" Width="175" Background="WhiteSmoke" Visibility="Hidden">
+			<Label x:Name="label6" Content="Player Name:" Foreground="Crimson" Width="80" Height="26" Margin="48,0,47,0"/>
+			<TextBox x:Name="PNameTextBox" Height="20" Width="100" TextWrapping="Wrap" Text="" Margin="38,0,37,0"/>
+			<Label x:Name="label4" Content="Player Color:" Foreground="Crimson" Width="80" Height="26" Margin="48,0,47,0"/>
+			<ComboBox x:Name="PlayerColorComboBox" Width="100" Height="21" Background="White"/>
+			<Label x:Name="label3" Content="Player Money:" Foreground="Crimson" Width="90" Height="26" Margin="40,0,47,0"/>
+			<ComboBox x:Name="InitialMoneyComboBox" Width="100" Height="21" Background="White"/>
+			<Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click=""/>
+		</StackPanel>
+		<StackPanel HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
+			<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" Width="24" Height="27" Margin="-250,0,0,0"/>
+			<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Width="90" Height="27" Margin="51,0,301,0"/>
+		</StackPanel>
+
+
 
 	</Grid>
 </Window>

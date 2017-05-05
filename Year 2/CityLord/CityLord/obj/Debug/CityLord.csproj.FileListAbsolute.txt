@@ -4,3 +4,9 @@ C:\@work\@David Dulau\Neubie Projects\test - C#\CityLord\CityLord\obj\Debug\Main
 C:\@work\@David Dulau\Neubie Projects\test - C#\CityLord\CityLord\obj\Debug\App.g.cs
 C:\@work\@David Dulau\Neubie Projects\test - C#\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.cache
 C:\@work\@David Dulau\Neubie Projects\test - C#\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.lref
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\bin\Debug\CityLord.exe.config
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.csprojResolveAssemblyReference.cache
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\MainWindow.g.cs
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\App.g.cs
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.cache
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.lref
