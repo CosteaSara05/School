@@ -19,10 +19,13 @@
 			<ComboBox x:Name="InitialMoneyComboBox" Width="100" Height="21" Background="White"/>
 			<Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click=""/>
 		</StackPanel>
-		<StackPanel HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
-			<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" Width="24" Height="27" Margin="-250,0,0,0"/>
-			<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Width="90" Height="27" Margin="51,0,301,0"/>
+		<StackPanel x:Name="GameMenu" HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="215">
+				<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="100,0,0,10" Width="24"/>
+				<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Margin="0,0,0,10" Width="90"/>
+			</StackPanel>
 		</StackPanel>
+		<DockPanel HorizontalAlignment="Left" Height="100" LastChildFill="False" Margin="339,388,0,0" VerticalAlignment="Top" Width="100"/>
 
 
 
