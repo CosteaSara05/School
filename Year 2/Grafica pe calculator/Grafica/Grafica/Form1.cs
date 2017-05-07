@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Grafica_Final
+namespace Grafica
 {
 	public partial class Form1 : Form
 	{
@@ -17,14 +17,12 @@ namespace Grafica_Final
 			InitializeComponent();
 		}
 
-		private void Form_Load(object sender, EventArgs e)
+		private void Form1_Load(object sender, EventArgs e)
 		{
 			Engine.resx = pictureBox.Width;
 			Engine.resy = pictureBox.Height;
 			Engine.InitGraph();
 			Engine.g.Clear(Color.ForestGreen);
-			Engine.initPoint();
-			Engine.draw();
 			pictureBox.Image = Engine.b;
 		}
 
@@ -49,7 +47,10 @@ namespace Grafica_Final
 
 		private void btnGenTri_Click(object sender, EventArgs e)
 		{
-			
+			if (tbDrawX.Text != "" && tbDrawY.Text != "")
+			{
+				drawTriunghi(Convert.ToInt32(tbDrawX.Text), Convert.ToInt32(tbDrawY.Text));
+			}
 		}
 
 		private void btnGenPat_Click(object sender, EventArgs e)

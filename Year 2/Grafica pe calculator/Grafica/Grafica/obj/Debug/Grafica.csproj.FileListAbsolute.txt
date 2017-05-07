@@ -1,0 +1,8 @@
+F:\Programing\Grafica\Grafica\bin\Debug\Grafica.exe.config
+F:\Programing\Grafica\Grafica\bin\Debug\Grafica.exe
+F:\Programing\Grafica\Grafica\bin\Debug\Grafica.pdb
+F:\Programing\Grafica\Grafica\obj\Debug\Grafica.Properties.Resources.resources
+F:\Programing\Grafica\Grafica\obj\Debug\Grafica.csproj.GenerateResource.Cache
+F:\Programing\Grafica\Grafica\obj\Debug\Grafica.exe
+F:\Programing\Grafica\Grafica\obj\Debug\Grafica.pdb
+F:\Programing\Grafica\Grafica\obj\Debug\Grafica.Form1.resources

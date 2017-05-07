@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Grafica Final")]
+[assembly: AssemblyTitle("Grafica")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Grafica Final")]
+[assembly: AssemblyProduct("Grafica")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a6c48be1-3651-4144-a680-567b3fc7a6c6")]
+[assembly: Guid("b67c660f-8efb-4c50-ab2b-ae0d76b68d96")]
 
 // Version information for an assembly consists of the following four values:
 //

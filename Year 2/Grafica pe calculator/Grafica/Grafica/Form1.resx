@@ -121,9 +121,9 @@
     <value>17, 17</value>
   </metadata>
   <data name="tbScalarea.Text" xml:space="preserve">
-    <value>SCALAREA  este transformare prin care un obiect este mărit sau micşorat. În cazul 2D scalarea este specificată prin două numere, numite factorul de scalare pe axa x , respectiv factorul de scalare pe axa y .Un factor de scalare supraunitar specifică o mărire, iar unul subunitar o micşorare. Sunt 2 tipuri de slacare:  Scalarea faţă de origine si  Scalarea faţă de un punct din plan.</value>
+    <value>Scalarea este transformare prin care un obiect este mărit sau micşorat. În cazul 2D scalarea este specificată prin două numere, numite factorul de scalare pe axa x , respectiv factorul de scalare pe axa y .Un factor de scalare supraunitar specifică o mărire, iar unul subunitar o micşorare. </value>
   </data>
   <data name="tbTranslatia.Text" xml:space="preserve">
-    <value>TRANSLATIA unei figuri geometrice reprezintă mişcarea tuturor componentelor ei pe o anumita distanţă si direcţie. Această transformare poate fi uşor caracterizată de un vector v = (dx, dy). Când vrem să translatăm un punct P(x, y) după v, e de ajuns să facem operaţia P’ = P + v. Astfel, P’ are cooronatele (x + dx, y + dy).</value>
+    <value>Translaţia unei figuri geometrice reprezintă mişcarea tuturor componentelor ei pe o anumita distanţă si direcţie. Această transformare poate fi uşor caracterizată de un vector v = (dx, dy). Când vrem să translatăm un punct P(x, y) după v, e de ajuns să facem operaţia P’ = P + v. Astfel, P’ are cooronatele (x + dx, y + dy).</value>
   </data>
 </root>

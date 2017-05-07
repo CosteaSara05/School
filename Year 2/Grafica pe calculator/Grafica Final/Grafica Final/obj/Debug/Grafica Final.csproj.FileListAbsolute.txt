@@ -1,9 +1,0 @@
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\bin\Debug\Grafica Final.exe.config
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\bin\Debug\Grafica Final.exe
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\bin\Debug\Grafica Final.pdb
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica Final.csprojResolveAssemblyReference.cache
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica_Final.Properties.Resources.resources
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica Final.csproj.GenerateResource.Cache
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica Final.exe
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica Final.pdb
-F:\Programing\School\Year 2\Grafica pe calculator\Grafica Final\Grafica Final\obj\Debug\Grafica_Final.Form1.resources

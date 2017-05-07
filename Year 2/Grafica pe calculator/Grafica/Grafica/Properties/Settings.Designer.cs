@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Grafica_Final.Properties
+namespace Grafica.Properties
 {
 
 

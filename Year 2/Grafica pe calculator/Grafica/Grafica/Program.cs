@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Grafica_Final
+namespace Grafica
 {
 	static class Program
 	{
@@ -16,7 +16,7 @@ namespace Grafica_Final
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new System.Windows.Forms.Form());
+			Application.Run(new Form1());
 		}
 	}
 }
