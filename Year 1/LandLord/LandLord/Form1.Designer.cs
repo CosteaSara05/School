@@ -301,7 +301,7 @@
 			this.AvNGPanel.Controls.Add(this.AvNGTB);
 			this.AvNGPanel.Controls.Add(this.NGCancelBtn);
 			this.AvNGPanel.Controls.Add(this.NGLeaveBtn);
-			this.AvNGPanel.Location = new System.Drawing.Point(508, 293);
+			this.AvNGPanel.Location = new System.Drawing.Point(537, 301);
 			this.AvNGPanel.Name = "AvNGPanel";
 			this.AvNGPanel.Size = new System.Drawing.Size(357, 117);
 			this.AvNGPanel.TabIndex = 11;
