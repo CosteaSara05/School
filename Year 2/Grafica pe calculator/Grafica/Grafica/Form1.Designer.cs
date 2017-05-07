@@ -39,7 +39,7 @@
 			this.btnGenDre = new System.Windows.Forms.Button();
 			this.btnGenTranslatie = new System.Windows.Forms.Button();
 			this.btnScalarPlan = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnScalarPunct = new System.Windows.Forms.Button();
 			this.tbDrawX = new System.Windows.Forms.TextBox();
 			this.tbDrawY = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
@@ -93,9 +93,9 @@
 			this.btnGenTri.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnGenTri.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnGenTri.ForeColor = System.Drawing.Color.Black;
-			this.btnGenTri.Location = new System.Drawing.Point(286, 26);
+			this.btnGenTri.Location = new System.Drawing.Point(286, 12);
 			this.btnGenTri.Name = "btnGenTri";
-			this.btnGenTri.Size = new System.Drawing.Size(65, 25);
+			this.btnGenTri.Size = new System.Drawing.Size(65, 53);
 			this.btnGenTri.TabIndex = 16;
 			this.btnGenTri.Text = "Triunghi";
 			this.toolTip.SetToolTip(this.btnGenTri, "Generare Triunghi");
@@ -109,9 +109,9 @@
 			this.btnGenPat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnGenPat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnGenPat.ForeColor = System.Drawing.Color.Black;
-			this.btnGenPat.Location = new System.Drawing.Point(351, 26);
+			this.btnGenPat.Location = new System.Drawing.Point(351, 12);
 			this.btnGenPat.Name = "btnGenPat";
-			this.btnGenPat.Size = new System.Drawing.Size(50, 25);
+			this.btnGenPat.Size = new System.Drawing.Size(50, 53);
 			this.btnGenPat.TabIndex = 17;
 			this.btnGenPat.Text = "Patrat";
 			this.toolTip.SetToolTip(this.btnGenPat, "Generare Patrat");
@@ -125,9 +125,9 @@
 			this.btnGenDre.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnGenDre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnGenDre.ForeColor = System.Drawing.Color.Black;
-			this.btnGenDre.Location = new System.Drawing.Point(401, 26);
+			this.btnGenDre.Location = new System.Drawing.Point(401, 12);
 			this.btnGenDre.Name = "btnGenDre";
-			this.btnGenDre.Size = new System.Drawing.Size(77, 25);
+			this.btnGenDre.Size = new System.Drawing.Size(77, 53);
 			this.btnGenDre.TabIndex = 18;
 			this.btnGenDre.Text = "Dreptunghi";
 			this.toolTip.SetToolTip(this.btnGenDre, "Generare Dreptunghi");
@@ -164,21 +164,23 @@
 			this.btnScalarPlan.Text = "Generare scalar in plan";
 			this.toolTip.SetToolTip(this.btnScalarPlan, "Translatarea formei");
 			this.btnScalarPlan.UseVisualStyleBackColor = false;
+			this.btnScalarPlan.Click += new System.EventHandler(this.btnScalarPlan_Click);
 			// 
-			// button1
+			// btnScalarPunct
 			// 
-			this.button1.BackColor = System.Drawing.Color.DarkCyan;
-			this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.ForeColor = System.Drawing.Color.Black;
-			this.button1.Location = new System.Drawing.Point(121, 0);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(115, 34);
-			this.button1.TabIndex = 21;
-			this.button1.Text = "Generare scalar in punct";
-			this.toolTip.SetToolTip(this.button1, "Translatarea formei");
-			this.button1.UseVisualStyleBackColor = false;
+			this.btnScalarPunct.BackColor = System.Drawing.Color.DarkCyan;
+			this.btnScalarPunct.Cursor = System.Windows.Forms.Cursors.Default;
+			this.btnScalarPunct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnScalarPunct.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnScalarPunct.ForeColor = System.Drawing.Color.Black;
+			this.btnScalarPunct.Location = new System.Drawing.Point(121, 0);
+			this.btnScalarPunct.Name = "btnScalarPunct";
+			this.btnScalarPunct.Size = new System.Drawing.Size(115, 34);
+			this.btnScalarPunct.TabIndex = 21;
+			this.btnScalarPunct.Text = "Generare scalar in punct";
+			this.toolTip.SetToolTip(this.btnScalarPunct, "Translatarea formei");
+			this.btnScalarPunct.UseVisualStyleBackColor = false;
+			this.btnScalarPunct.Click += new System.EventHandler(this.btnScalarPunct_Click);
 			// 
 			// tbDrawX
 			// 
@@ -239,7 +241,7 @@
 			this.AvInfoPanel.Controls.Add(this.btnClose);
 			this.AvInfoPanel.Location = new System.Drawing.Point(0, 165);
 			this.AvInfoPanel.Name = "AvInfoPanel";
-			this.AvInfoPanel.Size = new System.Drawing.Size(838, 165);
+			this.AvInfoPanel.Size = new System.Drawing.Size(838, 138);
 			this.AvInfoPanel.TabIndex = 12;
 			this.AvInfoPanel.Visible = false;
 			// 
@@ -279,7 +281,7 @@
 			this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnClose.ForeColor = System.Drawing.Color.Crimson;
-			this.btnClose.Location = new System.Drawing.Point(760, 142);
+			this.btnClose.Location = new System.Drawing.Point(760, 112);
 			this.btnClose.Name = "btnClose";
 			this.btnClose.Size = new System.Drawing.Size(75, 23);
 			this.btnClose.TabIndex = 4;
@@ -294,9 +296,9 @@
 			this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnInfo.ForeColor = System.Drawing.Color.Black;
-			this.btnInfo.Location = new System.Drawing.Point(214, 9);
+			this.btnInfo.Location = new System.Drawing.Point(214, 12);
 			this.btnInfo.Name = "btnInfo";
-			this.btnInfo.Size = new System.Drawing.Size(58, 32);
+			this.btnInfo.Size = new System.Drawing.Size(58, 53);
 			this.btnInfo.TabIndex = 13;
 			this.btnInfo.Text = "Info";
 			this.btnInfo.UseVisualStyleBackColor = false;
@@ -326,7 +328,7 @@
 			// tabPage2
 			// 
 			this.tabPage2.BackColor = System.Drawing.Color.AntiqueWhite;
-			this.tabPage2.Controls.Add(this.button1);
+			this.tabPage2.Controls.Add(this.btnScalarPunct);
 			this.tabPage2.Controls.Add(this.btnScalarPlan);
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
@@ -410,7 +412,7 @@
 	private System.Windows.Forms.Button btnGenPat;
 	private System.Windows.Forms.Button btnGenDre;
 	private System.Windows.Forms.Button btnGenTranslatie;
-	private System.Windows.Forms.Button button1;
+	private System.Windows.Forms.Button btnScalarPunct;
 	private System.Windows.Forms.Button btnScalarPlan;
 }
 }

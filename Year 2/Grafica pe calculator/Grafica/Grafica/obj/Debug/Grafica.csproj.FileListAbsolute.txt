@@ -6,3 +6,12 @@ F:\Programing\Grafica\Grafica\obj\Debug\Grafica.csproj.GenerateResource.Cache
 F:\Programing\Grafica\Grafica\obj\Debug\Grafica.exe
 F:\Programing\Grafica\Grafica\obj\Debug\Grafica.pdb
 F:\Programing\Grafica\Grafica\obj\Debug\Grafica.Form1.resources
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\bin\Debug\Grafica.exe.config
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\bin\Debug\Grafica.exe
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\bin\Debug\Grafica.pdb
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.Form1.resources
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.Properties.Resources.resources
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.csproj.GenerateResource.Cache
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.exe
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.pdb
+F:\Programing\School\Year 2\Grafica pe calculator\Grafica\Grafica\obj\Debug\Grafica.csprojResolveAssemblyReference.cache
