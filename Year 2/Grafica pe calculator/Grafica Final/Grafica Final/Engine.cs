@@ -23,10 +23,6 @@ namespace Grafica_Final
 		public static Random r = new Random();
 		public static void initPoint()
 		{
-			if ()
-			{
-
-			}
 				PointF New = new PointF(r.Next(resx), r.Next(resy));
 				myPoint.Add(New);
 		}

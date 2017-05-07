@@ -66,5 +66,16 @@ namespace Grafica_Final
 		{
 
 		}
+
+		public void drawTriunghi(int x, int y)
+		{
+			Point AB = new Point((x + 50 / 2), (y - 50 / 2));
+			Point AC = new Point((x - 50 / 2), (y - 50 / 2));
+			Point BC = new Point((x + 50 / 2), (y + 50 / 2));
+			PointF[] curvePoints = { AB, AC, BC };
+			System.Drawing.Drawing2D.FillMode newFillMode = System.Drawing.Drawing2D.FillMode.Winding;
+			SolidBrush blueBrush = new SolidBrush(Color.Blue);
+			Engine.g.FillPolygon(blueBrush, curvePoints, newFillMode);
+		}
 	}
 }
