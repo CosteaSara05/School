@@ -10,3 +10,8 @@ C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\
 C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\App.g.cs
 C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.cache
 C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.lref
+D:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.csprojResolveAssemblyReference.cache
+D:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\App.g.cs
+D:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.cache
+D:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\MainWindow.g.cs
+D:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord_MarkupCompile.lref
