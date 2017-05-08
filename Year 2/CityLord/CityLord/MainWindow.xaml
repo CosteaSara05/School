@@ -30,7 +30,7 @@
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Center" Width="442">
 				<Button x:Name="SearchPlayerBtn" Content="Search" Margin="50,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="SearchPlayerBtn_Click" FontWeight="Bold"/>
-				<ComboBox x:Name="PlayersListBoard" Width="120" Margin="10,5,0,5" Selected="PlayersListBoard_SelectedIndexChanged" FontWeight="Bold"/>
+				<ComboBox x:Name="PlayersListBoard" Width="120" Margin="10,5,0,5" FontWeight="Bold"/>
 			</StackPanel>
 			<Label x:Name="label11" Content="Daily Income:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,5" Width="99" FontWeight="Bold"/>
 			<TextBox x:Name="RenttextBox" TextWrapping="Wrap" Text="" Width="200" Background="SteelBlue" Margin="0,0" FontWeight="Bold"/>
