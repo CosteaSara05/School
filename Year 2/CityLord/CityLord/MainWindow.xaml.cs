@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace CityLord
 {
@@ -27,8 +28,13 @@ namespace CityLord
 			InitializeComponent();
 		}
 
+		public static DispatcherTimer Timeflow;
 		public int Money;
-		public static SolidColorBrush brush = new SolidColorBrush(Color.FromRgb(0, 176, 0));
+		public static Color green = Color.FromRgb(0, 176, 0);
+		public static Color black = Color.FromRgb(0, 0, 0);
+		public static Color blue = Color.FromRgb(0, 62, 206);
+		public static Color yellow = Color.FromRgb(232, 240, 0);
+		public static SolidColorBrush brush = new SolidColorBrush(green);
 		public Player owner;
 		private List<Building> OwnerProps = new List<Building>();
 		public static Random r = new Random();
@@ -145,26 +151,26 @@ namespace CityLord
 		private void QuitGameBtn_Click(object sender, EventArgs e)
 		{
 			AvQGPanel.Visibility = Visibility.Visible;
-			Timeflow.Enabled = false;
+			Timeflow.Stop();
 		}
 
 		private void newGamItem_Click(object sender, EventArgs e)
 		{
 			AvNGPanel.Visibility = Visibility.Visible;
-			Timeflow.Enabled = false;
+			Timeflow.Stop();
 		}
 
 		private void QuitGameItem_Click(object sender, EventArgs e)
 		{
 			AvQGPanel.Visibility = Visibility.Visible;
-			Timeflow.Enabled = false;
+			Timeflow.Stop();
 		}
 
 		private void NewGameBtn_Click(object sender, EventArgs e)
 		{
 			NewGameMenu.Visibility = Visibility.Visible;
 			StartMenu.Visibility = Visibility.Hidden;
-			Timeflow.Enabled = false;
+			Timeflow.Stop();
 		}
 
 		private void StartBtn_Click(object sender, EventArgs e)
@@ -189,7 +195,11 @@ namespace CityLord
 			MapGenerator();
 			progressBar1.PerformStep();
 			progressBar1.Visibility = Visibility.Hidden;
-			Timeflow.Enabled = true;
+			//Timeflow.Enabled = true;
+			Timeflow = new DispatcherTimer();
+			Timeflow.Tick += Timeflow_Tick;
+			Timeflow.Interval = new TimeSpan(0, 0, 1);
+			Timeflow.Start();
 			flowing = 0;
 			Flowinglbl.Visibility = Visibility.Visible;
 
@@ -198,68 +208,152 @@ namespace CityLord
 		private int InitialMoneyChooser()
 		{
 			if (InitialMoneyComboBox.SelectedIndex == 0)
+			{
 				return Money = 50000;
-			if (InitialMoneyComboBox.SelectedIndex == 1)
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 1)
+			{
 				return Money = 75000;
-			if (InitialMoneyComboBox.SelectedIndex == 2)
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 2)
+			{
 				return Money = 100000;
-			if (InitialMoneyComboBox.SelectedIndex == 3)
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 3)
+			{
 				return Money = 150000;
+			}
 			else
+			{
 				return 1000000;
+			}
 		}
 
 		private Color ColorChooser()
 		{
 			if (PlayerColorComboBox.SelectedIndex == 0)
-				return Color.Blue;
-			if (PlayerColorComboBox.SelectedIndex == 1)
-				return Color.Black;
-			if (PlayerColorComboBox.SelectedIndex == 2)
-				return Color.Green;
-			if (PlayerColorComboBox.SelectedIndex == 3)
-				return Color.Yellow;
+			{
+				return blue;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 1)
+			{
+				return black;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 2)
+			{
+				return green;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 3)
+			{
+				return yellow;
+			}
 			else
-				return Color.Blue;
+			{
+				return blue;
+			}
 		}
 
 		private void BuyColorChanger(Building item)
 		{
-			if ((owner.PlayerColor == Color.Blue) && (item.IndexImg == 1))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x1_Blue;
-			if ((owner.PlayerColor == Color.Blue) && (item.IndexImg == 2))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x2_Blue;
-			if ((owner.PlayerColor == Color.Blue) && (item.IndexImg == 3))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._2x1_Blue;
-			if ((owner.PlayerColor == Color.Black) && (item.IndexImg == 1))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x1_Black;
-			if ((owner.PlayerColor == Color.Black) && (item.IndexImg == 2))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x2_Black;
-			if ((owner.PlayerColor == Color.Black) && (item.IndexImg == 3))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._2x1_Black;
-			if ((owner.PlayerColor == Color.Green) && (item.IndexImg == 1))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x1_Green;
-			if ((owner.PlayerColor == Color.Green) && (item.IndexImg == 2))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x2_Green;
-			if ((owner.PlayerColor == Color.Green) && (item.IndexImg == 3))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._2x1_Green;
-			if ((owner.PlayerColor == Color.Yellow) && (item.IndexImg == 1))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x1_Yellow;
-			if ((owner.PlayerColor == Color.Yellow) && (item.IndexImg == 2))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x2_Yellow;
-			if ((owner.PlayerColor == Color.Yellow) && (item.IndexImg == 3))
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._2x1_Yellow;
+			if ((owner.PlayerColor == blue) && (item.IndexImg == 1))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x1_Blue;
+			if ((owner.PlayerColor == blue) && (item.IndexImg == 2))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x2_Blue;
+			if ((owner.PlayerColor == blue) && (item.IndexImg == 3))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._2x1_Blue;
+			if ((owner.PlayerColor == black) && (item.IndexImg == 1))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x1_Black;
+			if ((owner.PlayerColor == black) && (item.IndexImg == 2))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x2_Black;
+			if ((owner.PlayerColor == black) && (item.IndexImg == 3))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._2x1_Black;
+			if ((owner.PlayerColor == green) && (item.IndexImg == 1))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x1_Green;
+			if ((owner.PlayerColor == green) && (item.IndexImg == 2))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x2_Green;
+			if ((owner.PlayerColor == green) && (item.IndexImg == 3))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._2x1_Green;
+			if ((owner.PlayerColor == yellow) && (item.IndexImg == 1))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x1_Yellow;
+			if ((owner.PlayerColor == yellow) && (item.IndexImg == 2))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x2_Yellow;
+			if ((owner.PlayerColor == yellow) && (item.IndexImg == 3))
+			{
+
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._2x1_Yellow;
 
 		}
 
 		private void SellColorChanger(Building item)
 		{
+			Image image = (Image)item.IMG.Children[0];
 			if (item.IndexImg == 1)
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x1_White;
+			{
+				Assembly asm = Assembly.GetExecutingAssembly();
+				Stream iconStream = asm.GetManifestResourceStream("1x1-White.png");
+				PngBitmapDecoder iconDecoder = new PngBitmapDecoder(iconStream, BitmapCreateOptions.PreservePixelFormat, BitmapCacheOption.Default);
+				ImageSource iconSource = iconDecoder.Frames[0];
+				image.Source = iconSource;
+				image.Stretch = Stretch.Fill;
+				item.IMG.Children[0] = image;
+				//item.IMG.Background = Properties.Resources._1x1_White;
+			}
 			if (item.IndexImg == 2)
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._1x2_White;
+			{
+				Assembly asm = Assembly.GetExecutingAssembly();
+				Stream iconStream = asm.GetManifestResourceStream("1x2-White.png");
+				PngBitmapDecoder iconDecoder = new PngBitmapDecoder(iconStream, BitmapCreateOptions.PreservePixelFormat, BitmapCacheOption.Default);
+				ImageSource iconSource = iconDecoder.Frames[0];
+				image.Source = iconSource;
+				image.Stretch = Stretch.Fill;
+				item.IMG.Children[0] = image;
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._1x2_White;
 			if (item.IndexImg == 3)
-				item.IMG.BackgroundCanvas = CityLord.Properties.Resources._2x1_White;
+			{
+				Assembly asm = Assembly.GetExecutingAssembly();
+				Stream iconStream = asm.GetManifestResourceStream("2x1-White.png");
+				PngBitmapDecoder iconDecoder = new PngBitmapDecoder(iconStream, BitmapCreateOptions.PreservePixelFormat, BitmapCacheOption.Default);
+				ImageSource iconSource = iconDecoder.Frames[0];
+				image.Source = iconSource;
+				image.Stretch = Stretch.Fill;
+				item.IMG.Children[0] = image;
+			}
+				//item.IMG.BackgroundCanvas = Properties.Resources._2x1_White;
 		}
 
 		void Grass_Click(object sender, EventArgs e)
@@ -268,7 +362,7 @@ namespace CityLord
 			foreach (var item in CanvasList)
 			{
 				DecisionBuyPanel.Visibility = Visibility.Hidden;
-				item.BorderStyle = BorderStyle.FixedSingle;
+				//item.BorderStyle = BorderStyle.FixedSingle;
 			}
 		}
 
@@ -276,29 +370,33 @@ namespace CityLord
 		{
 			Canvas clickedBuilding = sender as Canvas;
 			foreach (var item in BuildingList)
+			{
 				if (item.IMG == clickedBuilding)
 				{
 					DecisionSuccessBoughtPanel.Visibility = Visibility.Hidden;
 					DecisionSuccessSoldPanel.Visibility = Visibility.Hidden;
 					DecisionNoMoneyPanel.Visibility = Visibility.Hidden;
 					item.IsClicked = true;
-					item.IMG.BorderStyle = BorderStyle.Fixed3D;
+					//item.IMG.BorderStyle = BorderStyle.Fixed3D;
 					if (!item.IsBought)
 					{
 						DecisionBuyPanel.Visibility = Visibility.Visible;
-						BuildingBuyValueLbl.Text = item.price.ToString();
+						BuildingBuyValueLbl.Content = item.price.ToString();
 						DecisionSellPanel.Visibility = Visibility.Hidden;
 					}
 					else
 					{
 						DecisionBuyPanel.Visibility = Visibility.Hidden;
 						DecisionSellPanel.Visibility = Visibility.Visible;
-						BuildingActualPriceLbl.Text = item.price.ToString();
-						BuildingSellValueLbl.Text = ((int)(item.price) * 0.9).ToString();
+						BuildingActualPriceLbl.Content = item.price.ToString();
+						BuildingSellValueLbl.Content = (item.price * 0.9).ToString();
 					}
 				}
 				else
-					item.IMG.BorderStyle = BorderStyle.FixedSingle;
+				{
+					//item.IMG.BorderStyle = BorderStyle.FixedSingle;
+				}
+			}
 		}
 
 		private void QGLeaveBtn_Click(object sender, EventArgs e)
@@ -314,14 +412,18 @@ namespace CityLord
 			AvQGPanel.Visibility = Visibility.Hidden;
 			StartMenu.Visibility = Visibility.Visible;
 			for (int i = 0; i < BorGsL - 5; i++)
+			{
 				for (int j = 0; j < BorGsL; j++)
+				{
 					BorGs[i, j].Visibility = Visibility.Hidden;
+				}
+			}
 		}
 
 		private void CancelBtn_Click(object sender, EventArgs e)
 		{
 			AvQGPanel.Visibility = Visibility.Hidden;
-			Timeflow.Enabled = true;
+			Timeflow.Start();
 			WONpanel.Visibility = Visibility.Hidden;
 		}
 
@@ -338,21 +440,25 @@ namespace CityLord
 			AvNGPanel.Visibility = Visibility.Hidden;
 			NewGameMenu.Visibility = Visibility.Visible;
 			for (int i = 0; i < BorGsL - 5; i++)
+			{
 				for (int j = 0; j < BorGsL; j++)
+				{
 					BorGs[i, j].Visibility = Visibility.Hidden;
+				}
+			}
 		}
 
 		private void NGCancelBtn_Click(object sender, EventArgs e)
 		{
 			AvNGPanel.Visibility = Visibility.Hidden;
-			Timeflow.Enabled = true;
+			Timeflow.Start();
 		}
 
 		private void BuyBtn_Click(object sender, EventArgs e)
 		{
 			foreach (var item in BuildingList)
 			{
-				if ((item.IsClicked) && (item.IMG.BorderStyle == BorderStyle.Fixed3D))
+				if ((item.IsClicked))// && (item.IMG.BorderStyle == BorderStyle.Fixed3D))
 				{
 					item.IsClicked = false;
 					if (owner.Money >= item.price)
@@ -361,7 +467,7 @@ namespace CityLord
 						item.IsClicked = false;
 						owner.Money -= item.price;
 						BuyColorChanger(item);
-						OwnerLbl1.Text = owner.Name;
+						OwnerLbl1.Content = owner.Name;
 						item.Owner = owner;
 						OwnerProps.Add(item);
 						DecisionSuccessBoughtPanel.Visibility = Visibility.Visible;
@@ -383,12 +489,12 @@ namespace CityLord
 			if (All == TotalBuildings)
 			{
 				textBox50.Visibility = Visibility.Hidden;
-				Timeflow.Enabled = false;
+				Timeflow.Stop();
 				textBoxYW.Visibility = Visibility.Visible;
 				WONpanel.Visibility = Visibility.Visible;
 				AvQGPanel.Visibility = Visibility.Visible;
 			}
-			MoneyDisplaylabel.Text = owner.Money.ToString();
+			MoneyDisplaylabel.Content = owner.Money.ToString();
 		}
 
 		private void ExitApIMGtn_Click(object sender, EventArgs e)
@@ -399,7 +505,8 @@ namespace CityLord
 		private void SellBtn_Click(object sender, EventArgs e)
 		{
 			foreach (var item in BuildingList)
-				if (item.IsClicked && item.IsBought && (item.IMG.BorderStyle == BorderStyle.Fixed3D))
+			{
+				if (item.IsClicked && item.IsBought)// && (item.IMG.BorderStyle == BorderStyle.Fixed3D))
 				{
 					item.IsBought = false;
 					item.IsClicked = false;
@@ -409,13 +516,15 @@ namespace CityLord
 					DecisionSuccessBoughtPanel.Visibility = Visibility.Hidden;
 					DecisionSuccessSoldPanel.Visibility = Visibility.Visible;
 					DecisionSellPanel.Visibility = Visibility.Hidden;
-					OwnerLbl2.Text = "Nobody";
+					OwnerLbl2.Content = "Nobody";
 				}
-			MoneyDisplaylabel.Text = owner.Money.ToString();
+			}
+			MoneyDisplaylabel.Content = owner.Money.ToString();
 		}
 
 		private void CentralBoard_SelectedIndexChanged(object sender, EventArgs e)
 		{
+
 		}
 
 		private void PlayersListBoard_SelectedIndexChanged(object sender, EventArgs e)
@@ -425,7 +534,7 @@ namespace CityLord
 
 		private void SearchPlayerBtn_Click(object sender, EventArgs e)
 		{
-			CentralBoard.Clear();
+			CentralBoard.Items.Clear();
 			//ViewBase view = new ViewBase();
 			//CentralBoard.View = view;
 			if (PlayersListBoard.Text == owner.Name)
@@ -438,9 +547,7 @@ namespace CityLord
 					value += props.price;
 				CentralBoard.Items.Add("Value of the empire: " + value);
 			}
-
 		}
-
 
 		#endregion
 
@@ -459,42 +566,47 @@ namespace CityLord
 			PlayerColorComboBox.SelectedIndex = 0;
 			PNameTextBox.Text = "Player1";
 			flowing = 0;
-			Flowinglbl.Text = flowing.ToString();
+			Flowinglbl.Content = flowing.ToString();
 		}
 
 		private void Timeflow_Tick(object sender, EventArgs e)
 		{
 			flowing++;
 			int Timposit, Trent;
-			Flowinglbl.Text = flowing.ToString();
+			Flowinglbl.Content = flowing.ToString();
 			Trent = 0;
 			foreach (Building item in BuildingList)
-				if ((item.IMG.BackColor != Color.Green) && (item.Owner != null))
+			{
+				Image image = (Image)item.IMG.Children[0];
+				if ((item.IMG.Background != Green) && (item.Owner != null))
 				{
 					Rent = (int)(item.price * 0.005);
 					item.Owner.Money += Rent;
-					MoneyDisplaylabel.Text = owner.Money.ToString();
+					MoneyDisplaylabel.Content = owner.Money.ToString();
 					DecisionSuccessSoldPanel.Visibility = Visibility.Hidden;
 					DecisionSuccessBoughtPanel.Visibility = Visibility.Hidden;
 					DecisionNoMoneyPanel.Visibility = Visibility.Hidden;
 					Trent += Rent;
 				}
+			}
 			RenttextBox.Clear();
 			RenttextBox.Text += "+" + Trent.ToString();
 			if (flowing % 7 == 0)
 			{
 				Timposit = 0;
 				foreach (Building item in BuildingList)
-					if ((item.IMG.BackColor != Color.Green) && (item.Owner != null))
+				{
+					if ((item.IMG.BackColor != green) && (item.Owner != null))
 					{
 						Imposit = (int)(r.Next(20, 51) * 0.3 * item.Owner.PlayerProps.Count);
 						item.Owner.Money -= Imposit;
-						MoneyDisplaylabel.Text = owner.Money.ToString();
+						MoneyDisplaylabel.Content = owner.Money.ToString();
 						DecisionBuyPanel.Visibility = Visibility.Hidden;
 						DecisionSellPanel.Visibility = Visibility.Hidden;
 						WONpanel.Visibility = Visibility.Hidden;
 						Timposit += Imposit;
 					}
+				}
 				Timposit /= 7;
 				ImpositstextBox.Text += "-" + Timposit.ToString() + "\r\n";
 			}
