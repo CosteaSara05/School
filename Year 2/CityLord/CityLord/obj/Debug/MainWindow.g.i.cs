@@ -244,6 +244,28 @@ namespace CityLord
 		internal System.Windows.Controls.StackPanel WONpanel;
 		internal System.Windows.Controls.TextBox textBoxYW;
 		internal System.Windows.Controls.TextBox textBox50;
+		internal System.Windows.Controls.StackPanel DecisionNoMoneyPanel;
+		internal System.Windows.Controls.TextBox textBox3;
+		internal System.Windows.Controls.StackPanel DecisionSuccessBoughtPanel;
+		internal System.Windows.Controls.TextBox textBox2;
+		internal System.Windows.Controls.StackPanel DecisionSuccessSoldPanel;
+		internal System.Windows.Controls.TextBox textBox1;
+		internal System.Windows.Controls.StackPanel DecisionSellPanel;
+		internal System.Windows.Controls.TextBox ItemBoughtBox;
+		internal System.Windows.Controls.Button SellBtn;
+		internal System.Windows.Controls.Label Label2;
+		internal System.Windows.Controls.Label BuildingActualPriceLbl;
+		internal System.Windows.Controls.Label Sell;
+		internal System.Windows.Controls.Label BuildingSellValueLbl;
+		internal System.Windows.Controls.Label Label5;
+		internal System.Windows.Controls.Label OwnerLbl1;
+		internal System.Windows.Controls.StackPanel DecisionBuyPanel;
+		internal System.Windows.Controls.Label Label7;
+		internal System.Windows.Controls.Label OwnerLbl2;
+		internal System.Windows.Controls.TextBox DecisionBuyBox;
+		internal System.Windows.Controls.Label Label1;
+		internal System.Windows.Controls.Label BuildingBuyValueLbl;
+		internal System.Windows.Controls.Button BuyBtn;
 	}
 }
 
