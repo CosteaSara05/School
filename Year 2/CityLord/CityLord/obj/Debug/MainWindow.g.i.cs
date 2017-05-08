@@ -222,6 +222,28 @@ namespace CityLord
 		internal System.Windows.Controls.Label MoneyDisplaylabel;
 		internal System.Windows.Controls.Label Moneylabel;
 		internal System.Windows.Controls.StackPanel GameMenu;
+		internal System.Windows.Controls.Button SearchPlayerBtn;
+		internal System.Windows.Controls.ComboBox PlayersListBoard;
+		internal System.Windows.Controls.Label Label9;
+		internal System.Windows.Controls.Label Flowinglbl;
+		internal System.Windows.Controls.Label label11;
+		internal System.Windows.Controls.TextBox RenttextBox;
+		internal System.Windows.Controls.Label label10;
+		internal System.Windows.Controls.TextBox ImpositstextBox;
+		internal System.Windows.Controls.ListView CentralBoard;
+		internal System.Windows.Controls.Button QuitGameBtn;
+		internal System.Windows.Controls.ProgressBar progressBar1;
+		internal System.Windows.Controls.StackPanel AvNGPanel;
+		internal System.Windows.Controls.Button NGLeaveBtn;
+		internal System.Windows.Controls.Button NGCancelBtn;
+		internal System.Windows.Controls.TextBox AvNGTB;
+		internal System.Windows.Controls.StackPanel AvQGPanel;
+		internal System.Windows.Controls.TextBox AvQGTB;
+		internal System.Windows.Controls.Button QGLeaveBtn;
+		internal System.Windows.Controls.Button QGCancelBtn;
+		internal System.Windows.Controls.StackPanel WONpanel;
+		internal System.Windows.Controls.TextBox textBoxYW;
+		internal System.Windows.Controls.TextBox textBox50;
 	}
 }
 

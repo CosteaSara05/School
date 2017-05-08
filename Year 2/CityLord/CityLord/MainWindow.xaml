@@ -20,13 +20,58 @@
 			<Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click=""/>
 		</StackPanel>
 		<StackPanel x:Name="GameMenu" HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
-			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="215">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="442">
 				<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="100,0,0,10" Width="24"/>
 				<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Margin="0,0,0,10" Width="90"/>
 			</StackPanel>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Center" Width="442">
+				<Label x:Name="Label9" Content="Day:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="75,0,0,10" Width="43"/>
+				<Label x:Name="Flowinglbl" Content="Time" Visibility="Hidden" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="10,0,0,10" Width="43"/>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Center" Width="442">
+				<Button x:Name="SearchPlayerBtn" Content="Search" Margin="50,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="SearchPlayerBtn_Click"/>
+				<ComboBox x:Name="PlayersListBoard" Width="120" Margin="10,5,0,5" Selected="PlayersListBoard_SelectedIndexChanged"/>
+			</StackPanel>
+			<Label x:Name="label11" Content="Daily Income:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,5" Width="99"/>
+			<TextBox x:Name="RenttextBox" TextWrapping="Wrap" Text="" Width="200" Background="SteelBlue" Margin="0,0"/>
+			<Label x:Name="label10" Content="Daily Imposit:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="174,0,169,5" Width="99"/>
+			<TextBox x:Name="ImpositstextBox" TextWrapping="Wrap" Text=""  Width="200" Background="SteelBlue" Margin="121,0" Height="120"/>
+			<ListView x:Name="CentralBoard" Width="200" Height="200" Margin="0,10,0,0">
+				<ListView.View>
+					<GridView>
+						<GridViewColumn/>
+					</GridView>
+				</ListView.View>
+			</ListView>
+			<Button x:Name="QuitGameBtn" Content="Quit Game" Margin="360,22,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="QuitGameBtn_Click"/>
 		</StackPanel>
-		<DockPanel HorizontalAlignment="Left" Height="100" LastChildFill="False" Margin="339,388,0,0" VerticalAlignment="Top" Width="100"/>
-
+		<ProgressBar x:Name="progressBar1" Visibility="Hidden" HorizontalAlignment="Left" Height="20" Margin="444,428,0,0" VerticalAlignment="Top" Width="1000"/>
+		<StackPanel x:Name="AvNGPanel" HorizontalAlignment="Left" Height="118" Background="Red" Margin="775,448,0,0" VerticalAlignment="Top" Width="357">
+			<StackPanel Height="70">
+				<TextBox x:Name="AvNGTB" Text="ARE YOU SURE YOU WANT TO START A NEW GAME?" Background="Transparent" Foreground="White" Margin="20" TextAlignment="Center" IsReadOnly="True"/>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" Height="30">
+				<Button x:Name="NGLeaveBtn" Content="New" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="NGLeaveBtn_Click"/>
+				<Button x:Name="NGCancelBtn" Content="Cancel" Margin="190,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="NGCancelBtn_Click"/>
+			</StackPanel>
+		</StackPanel>
+		<StackPanel x:Name="AvQGPanel"  HorizontalAlignment="Left" Height="117" Background="Red" Margin="775,575,0,0" VerticalAlignment="Top" Width="357">
+			<StackPanel Height="70">
+				<TextBox x:Name="AvQGTB" Text="ARE YOU SURE YOU WANT TO QUIT?" Background="Transparent" Foreground="White" Margin="20" TextAlignment="Center" IsReadOnly="True"/>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" Height="30">
+				<Button x:Name="QGLeaveBtn" Content="Leave" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="QGLeaveBtn_Click"/>
+				<Button x:Name="QGCancelBtn" Content="Cancel" Margin="190,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="QGCancelBtn_Click"/>
+			</StackPanel>
+		</StackPanel>
+		<StackPanel x:Name="WONpanel" HorizontalAlignment="Left" Height="117" Background="Red" Margin="775,735,0,0" VerticalAlignment="Top" Width="357">
+			<TextBox x:Name="textBoxYW" Visibility="Hidden" Text="YOU WON" Background="Transparent" Foreground="White" Margin="20,30,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24"/>
+			<TextBox x:Name="textBox50" Visibility="Hidden" Text="You own 50% of all buildings" Background="Transparent" Foreground="White" Margin="10,-20,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24"/>
+		</StackPanel>
+		<!--<StackPanel x:Name="WONpanel" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="Red" Margin="775,575,0,0" VerticalAlignment="Top" Width="357">
+			<TextBox x:Name="textBoxYW" Visibility="Hidden" Text="YOU WON" Background="Transparent" Foreground="White" Margin="20,30,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24"/>
+			<TextBox x:Name="textBox50" Visibility="Hidden" Text="You own 50% of all buildings" Background="Transparent" Foreground="White" Margin="10,-20,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24"/>
+		</StackPanel>-->
 
 
 	</Grid>
