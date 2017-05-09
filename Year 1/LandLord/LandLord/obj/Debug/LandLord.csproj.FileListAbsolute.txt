@@ -19,3 +19,12 @@ D:\Programing\Programming\test - C#\LandLord\LandLord\obj\Debug\LandLord.csproj.
 C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\bin\Debug\LandLord.exe.config
 C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.exe
 C:\@work\@David Dulau\Neubie Projects\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.pdb
+F:\Programing\School\Year 1\LandLord\LandLord\bin\Debug\LandLord.exe.config
+F:\Programing\School\Year 1\LandLord\LandLord\bin\Debug\LandLord.exe
+F:\Programing\School\Year 1\LandLord\LandLord\bin\Debug\LandLord.pdb
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.csprojResolveAssemblyReference.cache
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.Form1.resources
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.Properties.Resources.resources
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.csproj.GenerateResource.Cache
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.exe
+F:\Programing\School\Year 1\LandLord\LandLord\obj\Debug\LandLord.pdb

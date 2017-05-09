@@ -4,12 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityLord"
+		WindowStyle="None" ResizeMode="NoResize"
+		WindowStartupLocation="CenterScreen" 
         mc:Ignorable="d"
-        Title="CityLord" Height="1080" Width="1920" Loaded="Window_Loaded">
+        Title="CityLord" Height="1080" Width="1920" Loaded="Window_Loaded" MinWidth="1920" MinHeight="1075">
 	<Grid Background="Wheat">
-		<StackPanel x:Name="StartMenu" HorizontalAlignment="Left" Height="1050" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray"/>
-		<Button x:Name="NewGameBtn" Content="New" HorizontalAlignment="Left" Margin="915,135,0,0" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="NewGameBtn_Click" FontWeight="Bold"/>
-		<Button x:Name="ExitApIMGtn" Content="Exit Game" HorizontalAlignment="Left" Margin="915,907,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="0.16,12.174" Background="CadetBlue" Foreground="Crimson" Click="ExitApIMGtn_Click" FontWeight="Bold"/>
+		<StackPanel x:Name="StartMenu" HorizontalAlignment="Left" Height="1080" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray">
+			<Button x:Name="NewGameBtn" Content="New" HorizontalAlignment="Left" Margin="15,135,0,0" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="NewGameBtn_Click" FontWeight="Bold"/>
+			<Button x:Name="ExitAppBtn" Content="Exit Game" HorizontalAlignment="Left" Margin="15,800,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="0.16,12.174" Background="CadetBlue" Foreground="Crimson" Click="ExitAppBtn_Click" FontWeight="Bold"/>
+		</StackPanel>
 		<StackPanel x:Name="NewGameMenu" HorizontalAlignment="Left" Height="202" Margin="868,453,0,0" VerticalAlignment="Top" Width="175" Background="WhiteSmoke" Visibility="Hidden">
 			<Label x:Name="label6" Content="Player Name:" Foreground="Crimson" Width="80" Height="26" Margin="48,0,47,0" FontWeight="Bold"/>
 			<TextBox x:Name="PNameTextBox" Height="20" Width="100" TextWrapping="Wrap" Text="" Margin="38,0,37,0" FontWeight="Bold"/>
@@ -17,9 +20,9 @@
 			<ComboBox x:Name="PlayerColorComboBox" Width="100" Height="21" Background="White" FontWeight="Bold"/>
 			<Label x:Name="label3" Content="Player Money:" Foreground="Crimson" Width="90" Height="26" Margin="40,0,47,0" FontWeight="Bold"/>
 			<ComboBox x:Name="InitialMoneyComboBox" Width="100" Height="21" Background="White" FontWeight="Bold"/>
-			<Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="StartBtn_Click" FontWeight="Bold"/>
+			<Button x:Name="StartBtn"  Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="StartBtn_Click" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="GameMenu" Visibility="Hidden" HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
+		<StackPanel x:Name="GameMenu" Visibility="Hidden" Background="YellowGreen" HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="442">
 				<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="100,0,0,10" Width="24" FontWeight="Bold"/>
 				<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Margin="0,0,0,10" Width="90" FontWeight="Bold"/>
@@ -36,7 +39,7 @@
 			<TextBox x:Name="RenttextBox" TextWrapping="Wrap" Text="" Width="200" Background="SteelBlue" Margin="0,0" FontWeight="Bold"/>
 			<Label x:Name="label10" Content="Daily Imposit:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="174,0,169,5" Width="99" FontWeight="Bold"/>
 			<TextBox x:Name="ImpositstextBox" TextWrapping="Wrap" Text=""  Width="200" Background="SteelBlue" Margin="121,0" Height="120" FontWeight="Bold"/>
-			<ListView x:Name="CentralBoard" Width="200" Height="200" Margin="0,10,0,0">
+			<ListView x:Name="CentralBoard" Width="200" Height="170" Margin="0,10,0,0">
 				<ListView.View>
 					<GridView>
 						<GridViewColumn/>

@@ -10,14 +10,14 @@ namespace CityLord
 	public class Building
 	{
 		public static int DrawSize;
-		public Canvas IMG;
+		public Button IMG;
 		public int price;
 		public bool IsBought;
 		public bool IsClicked;
 		public int IndexImg;
 		public Player Owner;
 		public int Number;
-		public Building(Canvas IMG, int price, bool IsBought, bool IsClicked, int IndexImg, Player Owner, int Number)
+		public Building(Button IMG, int price, bool IsBought, bool IsClicked, int IndexImg, Player Owner, int Number)
 		{
 			this.IMG = IMG;
 			this.price = price;
