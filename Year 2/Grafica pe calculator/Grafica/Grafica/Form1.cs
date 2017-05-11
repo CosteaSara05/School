@@ -13,8 +13,8 @@ namespace Grafica
 	public partial class Form1 : Form
 	{
 		public static string DrownForm;
-		private static int drawX;
-		private static int drawY;
+		public static int drawX;
+		public static int drawY;
 		public enum Forms
 		{
 			None = 0,
@@ -27,7 +27,7 @@ namespace Grafica
 			InitializeComponent();
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
+		public void Form1_Load(object sender, EventArgs e)
 		{
 			Engine.resx = pictureBox.Width;
 			Engine.resy = pictureBox.Height;
@@ -39,7 +39,7 @@ namespace Grafica
 
 		#region Butons
 
-		private void btnClear_Click(object sender, EventArgs e)
+		public void btnClear_Click(object sender, EventArgs e)
 		{
 			Engine.g.Clear(Color.ForestGreen);
 			pictureBox.Image = Engine.b;
@@ -48,17 +48,17 @@ namespace Grafica
 			drawY = 0;
 		}
 
-		private void btnInfo_Click(object sender, EventArgs e)
+		public void btnInfo_Click(object sender, EventArgs e)
 		{
 			AvInfoPanel.Visible = true;
 		}
 
-		private void btnClose_Click(object sender, EventArgs e)
+		public void btnClose_Click(object sender, EventArgs e)
 		{
 			AvInfoPanel.Visible = false;
 		}
 
-		private void btnGenTri_Click(object sender, EventArgs e)
+		public void btnGenTri_Click(object sender, EventArgs e)
 		{
 			if (tbDrawX.Text != "" && tbDrawY.Text != "" && DrownForm == Forms.None.ToString())
 			{
@@ -83,7 +83,7 @@ namespace Grafica
 			pictureBox.Image = Engine.b;
 		}
 
-		private void btnGenPat_Click(object sender, EventArgs e)
+		public void btnGenPat_Click(object sender, EventArgs e)
 		{
 			if (tbDrawX.Text != "" && tbDrawY.Text != "" && DrownForm == Forms.None.ToString())
 			{
@@ -108,7 +108,7 @@ namespace Grafica
 			pictureBox.Image = Engine.b;
 		}
 
-		private void btnGenDre_Click(object sender, EventArgs e)
+		public void btnGenDre_Click(object sender, EventArgs e)
 		{
 			if (tbDrawX.Text != "" && tbDrawY.Text != "" && DrownForm == Forms.None.ToString())
 			{
@@ -133,7 +133,7 @@ namespace Grafica
 			pictureBox.Image = Engine.b;
 		}
 
-		private void btnGenTranslatie_Click(object sender, EventArgs e)
+		public void btnGenTranslatie_Click(object sender, EventArgs e)
 		{
 			if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
 			{
@@ -168,17 +168,103 @@ namespace Grafica
 			pictureBox.Image = Engine.b;
 		}
 
-		private void btnScalarPlan_Click(object sender, EventArgs e)
+		public void btnScalar_Click(object sender, EventArgs e)
 		{
-
+			if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
+			{
+				if (DrownForm == Forms.Triunghi.ToString())
+				{
+					scalareTriunghi(drawX, drawY);
+				}
+				else if (DrownForm == Forms.Patrat.ToString())
+				{
+					scalarePatrat(drawX, drawY);
+				}
+				else if (DrownForm == Forms.Dreptunghi.ToString())
+				{
+					scalareDreptunghi(drawX, drawY);
+				}
+			}
+			else
+			{
+				if (tbNewX.Text == "")
+				{
+					MessageBox.Show("Introduce Sx");
+				}
+				else if (tbNewY.Text == "")
+				{
+					MessageBox.Show("Introduce Sy");
+				}
+				else if (DrownForm == Forms.None.ToString())
+				{
+					MessageBox.Show("Deseneaza o forma");
+				}
+			}
+			pictureBox.Image = Engine.b;
 		}
 
-		private void btnScalarPunct_Click(object sender, EventArgs e)
+		public void tabPage_Click(object sender, System.EventArgs e)
 		{
+			label3.Text = "Sy:";
+			label4.Text = "Sx:";
+			tbNewX.Clear();
+			tbNewY.Clear();
+		}
 
+		public void tabPage2_Click(object sender, System.EventArgs e)
+		{
+			label3.Text = "Y:";
+			label4.Text = "X";
+			tbNewX.Clear();
+			tbNewY.Clear();
 		}
 
 		#endregion
+
+		public void scalareDreptunghi(double x, double y)
+		{
+			if (Convert.ToDouble(tbNewX.Text) > 2 && Convert.ToDouble(tbNewY.Text) > 2)
+			{
+				MessageBox.Show("Dimensiunea este prea mare");
+			}
+			else
+			{
+				Rectangle rect = new Rectangle((int)((x - 35)), (int)((y - 50)), (int)(50 * Convert.ToDouble(tbNewX.Text)), (int)(100 * Convert.ToDouble(tbNewY.Text)));
+				SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(128, 215, 0, 0));
+				Engine.g.FillRectangle(semiTransBrush, rect);
+			}
+		}
+
+		public void scalarePatrat(double x, double y)
+		{
+			if (Convert.ToDouble(tbNewX.Text) > 2 && Convert.ToDouble(tbNewY.Text) > 2)
+			{
+				MessageBox.Show("Dimensiunea este prea mare");
+			}
+			else
+			{
+				Rectangle rect = new Rectangle((int)((x - 40)), (int)((y - 40)), (int)(75 * Convert.ToDouble(tbNewX.Text)), (int)(75 * Convert.ToDouble(tbNewY.Text)));
+				SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(128, 215, 0, 0));
+				Engine.g.FillRectangle(semiTransBrush, rect);
+			}
+		}
+
+		public void scalareTriunghi(double x, double y)
+		{
+			if (Convert.ToDouble(tbNewX.Text) > 2 && Convert.ToDouble(tbNewY.Text) > 2)
+			{
+				MessageBox.Show("Dimensiunea este prea mare");
+			}
+			else
+			{
+				Point AB = new Point((int)((x + 50) * Convert.ToDouble(tbNewX.Text)), (int)((y - 50)));
+				Point AC = new Point((int)((x - 50) * Convert.ToDouble(tbNewX.Text)), (int)(y - 50));
+				Point BC = new Point((int)((x + 50) * Convert.ToDouble(tbNewX.Text)), (int)((y + 50)));
+				PointF[] curvePoints = { AB, AC, BC };
+				SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(128, 215, 0, 0));
+				Engine.g.FillPolygon(semiTransBrush, curvePoints);
+			}
+		}
 
 		public void translatieTriunghi (int x, int y)
 		{
@@ -234,5 +320,6 @@ namespace Grafica
 			drawX = x;
 			drawY = y;
 		}
+
 	}
 }

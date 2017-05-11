@@ -38,8 +38,7 @@
 			this.btnGenPat = new System.Windows.Forms.Button();
 			this.btnGenDre = new System.Windows.Forms.Button();
 			this.btnGenTranslatie = new System.Windows.Forms.Button();
-			this.btnScalarPlan = new System.Windows.Forms.Button();
-			this.btnScalarPunct = new System.Windows.Forms.Button();
+			this.btnScalar = new System.Windows.Forms.Button();
 			this.tbDrawX = new System.Windows.Forms.TextBox();
 			this.tbDrawY = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
@@ -150,37 +149,21 @@
 			this.btnGenTranslatie.UseVisualStyleBackColor = false;
 			this.btnGenTranslatie.Click += new System.EventHandler(this.btnGenTranslatie_Click);
 			// 
-			// btnScalarPlan
+			// btnScalar
 			// 
-			this.btnScalarPlan.BackColor = System.Drawing.Color.DarkCyan;
-			this.btnScalarPlan.Cursor = System.Windows.Forms.Cursors.Default;
-			this.btnScalarPlan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnScalarPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnScalarPlan.ForeColor = System.Drawing.Color.Black;
-			this.btnScalarPlan.Location = new System.Drawing.Point(0, 0);
-			this.btnScalarPlan.Name = "btnScalarPlan";
-			this.btnScalarPlan.Size = new System.Drawing.Size(121, 34);
-			this.btnScalarPlan.TabIndex = 20;
-			this.btnScalarPlan.Text = "Generare scalar in plan";
-			this.toolTip.SetToolTip(this.btnScalarPlan, "Translatarea formei");
-			this.btnScalarPlan.UseVisualStyleBackColor = false;
-			this.btnScalarPlan.Click += new System.EventHandler(this.btnScalarPlan_Click);
-			// 
-			// btnScalarPunct
-			// 
-			this.btnScalarPunct.BackColor = System.Drawing.Color.DarkCyan;
-			this.btnScalarPunct.Cursor = System.Windows.Forms.Cursors.Default;
-			this.btnScalarPunct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnScalarPunct.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnScalarPunct.ForeColor = System.Drawing.Color.Black;
-			this.btnScalarPunct.Location = new System.Drawing.Point(121, 0);
-			this.btnScalarPunct.Name = "btnScalarPunct";
-			this.btnScalarPunct.Size = new System.Drawing.Size(115, 34);
-			this.btnScalarPunct.TabIndex = 21;
-			this.btnScalarPunct.Text = "Generare scalar in punct";
-			this.toolTip.SetToolTip(this.btnScalarPunct, "Translatarea formei");
-			this.btnScalarPunct.UseVisualStyleBackColor = false;
-			this.btnScalarPunct.Click += new System.EventHandler(this.btnScalarPunct_Click);
+			this.btnScalar.BackColor = System.Drawing.Color.DarkCyan;
+			this.btnScalar.Cursor = System.Windows.Forms.Cursors.Default;
+			this.btnScalar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnScalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnScalar.ForeColor = System.Drawing.Color.Black;
+			this.btnScalar.Location = new System.Drawing.Point(0, 0);
+			this.btnScalar.Name = "btnScalar";
+			this.btnScalar.Size = new System.Drawing.Size(236, 34);
+			this.btnScalar.TabIndex = 21;
+			this.btnScalar.Text = "Generare scalar";
+			this.toolTip.SetToolTip(this.btnScalar, "Translatarea formei");
+			this.btnScalar.UseVisualStyleBackColor = false;
+			this.btnScalar.Click += new System.EventHandler(this.btnScalar_Click);
 			// 
 			// tbDrawX
 			// 
@@ -324,18 +307,19 @@
 			this.tabPage.Size = new System.Drawing.Size(236, 34);
 			this.tabPage.TabIndex = 0;
 			this.tabPage.Text = "Translatie";
+			this.tabPage.Click += new System.EventHandler(this.tabPage_Click);
 			// 
 			// tabPage2
 			// 
 			this.tabPage2.BackColor = System.Drawing.Color.AntiqueWhite;
-			this.tabPage2.Controls.Add(this.btnScalarPunct);
-			this.tabPage2.Controls.Add(this.btnScalarPlan);
+			this.tabPage2.Controls.Add(this.btnScalar);
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
 			this.tabPage2.Size = new System.Drawing.Size(236, 34);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Scalare";
+			this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
 			// 
 			// btnClear
 			// 
@@ -387,9 +371,9 @@
 
 	}
 
-#endregion
+		#endregion
 
-	private System.Windows.Forms.PictureBox pictureBox;
+		private System.Windows.Forms.PictureBox pictureBox;
 	private System.Windows.Forms.ToolTip toolTip;
 	private System.Windows.Forms.TextBox tbDrawX;
 	private System.Windows.Forms.TextBox tbDrawY;
@@ -412,8 +396,7 @@
 	private System.Windows.Forms.Button btnGenPat;
 	private System.Windows.Forms.Button btnGenDre;
 	private System.Windows.Forms.Button btnGenTranslatie;
-	private System.Windows.Forms.Button btnScalarPunct;
-	private System.Windows.Forms.Button btnScalarPlan;
+	private System.Windows.Forms.Button btnScalar;
 }
 }
 
