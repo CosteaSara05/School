@@ -56,10 +56,10 @@ namespace CityLord
 
 		public void MapGenerator()
 		{
-			int resx = 400;
-			int resy = 40;
+			int resx = -750;
+			int resy = -450;
 			TotalMapItems = 0;
-			var grid = this.Content as Grid;
+			Grid grid = this.ButonInsider as Grid;
 			for (int i = 0; i < BorGsL - 9; i++)
 			{
 				for (int j = 0; j < BorGsL; j++)
@@ -67,13 +67,8 @@ namespace CityLord
 					TotalMapItems++;
 					ImageBrush image = new ImageBrush();
 					resx += Building.DrawSize;
-					//BorGs[i, j] = new Canvas();
-					//Canvas.SetTop(image, resx);
-					//Canvas.SetLeft(image, resy);
-					//image.Height = resx;
-					//image.Width = resy;
 					BorGs[i, j] = new Button();
-					BorGs[i, j].Margin = new Thickness(resx, resy, 0, 0);
+					BorGs[i, j].Margin = new Thickness(resx * 2, resy * 2, 0, 0);
 					BorGs[i, j].Name = "Img" + i.ToString();
 					BorGs[i, j].Height = Building.DrawSize;
 					BorGs[i, j].Width = Building.DrawSize;
@@ -110,17 +105,17 @@ namespace CityLord
 					}
 					if (BorGsItem >= 2)
 					{
-						BorGs[i, j].MouseLeftButtonUp += new MouseButtonEventHandler(Building_Click);
+						BorGs[i, j].MouseLeftButtonUp += Building_Click;
 					}
 					else
 					{
-						BorGs[i, j].MouseLeftButtonUp += new MouseButtonEventHandler(Grass_Click);
+						BorGs[i, j].MouseLeftButtonUp += Grass_Click;
 					}
 					grid.Children.Add(BorGs[i, j]);
 					ButtonList.Add(BorGs[i, j]);
 					progressBar1.Value++;
 				}
-				resx = 400;
+				resx = -750;
 				resy += Building.DrawSize;
 			}
 			BuildingList = new List<Building>();
@@ -151,11 +146,13 @@ namespace CityLord
 		}
 
 		#region Butons and Menus
+
 		private void QuitGameBtn_Click(object sender, EventArgs e)
 		{
 			AvQGPanel.Visibility = Visibility.Visible;
 			Timeflow.Stop();
 		}
+
 		private void NewGameBtn_Click(object sender, EventArgs e)
 		{
 			NewGameMenu.Visibility = Visibility.Visible;
@@ -184,6 +181,7 @@ namespace CityLord
 			progressBar1.Value = 10;
 			ButtonList.Clear();
 			BuildingList.Clear();
+			ButonInsider.Visibility = Visibility.Visible;
 			MapGenerator();
 			progressBar1.Value = 99;
 			progressBar1.Visibility = Visibility.Hidden;
@@ -196,152 +194,12 @@ namespace CityLord
 			progressBar1.Value = 100;
 		}
 
-		private int InitialMoneyChooser()
+		void Grass_Click(object sender, MouseButtonEventArgs e)
 		{
-			if (InitialMoneyComboBox.SelectedIndex == 0)
-			{
-				return Money = 50000;
-			}
-			else if (InitialMoneyComboBox.SelectedIndex == 1)
-			{
-				return Money = 75000;
-			}
-			else if (InitialMoneyComboBox.SelectedIndex == 2)
-			{
-				return Money = 100000;
-			}
-			else if (InitialMoneyComboBox.SelectedIndex == 3)
-			{
-				return Money = 150000;
-			}
-			else
-			{
-				return 1000000;
-			}
+			DecisionBuyPanel.Visibility = Visibility.Hidden;
 		}
 
-		private Color ColorChooser()
-		{
-			if (PlayerColorComboBox.SelectedIndex == 0)
-			{
-				return blue;
-			}
-			else if (PlayerColorComboBox.SelectedIndex == 1)
-			{
-				return black;
-			}
-			else if (PlayerColorComboBox.SelectedIndex == 2)
-			{
-				return green;
-			}
-			else if (PlayerColorComboBox.SelectedIndex == 3)
-			{
-				return yellow;
-			}
-			else
-			{
-				return blue;
-			}
-		}
-
-		private void BuyColorChanger(Building item)
-		{
-			ImageBrush image = new ImageBrush();
-			if ((owner.PlayerColor == blue) && (item.IndexImg == 1))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Blue.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == blue) && (item.IndexImg == 2))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Blue.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == blue) && (item.IndexImg == 3))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Blue.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == black) && (item.IndexImg == 1))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Black.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == black) && (item.IndexImg == 2))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Black.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == black) && (item.IndexImg == 3))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Black.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == green) && (item.IndexImg == 1))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Green.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == green) && (item.IndexImg == 2))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Green.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == green) && (item.IndexImg == 3))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Green.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 1))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Yellow.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 2))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Yellow.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 3))
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Yellow.bmp", UriKind.Relative));
-				item.IMG.Background = image;
-			}
-		}
-
-		private void SellColorChanger(Building item)
-		{
-			ImageBrush image = new ImageBrush();
-			if (item.IndexImg == 1)
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_White.bmp", UriKind.Relative));
-				image.Stretch = Stretch.Fill;
-				item.IMG.Background = image;
-			}
-			else if(item.IndexImg == 2)
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_White.bmp", UriKind.Relative));
-				image.Stretch = Stretch.Fill;
-				item.IMG.Background = image;
-			}
-			else if(item.IndexImg == 3)
-			{
-				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_White.bmp", UriKind.Relative));
-				image.Stretch = Stretch.Fill;
-				item.IMG.Background = image;
-			}
-		}
-
-		void Grass_Click(object sender, EventArgs e)
-		{
-			Canvas clickedCanvas = sender as Canvas;
-			foreach (var item in ButtonList)
-			{
-				DecisionBuyPanel.Visibility = Visibility.Hidden;
-			}
-		}
-
-		void Building_Click(object sender, EventArgs e)
+		void Building_Click(object sender, MouseButtonEventArgs e)
 		{
 			Button clickedBuilding = sender as Button;
 			foreach (var item in BuildingList)
@@ -381,7 +239,7 @@ namespace CityLord
 			WONpanel.Visibility = Visibility.Hidden;
 			AvQGPanel.Visibility = Visibility.Hidden;
 			StartMenu.Visibility = Visibility.Visible;
-
+			ButonInsider.Visibility = Visibility.Hidden;
 			for (int i = 0; i < BorGsL - 9; i++)
 			{
 				for (int j = 0; j < BorGsL; j++)
@@ -403,6 +261,7 @@ namespace CityLord
 			Moneylabel.Visibility = Visibility.Hidden;
 			AvNGPanel.Visibility = Visibility.Hidden;
 			NewGameMenu.Visibility = Visibility.Visible;
+			ButonInsider.Visibility = Visibility.Hidden;
 			for (int i = 0; i < BorGsL - 5; i++)
 			{
 				for (int j = 0; j < BorGsL; j++)
@@ -551,7 +410,20 @@ namespace CityLord
 				}
 			}
 			RenttextBox.Clear();
-			RenttextBox.Text += "+" + Trent.ToString();
+			if (Trent > 0)
+			{
+				RenttextBox.Text += "+" + Trent.ToString();
+
+			}
+			else if (Trent == 0)
+			{
+				RenttextBox.Text += Trent.ToString();
+			}
+			else if (Trent < 0)
+			{
+				RenttextBox.Text += Trent.ToString();
+			}
+
 			if (flowing % 7 == 0)
 			{
 				Timposit = 0;
@@ -575,6 +447,142 @@ namespace CityLord
 			{
 				RenttextBox.Clear();
 				ImpositstextBox.Clear();
+			}
+		}
+
+		private int InitialMoneyChooser()
+		{
+			if (InitialMoneyComboBox.SelectedIndex == 0)
+			{
+				return Money = 50000;
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 1)
+			{
+				return Money = 75000;
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 2)
+			{
+				return Money = 100000;
+			}
+			else if (InitialMoneyComboBox.SelectedIndex == 3)
+			{
+				return Money = 150000;
+			}
+			else
+			{
+				return 1000000;
+			}
+		}
+
+		private Color ColorChooser()
+		{
+			if (PlayerColorComboBox.SelectedIndex == 0)
+			{
+				return blue;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 1)
+			{
+				return black;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 2)
+			{
+				return green;
+			}
+			else if (PlayerColorComboBox.SelectedIndex == 3)
+			{
+				return yellow;
+			}
+			else
+			{
+				return blue;
+			}
+		}
+
+		private void BuyColorChanger(Building item)
+		{
+			ImageBrush image = new ImageBrush();
+			if ((owner.PlayerColor == blue) && (item.IndexImg == 1))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Blue.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == blue) && (item.IndexImg == 2))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Blue.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == blue) && (item.IndexImg == 3))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Blue.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == black) && (item.IndexImg == 1))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Black.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == black) && (item.IndexImg == 2))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Black.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == black) && (item.IndexImg == 3))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Black.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == green) && (item.IndexImg == 1))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Green.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == green) && (item.IndexImg == 2))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Green.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == green) && (item.IndexImg == 3))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Green.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 1))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_Yellow.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 2))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_Yellow.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+			else if ((owner.PlayerColor == yellow) && (item.IndexImg == 3))
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_Yellow.bmp", UriKind.Relative));
+				item.IMG.Background = image;
+			}
+		}
+
+		private void SellColorChanger(Building item)
+		{
+			ImageBrush image = new ImageBrush();
+			if (item.IndexImg == 1)
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x1_White.bmp", UriKind.Relative));
+				image.Stretch = Stretch.Fill;
+				item.IMG.Background = image;
+			}
+			else if (item.IndexImg == 2)
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_1x2_White.bmp", UriKind.Relative));
+				image.Stretch = Stretch.Fill;
+				item.IMG.Background = image;
+			}
+			else if (item.IndexImg == 3)
+			{
+				image.ImageSource = new BitmapImage(new Uri("../../resources/_2x1_White.bmp", UriKind.Relative));
+				image.Stretch = Stretch.Fill;
+				item.IMG.Background = image;
 			}
 		}
 	}
