@@ -54,103 +54,13 @@ namespace CityLord
 		public int Rent;
 		public int Imposit;
 
-		public void MapGenerator()
-		{
-			int resx = -750;
-			int resy = -450;
-			TotalMapItems = 0;
-			Grid grid = this.ButonInsider as Grid;
-			for (int i = 0; i < BorGsL - 9; i++)
-			{
-				for (int j = 0; j < BorGsL; j++)
-				{
-					TotalMapItems++;
-					ImageBrush image = new ImageBrush();
-					resx += Building.DrawSize;
-					BorGs[i, j] = new Button();
-					BorGs[i, j].Margin = new Thickness(resx * 2, resy * 2, 0, 0);
-					BorGs[i, j].Name = "Img" + i.ToString();
-					BorGs[i, j].Height = Building.DrawSize;
-					BorGs[i, j].Width = Building.DrawSize;
-					BorGsItem = r.Next(0, 10);
-					if (BorGsItem >= 2)
-					{
-						BorGsIndex = r.Next(1, 4);
-						if (BorGsIndex == 1)
-						{
-							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_1x1_White.bmp", UriKind.Relative));
-							BorGs[i, j].Background = image;
-							image.Stretch = Stretch.Fill;
-							BorGs[i, j].Visibility = Visibility.Visible;
-						}
-						else if (BorGsIndex == 2)
-						{
-							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_1x2_White.bmp", UriKind.Relative));
-							BorGs[i, j].Background = image;
-							image.Stretch = Stretch.Fill;
-							BorGs[i, j].Visibility = Visibility.Visible;
-						}
-						else if (BorGsIndex == 3)
-						{
-							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_2x1_White.bmp", UriKind.Relative));
-							BorGs[i, j].Background = image;
-							image.Stretch = Stretch.Fill;
-							BorGs[i, j].Visibility = Visibility.Visible;
-						}
-					}
-					else
-					{
-						BorGs[i, j].Background = greenBrush;
-						BorGs[i, j].Visibility = Visibility.Visible;
-					}
-					if (BorGsItem >= 2)
-					{
-						BorGs[i, j].MouseLeftButtonUp += Building_Click;
-					}
-					else
-					{
-						BorGs[i, j].MouseLeftButtonUp += Grass_Click;
-					}
-					grid.Children.Add(BorGs[i, j]);
-					ButtonList.Add(BorGs[i, j]);
-					progressBar1.Value++;
-				}
-				resx = -750;
-				resy += Building.DrawSize;
-			}
-			BuildingList = new List<Building>();
-			TotalBuildings = 0;
-			for (int i = 0; i < ButtonList.Count; i++)
-			{
-				if (ButtonList[i].Background != greenBrush)
-				{
-					BorGsIndex = r.Next(1, 4);
-					if (BorGsIndex == 1)
-					{
-						Price = r.Next(20000, 25000);
-						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 1, null, TotalBuildings++));
-					}
-					else if (BorGsIndex == 2)
-					{
-						Price = r.Next(30000, 45000);
-						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 3, null, TotalBuildings++));
-					}
-					else if (BorGsIndex == 3)
-					{
-						Price = r.Next(50000, 75000);
-						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 2, null, TotalBuildings++));
-					}
-					progressBar1.Value++;
-				}
-			}
-		}
-
 		#region Butons and Menus
 
 		private void QuitGameBtn_Click(object sender, EventArgs e)
 		{
 			AvQGPanel.Visibility = Visibility.Visible;
 			Timeflow.Stop();
+			NoImageBorder();
 		}
 
 		private void NewGameBtn_Click(object sender, EventArgs e)
@@ -194,13 +104,27 @@ namespace CityLord
 			progressBar1.Value = 100;
 		}
 
-		void Grass_Click(object sender, MouseButtonEventArgs e)
+		private void Grass_Click(object sender, RoutedEventArgs e)
 		{
 			DecisionBuyPanel.Visibility = Visibility.Hidden;
+			NoImageBorder();
 		}
 
-		void Building_Click(object sender, MouseButtonEventArgs e)
+		private void NoImageBorder()
 		{
+			foreach (var item in BuildingList)
+			{
+				if (item.IsClicked)
+				{
+					item.IsClicked = false;
+					item.IMG.BorderThickness = new Thickness(0);
+				}
+			}
+		}
+
+		private void Building_Click(object sender, RoutedEventArgs e)
+		{
+			NoImageBorder();
 			Button clickedBuilding = sender as Button;
 			foreach (var item in BuildingList)
 			{
@@ -210,6 +134,7 @@ namespace CityLord
 					DecisionSuccessSoldPanel.Visibility = Visibility.Hidden;
 					DecisionNoMoneyPanel.Visibility = Visibility.Hidden;
 					item.IsClicked = true;
+					item.IMG.BorderThickness = new Thickness(2);
 					if (!item.IsBought)
 					{
 						DecisionBuyPanel.Visibility = Visibility.Visible;
@@ -229,6 +154,7 @@ namespace CityLord
 
 		private void QGLeaveBtn_Click(object sender, EventArgs e)
 		{
+			NoImageBorder();
 			QuitGameBtn.Visibility = Visibility.Hidden;
 			MoneyDisplaylabel.Visibility = Visibility.Hidden;
 			GameMenu.Visibility = Visibility.Hidden;
@@ -251,6 +177,7 @@ namespace CityLord
 
 		private void NGLeaveBtn_Click(object sender, EventArgs e)
 		{
+			NoImageBorder();
 			QuitGameBtn.Visibility = Visibility.Hidden;
 			MoneyDisplaylabel.Visibility = Visibility.Hidden;
 			GameMenu.Visibility = Visibility.Hidden;
@@ -273,6 +200,7 @@ namespace CityLord
 
 		private void NGCancelBtn_Click(object sender, EventArgs e)
 		{
+			NoImageBorder();
 			AvNGPanel.Visibility = Visibility.Hidden;
 			Timeflow.Start();
 		}
@@ -288,6 +216,7 @@ namespace CityLord
 					{
 						item.IsBought = true;
 						item.IsClicked = false;
+						NoImageBorder();
 						owner.Money -= item.price;
 						BuyColorChanger(item);
 						OwnerLbl1.Content = owner.Name;
@@ -335,6 +264,7 @@ namespace CityLord
 				{
 					item.IsBought = false;
 					item.IsClicked = false;
+					NoImageBorder();
 					SellColorChanger(item);
 					owner.Money = owner.Money + (int)(0.9 * item.price);
 					item.Owner = null;
@@ -349,6 +279,7 @@ namespace CityLord
 
 		private void SearchPlayerBtn_Click(object sender, EventArgs e)
 		{
+			NoImageBorder();
 			CentralBoard.Items.Clear();
 			if (PlayersListBoard.Text == owner.Name)
 			{
@@ -366,11 +297,14 @@ namespace CityLord
 
 		private void QGCancelBtn_Click(object sender, RoutedEventArgs e)
 		{
+			NoImageBorder();
 			AvQGPanel.Visibility = Visibility.Hidden;
 			Timeflow.Start();
 		}
 
 		#endregion
+
+		#region Logic
 
 		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
@@ -406,6 +340,7 @@ namespace CityLord
 					DecisionSuccessSoldPanel.Visibility = Visibility.Hidden;
 					DecisionSuccessBoughtPanel.Visibility = Visibility.Hidden;
 					DecisionNoMoneyPanel.Visibility = Visibility.Hidden;
+					NoImageBorder();
 					Trent += Rent;
 				}
 			}
@@ -585,5 +520,98 @@ namespace CityLord
 				item.IMG.Background = image;
 			}
 		}
+
+		public void MapGenerator()
+		{
+			int resx = -750;
+			int resy = -450;
+			TotalMapItems = 0;
+			Grid grid = this.ButonInsider as Grid;
+			for (int i = 0; i < BorGsL - 9; i++)
+			{
+				for (int j = 0; j < BorGsL; j++)
+				{
+					TotalMapItems++;
+					ImageBrush image = new ImageBrush();
+					resx += Building.DrawSize;
+					BorGs[i, j] = new Button();
+					BorGs[i, j].Margin = new Thickness(resx * 2, resy * 2, 0, 0);
+					BorGs[i, j].Name = "Img" + i.ToString();
+					BorGs[i, j].Height = Building.DrawSize;
+					BorGs[i, j].Width = Building.DrawSize;
+					BorGsItem = r.Next(0, 10);
+					if (BorGsItem >= 2)
+					{
+						BorGsIndex = r.Next(1, 4);
+						if (BorGsIndex == 1)
+						{
+							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_1x1_White.bmp", UriKind.Relative));
+							BorGs[i, j].Background = image;
+							image.Stretch = Stretch.Fill;
+							BorGs[i, j].Visibility = Visibility.Visible;
+						}
+						else if (BorGsIndex == 2)
+						{
+							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_1x2_White.bmp", UriKind.Relative));
+							BorGs[i, j].Background = image;
+							image.Stretch = Stretch.Fill;
+							BorGs[i, j].Visibility = Visibility.Visible;
+						}
+						else if (BorGsIndex == 3)
+						{
+							image.ImageSource = new BitmapImage(new Uri(@"../../resources/_2x1_White.bmp", UriKind.Relative));
+							BorGs[i, j].Background = image;
+							image.Stretch = Stretch.Fill;
+							BorGs[i, j].Visibility = Visibility.Visible;
+						}
+					}
+					else
+					{
+						BorGs[i, j].Background = greenBrush;
+						BorGs[i, j].Visibility = Visibility.Visible;
+					}
+					if (BorGsItem >= 2)
+					{
+						BorGs[i, j].AddHandler(Button.ClickEvent, new RoutedEventHandler(Building_Click));
+					}
+					else
+					{
+						BorGs[i, j].AddHandler(Button.ClickEvent, new RoutedEventHandler(Grass_Click));
+					}
+					grid.Children.Add(BorGs[i, j]);
+					ButtonList.Add(BorGs[i, j]);
+					progressBar1.Value++;
+				}
+				resx = -750;
+				resy += Building.DrawSize;
+			}
+			BuildingList = new List<Building>();
+			TotalBuildings = 0;
+			for (int i = 0; i < ButtonList.Count; i++)
+			{
+				if (ButtonList[i].Background != greenBrush)
+				{
+					BorGsIndex = r.Next(1, 4);
+					if (BorGsIndex == 1)
+					{
+						Price = r.Next(20000, 25000);
+						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 1, null, TotalBuildings++));
+					}
+					else if (BorGsIndex == 2)
+					{
+						Price = r.Next(30000, 45000);
+						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 3, null, TotalBuildings++));
+					}
+					else if (BorGsIndex == 3)
+					{
+						Price = r.Next(50000, 75000);
+						BuildingList.Add(new Building(ButtonList[i], Price, false, false, 2, null, TotalBuildings++));
+					}
+					progressBar1.Value++;
+				}
+			}
+		}
+
+		#endregion
 	}
 }
