@@ -308,7 +308,7 @@ namespace CityLord
 
 		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
-			Building.DrawSize = 55;
+			Building.DrawSize = 32;
 			InitialMoneyComboBox.Items.Add(50000);
 			InitialMoneyComboBox.Items.Add(75000);
 			InitialMoneyComboBox.Items.Add(100000);
@@ -524,10 +524,10 @@ namespace CityLord
 		public void MapGenerator()
 		{
 			int resx = -750;
-			int resy = -450;
+			int resy = -500;
 			TotalMapItems = 0;
 			Grid grid = this.ButonInsider as Grid;
-			for (int i = 0; i < BorGsL - 9; i++)
+			for (int i = 0; i < BorGsL - 5; i++)
 			{
 				for (int j = 0; j < BorGsL; j++)
 				{

@@ -7,13 +7,13 @@
 		WindowStyle="None" ResizeMode="NoResize"
 		WindowStartupLocation="CenterScreen" 
         mc:Ignorable="d"
-        Title="CityLord" Height="1080" Width="1920" Loaded="Window_Loaded" MinWidth="1920" MinHeight="1075">
+        Title="CityLord" Height="720" Width="1280" Loaded="Window_Loaded" MinWidth="1280" MinHeight="720">
 	<Grid Background="Wheat">
-		<StackPanel x:Name="StartMenu" Panel.ZIndex="11" HorizontalAlignment="Left" Height="1080" Margin="900,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray">
+		<StackPanel x:Name="StartMenu" Panel.ZIndex="11" HorizontalAlignment="Left" Height="725" Margin="576,0,0,0" VerticalAlignment="Top" Width="108" Background="DarkGray">
 			<Button x:Name="NewGameBtn" Content="New" HorizontalAlignment="Left" Margin="15,135,0,0" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="NewGameBtn_Click" FontWeight="Bold"/>
-			<Button x:Name="ExitAppBtn" Content="Exit Game" HorizontalAlignment="Left" Margin="15,800,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="0.16,12.174" Background="CadetBlue" Foreground="Crimson" Click="ExitAppBtn_Click" FontWeight="Bold"/>
+			<Button x:Name="ExitAppBtn" Content="Exit Game" HorizontalAlignment="Left" Margin="15,400,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="0.16,12.174" Background="CadetBlue" Foreground="Crimson" Click="ExitAppBtn_Click" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="NewGameMenu" Panel.ZIndex="10" HorizontalAlignment="Left" Height="202" Margin="868,453,0,0" VerticalAlignment="Top" Width="175" Background="WhiteSmoke" Visibility="Hidden">
+		<StackPanel x:Name="NewGameMenu" Visibility="Hidden" Panel.ZIndex="10" HorizontalAlignment="Left" Height="202" Margin="544,237,0,0" VerticalAlignment="Top" Width="175" Background="WhiteSmoke" >
 			<Label x:Name="label6" Content="Player Name:" Foreground="Crimson" Width="80" Height="26" Margin="48,0,47,0" FontWeight="Bold"/>
 			<TextBox x:Name="PNameTextBox" Height="20" Width="100" TextWrapping="Wrap" Text="" Margin="38,0,37,0" FontWeight="Bold"/>
 			<Label x:Name="label4" Content="Player Color:" Foreground="Crimson" Width="80" Height="26" Margin="48,0,47,0" FontWeight="Bold"/>
@@ -22,7 +22,7 @@
 			<ComboBox x:Name="InitialMoneyComboBox" Width="100" Height="21" Background="White" FontWeight="Bold"/>
 			<Button x:Name="StartBtn"  Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,20,0,0" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="StartBtn_Click" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="GameMenu" Panel.ZIndex="9" Visibility="Hidden" Background="YellowGreen" HorizontalAlignment="Left" Height="583" Margin="0,467,0,0" VerticalAlignment="Top" Width="442">
+		<StackPanel x:Name="GameMenu" Visibility="Hidden" Panel.ZIndex="9" Background="YellowGreen" HorizontalAlignment="Left" Height="583" Margin="-3,134,0,0" VerticalAlignment="Top" Width="442">
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="442">
 				<Label x:Name="Moneylabel" Content="$:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="100,0,0,10" Width="24" FontWeight="Bold"/>
 				<Label x:Name="MoneyDisplaylabel" Content="Money" Foreground="Crimson" Margin="0,0,0,10" Width="90" FontWeight="Bold"/>
@@ -48,8 +48,8 @@
 			</ListView>
 			<Button x:Name="QuitGameBtn" Content="Quit Game" Margin="360,22,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="QuitGameBtn_Click" FontWeight="Bold"/>
 		</StackPanel>
-		<ProgressBar x:Name="progressBar1" Visibility="Hidden" HorizontalAlignment="Left" Height="20" Margin="444,428,0,0" VerticalAlignment="Top" Width="1000"/>
-		<StackPanel x:Name="AvNGPanel" Panel.ZIndex="1"  Visibility="Hidden" HorizontalAlignment="Left" Height="118" Background="Red" Margin="775,448,0,0" VerticalAlignment="Top" Width="357">
+		<ProgressBar x:Name="progressBar1" Visibility="Hidden" HorizontalAlignment="Left" Height="20" Margin="132,319,0,0" VerticalAlignment="Top" Width="1000"/>
+		<StackPanel x:Name="AvNGPanel" Visibility="Hidden" Panel.ZIndex="1"  HorizontalAlignment="Left" Height="118" Background="Red" Margin="457,321,0,0" VerticalAlignment="Top" Width="357">
 			<StackPanel Height="70">
 				<TextBox x:Name="AvNGTB" Text="ARE YOU SURE YOU WANT TO START A NEW GAME?" Background="Transparent" Foreground="White" Margin="20" TextAlignment="Center" IsReadOnly="True" FontWeight="Bold"/>
 			</StackPanel>
@@ -58,7 +58,7 @@
 				<Button x:Name="NGCancelBtn" Content="Cancel" Margin="190,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="NGCancelBtn_Click" FontWeight="Bold"/>
 			</StackPanel>
 		</StackPanel>
-		<StackPanel x:Name="AvQGPanel" Panel.ZIndex="2" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="Red" Margin="775,575,0,0" VerticalAlignment="Top" Width="357">
+		<StackPanel x:Name="AvQGPanel" Visibility="Hidden" Panel.ZIndex="2" HorizontalAlignment="Left" Height="117" Background="Red" Margin="457,305,0,0" VerticalAlignment="Top" Width="357">
 			<StackPanel Height="70">
 				<TextBox x:Name="AvQGTB" Text="ARE YOU SURE YOU WANT TO QUIT?" Background="Transparent" Foreground="White" Margin="20" TextAlignment="Center" IsReadOnly="True" FontWeight="Bold"/>
 			</StackPanel>
@@ -67,20 +67,20 @@
 				<Button x:Name="QGCancelBtn" Content="Cancel" Margin="190,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="Gold" Foreground="Red" Click="QGCancelBtn_Click" FontWeight="Bold"/>
 			</StackPanel>
 		</StackPanel>
-		<StackPanel x:Name="WONpanel" Panel.ZIndex="3" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="Red" Margin="775,735,0,0" VerticalAlignment="Top" Width="357">
+		<StackPanel x:Name="WONpanel" Visibility="Hidden" Panel.ZIndex="3" HorizontalAlignment="Left" Height="117" Background="Red" Margin="457,237,0,0" VerticalAlignment="Top" Width="357">
 			<TextBox x:Name="textBoxYW" Visibility="Hidden" Text="YOU WON" Background="Transparent" Foreground="White" Margin="20,30,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24" FontWeight="Bold"/>
 			<TextBox x:Name="textBox50" Visibility="Hidden" Text="You own 50% of all buildings" Background="Transparent" Foreground="White" Margin="10,-20,0,0" TextAlignment="Center" IsReadOnly="True" FontSize="24" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="DecisionNoMoneyPanel" Panel.ZIndex="5" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="Red" Margin="52,19,0,0" VerticalAlignment="Top" Width="356">
+		<StackPanel x:Name="DecisionNoMoneyPanel" Visibility="Hidden" Panel.ZIndex="5" HorizontalAlignment="Left" Height="117" Background="Red" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<TextBox x:Name="textBox3" Text="NOT ENOUGH MONEY!" Background="Gold" Margin="20,40,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="24" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="DecisionSuccessBoughtPanel" Panel.ZIndex="4" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="37,197,0,0" VerticalAlignment="Top" Width="356">
+		<StackPanel x:Name="DecisionSuccessBoughtPanel" Visibility="Hidden" Panel.ZIndex="4" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,12,0,0" VerticalAlignment="Top" Width="356">
 			<TextBox x:Name="textBox2" Text="You successfully bought this building." Background="YellowGreen" Margin="20,40,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="DecisionSuccessSoldPanel" Panel.ZIndex="6" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="37,197,0,0" VerticalAlignment="Top" Width="356">
+		<StackPanel x:Name="DecisionSuccessSoldPanel" Visibility="Hidden" Panel.ZIndex="6" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<TextBox x:Name="textBox1" Text="You successfully sold this building." Background="YellowGreen" Margin="20,40,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
 		</StackPanel>
-		<StackPanel x:Name="DecisionSellPanel" Panel.ZIndex="7" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="37,197,0,0" VerticalAlignment="Top" Width="356">
+		<StackPanel x:Name="DecisionSellPanel" Visibility="Hidden" Panel.ZIndex="7" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<TextBox x:Name="ItemBoughtBox" Text="This building is yours." Background="YellowGreen" Margin="20,4,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
 			<StackPanel Orientation="Horizontal" Height="30">
 				<Label x:Name="Label2" Content="Actual Price:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
@@ -96,7 +96,7 @@
 				<Button x:Name="SellBtn" Content="Sell" Margin="0,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="SellBtn_Click" FontWeight="Bold"/>
 			</StackPanel>
 		</StackPanel>
-		<StackPanel x:Name="DecisionBuyPanel" Panel.ZIndex="8" Visibility="Hidden" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="37,197,0,0" VerticalAlignment="Top" Width="356">
+		<StackPanel x:Name="DecisionBuyPanel" Visibility="Hidden" Panel.ZIndex="8" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<StackPanel Orientation="Horizontal" Height="30">
 				<Label x:Name="Label7" Content="Owner:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="120,0,0,0" Width="78" FontWeight="Bold"/>
 				<Label x:Name="OwnerLbl2" Content="Nobody" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" Width="150" FontWeight="Bold"/>
@@ -110,6 +110,6 @@
 				<Button x:Name="BuyBtn" Content="Buy" Margin="140,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="BuyBtn_Click" FontWeight="Bold"/>
 			</StackPanel>
 		</StackPanel>
-		<Grid x:Name="ButonInsider" Background="AliceBlue" Visibility="Hidden" HorizontalAlignment="Left" Height="1031" Margin="444,19,0,0" VerticalAlignment="Top" Width="1466"/>
+		<Grid x:Name="ButonInsider" Background="Wheat" Visibility="Hidden" HorizontalAlignment="Left" Height="1031" Margin="444,19,0,0" VerticalAlignment="Top" Width="1466"/>
 	</Grid>
 </Window>

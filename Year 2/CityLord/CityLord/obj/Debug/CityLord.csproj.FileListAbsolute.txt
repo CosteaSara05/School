@@ -29,3 +29,11 @@ F:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.csproj.Generate
 F:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.exe
 F:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.pdb
 F:\Programing\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.csprojResolveAssemblyReference.cache
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.exe
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.pdb
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\bin\Debug\CityLord.exe
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\bin\Debug\CityLord.pdb
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\MainWindow.baml
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.g.resources
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.Properties.Resources.resources
+C:\@work\@David Dulau\Neubie Projects\School\Year 2\CityLord\CityLord\obj\Debug\CityLord.csproj.GenerateResource.Cache
