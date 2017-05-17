@@ -148,6 +148,7 @@ namespace CityLord
 						BuildingActualPriceLbl.Content = item.price.ToString();
 						BuildingSellValueLbl.Content = (item.price * 0.9).ToString();
 					}
+					break;
 				}
 			}
 		}
@@ -209,7 +210,7 @@ namespace CityLord
 		{
 			foreach (var item in BuildingList)
 			{
-				if ((item.IsClicked))
+				if (item.IsClicked)
 				{
 					item.IsClicked = false;
 					if (owner.Money >= item.price)
@@ -272,6 +273,7 @@ namespace CityLord
 					DecisionSuccessSoldPanel.Visibility = Visibility.Visible;
 					DecisionSellPanel.Visibility = Visibility.Hidden;
 					OwnerLbl2.Content = "Nobody";
+					break;
 				}
 			}
 			MoneyDisplaylabel.Content = owner.Money.ToString();
@@ -284,6 +286,7 @@ namespace CityLord
 			if (PlayersListBoard.Text == owner.Name)
 			{
 				CentralBoard.Items.Add("Name: " + owner.Name);
+				string money = Convert.ToString(owner.Money);
 				CentralBoard.Items.Add("Money: " + owner.Money);
 				CentralBoard.Items.Add("# of Buildings: " + owner.PlayerProps.Count);
 				int value = 0;
@@ -337,10 +340,6 @@ namespace CityLord
 					Rent = (int)(item.price * 0.005);
 					item.Owner.Money += Rent;
 					MoneyDisplaylabel.Content = owner.Money.ToString();
-					DecisionSuccessSoldPanel.Visibility = Visibility.Hidden;
-					DecisionSuccessBoughtPanel.Visibility = Visibility.Hidden;
-					DecisionNoMoneyPanel.Visibility = Visibility.Hidden;
-					NoImageBorder();
 					Trent += Rent;
 				}
 			}
@@ -348,7 +347,6 @@ namespace CityLord
 			if (Trent > 0)
 			{
 				RenttextBox.Text += "+" + Trent.ToString();
-
 			}
 			else if (Trent == 0)
 			{
@@ -369,12 +367,13 @@ namespace CityLord
 						Imposit = (int)(r.Next(20, 51) * 0.3 * item.Owner.PlayerProps.Count);
 						item.Owner.Money -= Imposit;
 						MoneyDisplaylabel.Content = owner.Money.ToString();
-						DecisionBuyPanel.Visibility = Visibility.Hidden;
-						DecisionSellPanel.Visibility = Visibility.Hidden;
-						WONpanel.Visibility = Visibility.Hidden;
 						Timposit += Imposit;
 					}
 				}
+				DecisionBuyPanel.Visibility = Visibility.Hidden;
+				DecisionSellPanel.Visibility = Visibility.Hidden;
+				WONpanel.Visibility = Visibility.Hidden;
+
 				Timposit /= 7;
 				ImpositstextBox.Text += "-" + Timposit.ToString() + "\r\n";
 			}

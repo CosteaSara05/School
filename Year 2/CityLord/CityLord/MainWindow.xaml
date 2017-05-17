@@ -37,7 +37,7 @@
 			</StackPanel>
 			<Label x:Name="label11" Content="Daily Income:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,5" Width="99" FontWeight="Bold"/>
 			<TextBox x:Name="RenttextBox" TextWrapping="Wrap" Text="" Width="200" Background="SteelBlue" Margin="0,0" FontWeight="Bold"/>
-			<Label x:Name="label10" Content="Daily Imposit:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="174,0,169,5" Width="99" FontWeight="Bold"/>
+			<Label x:Name="label10" Content="Weekly Imposit:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="174,0,169,5" Width="99" FontWeight="Bold"/>
 			<TextBox x:Name="ImpositstextBox" TextWrapping="Wrap" Text=""  Width="200" Background="SteelBlue" Margin="121,0" Height="120" FontWeight="Bold"/>
 			<ListView x:Name="CentralBoard" Width="200" Height="170" Margin="0,10,0,0">
 				<ListView.View>
@@ -83,28 +83,28 @@
 		<StackPanel x:Name="DecisionSellPanel" Visibility="Hidden" Panel.ZIndex="7" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<TextBox x:Name="ItemBoughtBox" Text="This building is yours." Background="YellowGreen" Margin="20,4,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
 			<StackPanel Orientation="Horizontal" Height="30">
-				<Label x:Name="Label2" Content="Actual Price:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
-				<Label x:Name="BuildingActualPriceLbl" Content="Cost" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" Width="266" FontWeight="Bold"/>
+				<Label x:Name="Label2" Content="Actual Price:" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
+				<Label x:Name="BuildingActualPriceLbl" Content="Cost" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" Width="266" FontWeight="Bold"/>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" Height="30">
-				<Label x:Name="Sell" Content="Sell Price:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
-				<Label x:Name="BuildingSellValueLbl" Content="Cost" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="266" FontWeight="Bold"/>
+				<Label x:Name="Sell" Content="Sell Price:" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
+				<Label x:Name="BuildingSellValueLbl" Content="Cost" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="266" FontWeight="Bold"/>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" Height="30">
-				<Label x:Name="Label5" Content="Owner:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
-				<Label x:Name="OwnerLbl1" Content="Owner" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="199" FontWeight="Bold"/>
+				<Label x:Name="Label5" Content="Owner:" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="78" FontWeight="Bold"/>
+				<Label x:Name="OwnerLbl1" Content="Owner" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="199" FontWeight="Bold"/>
 				<Button x:Name="SellBtn" Content="Sell" Margin="0,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="SellBtn_Click" FontWeight="Bold"/>
 			</StackPanel>
 		</StackPanel>
 		<StackPanel x:Name="DecisionBuyPanel" Visibility="Hidden" Panel.ZIndex="8" HorizontalAlignment="Left" Height="117" Background="SteelBlue" Margin="10,10,0,0" VerticalAlignment="Top" Width="356">
 			<StackPanel Orientation="Horizontal" Height="30">
-				<Label x:Name="Label7" Content="Owner:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="120,0,0,0" Width="78" FontWeight="Bold"/>
-				<Label x:Name="OwnerLbl2" Content="Nobody" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" Width="150" FontWeight="Bold"/>
+				<Label x:Name="Label7" Content="Owner:" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="120,0,0,0" Width="78" FontWeight="Bold"/>
+				<Label x:Name="OwnerLbl2" Content="Nobody" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" Width="150" FontWeight="Bold"/>
 			</StackPanel>
 			<TextBox x:Name="DecisionBuyBox" Text="Would you like to buy this building?" Background="YellowGreen" Margin="20,4,20,0" TextAlignment="Center" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
 			<StackPanel Orientation="Horizontal" Height="30">
-				<Label x:Name="Label1" Content="Cost:" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="120,0,0,0" Width="78" FontWeight="Bold"/>
-				<Label x:Name="BuildingBuyValueLbl" Content="Cost" Foreground="Crimson" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="150" FontWeight="Bold"/>
+				<Label x:Name="Label1" Content="Cost:" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="120,0,0,0" Width="78" FontWeight="Bold"/>
+				<Label x:Name="BuildingBuyValueLbl" Content="Cost" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,0" Width="150" FontWeight="Bold"/>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" Height="30">
 				<Button x:Name="BuyBtn" Content="Buy" Margin="140,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23" Background="CadetBlue" Foreground="Crimson" Click="BuyBtn_Click" FontWeight="Bold"/>
