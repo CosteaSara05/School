@@ -15,6 +15,8 @@ namespace Grafica
 		public static string DrownForm;
 		public static int drawX;
 		public static int drawY;
+		public static bool ScalarGenerat = false;
+		public static bool TransGenerat = false;
 		public enum Forms
 		{
 			None = 0,
@@ -41,6 +43,8 @@ namespace Grafica
 
 		public void btnClear_Click(object sender, EventArgs e)
 		{
+			ScalarGenerat = false;
+			TransGenerat = false;
 			Engine.g.Clear(Color.ForestGreen);
 			pictureBox.Image = Engine.b;
 			DrownForm = Forms.None.ToString();
@@ -135,34 +139,40 @@ namespace Grafica
 
 		public void btnGenTranslatie_Click(object sender, EventArgs e)
 		{
-			if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
+			if (!TransGenerat)
 			{
-				if (DrownForm == Forms.Triunghi.ToString())
+				if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
 				{
-					translatieTriunghi(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
+					if (DrownForm == Forms.Triunghi.ToString())
+					{
+						translatieTriunghi(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
+						TransGenerat = true;
+					}
+					else if (DrownForm == Forms.Patrat.ToString())
+					{
+						translatiePatrat(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
+						TransGenerat = true;
+					}
+					else if (DrownForm == Forms.Dreptunghi.ToString())
+					{
+						translatieDreptunghi(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
+						TransGenerat = true;
+					}
 				}
-				else if (DrownForm == Forms.Patrat.ToString())
+				else
 				{
-					translatiePatrat(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
-				}
-				else if (DrownForm == Forms.Dreptunghi.ToString())
-				{
-					translatieDreptunghi(Convert.ToInt32(tbNewX.Text), Convert.ToInt32(tbNewY.Text));
-				}
-			}
-			else
-			{
-				if (tbNewX.Text == "")
-				{
-					MessageBox.Show("Introduce X");
-				}
-				else if (tbNewY.Text == "")
-				{
-					MessageBox.Show("Introduce Y");
-				}
-				else if (DrownForm == Forms.None.ToString())
-				{
-					MessageBox.Show("Deseneaza o forma");
+					if (tbNewX.Text == "")
+					{
+						MessageBox.Show("Introduce X");
+					}
+					else if (tbNewY.Text == "")
+					{
+						MessageBox.Show("Introduce Y");
+					}
+					else if (DrownForm == Forms.None.ToString())
+					{
+						MessageBox.Show("Deseneaza o forma");
+					}
 				}
 			}
 			pictureBox.Image = Engine.b;
@@ -170,49 +180,63 @@ namespace Grafica
 
 		public void btnScalar_Click(object sender, EventArgs e)
 		{
-			if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
+			if (!ScalarGenerat)
 			{
-				if (DrownForm == Forms.Triunghi.ToString())
+				if (tbNewX.Text != "" && tbNewY.Text != "" && DrownForm != Forms.None.ToString())
 				{
-					scalareTriunghi(drawX, drawY);
+					if (DrownForm == Forms.Triunghi.ToString())
+					{
+						scalareTriunghi(drawX, drawY);
+						ScalarGenerat = true;
+					}
+					else if (DrownForm == Forms.Patrat.ToString())
+					{
+						scalarePatrat(drawX, drawY);
+						ScalarGenerat = true;
+					}
+					else if (DrownForm == Forms.Dreptunghi.ToString())
+					{
+						scalareDreptunghi(drawX, drawY);
+						ScalarGenerat = true;
+					}
 				}
-				else if (DrownForm == Forms.Patrat.ToString())
+				else
 				{
-					scalarePatrat(drawX, drawY);
-				}
-				else if (DrownForm == Forms.Dreptunghi.ToString())
-				{
-					scalareDreptunghi(drawX, drawY);
-				}
-			}
-			else
-			{
-				if (tbNewX.Text == "")
-				{
-					MessageBox.Show("Introduce Sx");
-				}
-				else if (tbNewY.Text == "")
-				{
-					MessageBox.Show("Introduce Sy");
-				}
-				else if (DrownForm == Forms.None.ToString())
-				{
-					MessageBox.Show("Deseneaza o forma");
+					if (tbNewX.Text == "")
+					{
+						MessageBox.Show("Introduce Sx");
+					}
+					else if (tbNewY.Text == "")
+					{
+						MessageBox.Show("Introduce Sy");
+					}
+					else if (DrownForm == Forms.None.ToString())
+					{
+						MessageBox.Show("Deseneaza o forma");
+					}
 				}
 			}
 			pictureBox.Image = Engine.b;
 		}
 
-		public void tabPage_Click(object sender, System.EventArgs e)
+		private void Scalar_Click(object sender, EventArgs e)
 		{
+			btnGenScalar.Visible = true;
+			btnGenTranslatie.Visible = false;
+			btnScalar.Visible = false;
+			btnTrans.Visible = true;
 			label3.Text = "Sy:";
 			label4.Text = "Sx:";
 			tbNewX.Clear();
 			tbNewY.Clear();
 		}
 
-		public void tabPage2_Click(object sender, System.EventArgs e)
+		private void Trans_Click(object sender, EventArgs e)
 		{
+			btnGenScalar.Visible = false;
+			btnGenTranslatie.Visible = true;
+			btnScalar.Visible = true;
+			btnTrans.Visible = false;
 			label3.Text = "Y:";
 			label4.Text = "X";
 			tbNewX.Clear();
@@ -320,6 +344,5 @@ namespace Grafica
 			drawX = x;
 			drawY = y;
 		}
-
 	}
 }

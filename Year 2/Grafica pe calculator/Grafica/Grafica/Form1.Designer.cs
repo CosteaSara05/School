@@ -38,7 +38,7 @@
 			this.btnGenPat = new System.Windows.Forms.Button();
 			this.btnGenDre = new System.Windows.Forms.Button();
 			this.btnGenTranslatie = new System.Windows.Forms.Button();
-			this.btnScalar = new System.Windows.Forms.Button();
+			this.btnGenScalar = new System.Windows.Forms.Button();
 			this.tbDrawX = new System.Windows.Forms.TextBox();
 			this.tbDrawY = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
@@ -50,15 +50,11 @@
 			this.tbTranslatia = new System.Windows.Forms.TextBox();
 			this.btnClose = new System.Windows.Forms.Button();
 			this.btnInfo = new System.Windows.Forms.Button();
-			this.tabControl = new System.Windows.Forms.TabControl();
-			this.tabPage = new System.Windows.Forms.TabPage();
-			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.btnClear = new System.Windows.Forms.Button();
+			this.btnScalar = new System.Windows.Forms.Button();
+			this.btnTrans = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
 			this.AvInfoPanel.SuspendLayout();
-			this.tabControl.SuspendLayout();
-			this.tabPage.SuspendLayout();
-			this.tabPage2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// pictureBox
@@ -140,30 +136,32 @@
 			this.btnGenTranslatie.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnGenTranslatie.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnGenTranslatie.ForeColor = System.Drawing.Color.Black;
-			this.btnGenTranslatie.Location = new System.Drawing.Point(0, 0);
+			this.btnGenTranslatie.Location = new System.Drawing.Point(501, 5);
 			this.btnGenTranslatie.Name = "btnGenTranslatie";
-			this.btnGenTranslatie.Size = new System.Drawing.Size(236, 34);
+			this.btnGenTranslatie.Size = new System.Drawing.Size(236, 29);
 			this.btnGenTranslatie.TabIndex = 19;
 			this.btnGenTranslatie.Text = "Generare Translatie";
 			this.toolTip.SetToolTip(this.btnGenTranslatie, "Translatarea formei");
 			this.btnGenTranslatie.UseVisualStyleBackColor = false;
+			this.btnGenTranslatie.Visible = false;
 			this.btnGenTranslatie.Click += new System.EventHandler(this.btnGenTranslatie_Click);
 			// 
-			// btnScalar
+			// btnGenScalar
 			// 
-			this.btnScalar.BackColor = System.Drawing.Color.DarkCyan;
-			this.btnScalar.Cursor = System.Windows.Forms.Cursors.Default;
-			this.btnScalar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnScalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnScalar.ForeColor = System.Drawing.Color.Black;
-			this.btnScalar.Location = new System.Drawing.Point(0, 0);
-			this.btnScalar.Name = "btnScalar";
-			this.btnScalar.Size = new System.Drawing.Size(236, 34);
-			this.btnScalar.TabIndex = 21;
-			this.btnScalar.Text = "Generare scalar";
-			this.toolTip.SetToolTip(this.btnScalar, "Translatarea formei");
-			this.btnScalar.UseVisualStyleBackColor = false;
-			this.btnScalar.Click += new System.EventHandler(this.btnScalar_Click);
+			this.btnGenScalar.BackColor = System.Drawing.Color.DarkCyan;
+			this.btnGenScalar.Cursor = System.Windows.Forms.Cursors.Default;
+			this.btnGenScalar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnGenScalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnGenScalar.ForeColor = System.Drawing.Color.Black;
+			this.btnGenScalar.Location = new System.Drawing.Point(501, 36);
+			this.btnGenScalar.Name = "btnGenScalar";
+			this.btnGenScalar.Size = new System.Drawing.Size(236, 29);
+			this.btnGenScalar.TabIndex = 21;
+			this.btnGenScalar.Text = "Generare Scalar";
+			this.toolTip.SetToolTip(this.btnGenScalar, "Translatarea formei");
+			this.btnGenScalar.UseVisualStyleBackColor = false;
+			this.btnGenScalar.Visible = false;
+			this.btnGenScalar.Click += new System.EventHandler(this.btnScalar_Click);
 			// 
 			// tbDrawX
 			// 
@@ -287,40 +285,6 @@
 			this.btnInfo.UseVisualStyleBackColor = false;
 			this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
 			// 
-			// tabControl
-			// 
-			this.tabControl.Controls.Add(this.tabPage);
-			this.tabControl.Controls.Add(this.tabPage2);
-			this.tabControl.Location = new System.Drawing.Point(502, 9);
-			this.tabControl.Name = "tabControl";
-			this.tabControl.SelectedIndex = 0;
-			this.tabControl.Size = new System.Drawing.Size(244, 60);
-			this.tabControl.TabIndex = 14;
-			// 
-			// tabPage
-			// 
-			this.tabPage.BackColor = System.Drawing.Color.AntiqueWhite;
-			this.tabPage.Controls.Add(this.btnGenTranslatie);
-			this.tabPage.Location = new System.Drawing.Point(4, 22);
-			this.tabPage.Name = "tabPage";
-			this.tabPage.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage.Size = new System.Drawing.Size(236, 34);
-			this.tabPage.TabIndex = 0;
-			this.tabPage.Text = "Translatie";
-			this.tabPage.Click += new System.EventHandler(this.tabPage_Click);
-			// 
-			// tabPage2
-			// 
-			this.tabPage2.BackColor = System.Drawing.Color.AntiqueWhite;
-			this.tabPage2.Controls.Add(this.btnScalar);
-			this.tabPage2.Location = new System.Drawing.Point(4, 22);
-			this.tabPage2.Name = "tabPage2";
-			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(236, 34);
-			this.tabPage2.TabIndex = 1;
-			this.tabPage2.Text = "Scalare";
-			this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
-			// 
 			// btnClear
 			// 
 			this.btnClear.BackColor = System.Drawing.Color.Red;
@@ -336,16 +300,45 @@
 			this.btnClear.UseVisualStyleBackColor = false;
 			this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
 			// 
+			// btnScalar
+			// 
+			this.btnScalar.BackColor = System.Drawing.Color.Yellow;
+			this.btnScalar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnScalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnScalar.Location = new System.Drawing.Point(501, 36);
+			this.btnScalar.Name = "btnScalar";
+			this.btnScalar.Size = new System.Drawing.Size(236, 29);
+			this.btnScalar.TabIndex = 22;
+			this.btnScalar.Text = "Scalare";
+			this.btnScalar.UseVisualStyleBackColor = false;
+			this.btnScalar.Click += new System.EventHandler(this.Scalar_Click);
+			// 
+			// btnTrans
+			// 
+			this.btnTrans.BackColor = System.Drawing.Color.Yellow;
+			this.btnTrans.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnTrans.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnTrans.Location = new System.Drawing.Point(501, 5);
+			this.btnTrans.Name = "btnTrans";
+			this.btnTrans.Size = new System.Drawing.Size(236, 29);
+			this.btnTrans.TabIndex = 23;
+			this.btnTrans.Text = "Translatie";
+			this.btnTrans.UseVisualStyleBackColor = false;
+			this.btnTrans.Click += new System.EventHandler(this.Trans_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(837, 480);
+			this.Controls.Add(this.btnTrans);
+			this.Controls.Add(this.btnScalar);
+			this.Controls.Add(this.btnGenScalar);
+			this.Controls.Add(this.btnGenTranslatie);
 			this.Controls.Add(this.btnGenDre);
 			this.Controls.Add(this.btnGenPat);
 			this.Controls.Add(this.btnGenTri);
 			this.Controls.Add(this.btnClear);
-			this.Controls.Add(this.tabControl);
 			this.Controls.Add(this.btnInfo);
 			this.Controls.Add(this.AvInfoPanel);
 			this.Controls.Add(this.label3);
@@ -363,9 +356,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
 			this.AvInfoPanel.ResumeLayout(false);
 			this.AvInfoPanel.PerformLayout();
-			this.tabControl.ResumeLayout(false);
-			this.tabPage.ResumeLayout(false);
-			this.tabPage2.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -388,15 +378,14 @@
 	private System.Windows.Forms.TextBox tbTranslatia;
 	private System.Windows.Forms.Button btnClose;
 	private System.Windows.Forms.Button btnInfo;
-	private System.Windows.Forms.TabControl tabControl;
-	private System.Windows.Forms.TabPage tabPage;
-	private System.Windows.Forms.TabPage tabPage2;
 	private System.Windows.Forms.Button btnClear;
 	private System.Windows.Forms.Button btnGenTri;
 	private System.Windows.Forms.Button btnGenPat;
 	private System.Windows.Forms.Button btnGenDre;
 	private System.Windows.Forms.Button btnGenTranslatie;
-	private System.Windows.Forms.Button btnScalar;
-}
+	private System.Windows.Forms.Button btnGenScalar;
+		private System.Windows.Forms.Button btnScalar;
+		private System.Windows.Forms.Button btnTrans;
+	}
 }
 
