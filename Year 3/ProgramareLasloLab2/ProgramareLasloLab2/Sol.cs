@@ -48,10 +48,7 @@ namespace ProgramareLasloLab2
 			{
 				for (int j = 0; j < Engine.NOP; j++)
 				{
-					for (int k = 0; k < length; k++)
-					{
 
-					}
 				}
 			}
 		}
