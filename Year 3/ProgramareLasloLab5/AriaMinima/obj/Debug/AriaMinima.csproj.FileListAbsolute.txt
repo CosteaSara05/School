@@ -1,0 +1,10 @@
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\bin\Debug\AriaMinima.exe.config
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\bin\Debug\AriaMinima.exe
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\bin\Debug\AriaMinima.pdb
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.csprojResolveAssemblyReference.cache
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.Form1.resources
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.Properties.Resources.resources
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.csproj.GenerateResource.Cache
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.csproj.CoreCompileInputs.cache
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.exe
+C:\Users\Astonrivll\Desktop\AriaMinima\AriaMinima\obj\Debug\AriaMinima.pdb
