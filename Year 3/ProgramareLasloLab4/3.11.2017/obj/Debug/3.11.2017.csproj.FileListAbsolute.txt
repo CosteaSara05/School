@@ -1,0 +1,9 @@
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\bin\Debug\3.11.2017.exe.config
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\bin\Debug\3.11.2017.exe
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\bin\Debug\3.11.2017.pdb
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\3.11.2017.csprojResolveAssemblyReference.cache
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\_3._11._2017.Form1.resources
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\_3._11._2017.Properties.Resources.resources
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\3.11.2017.csproj.GenerateResource.Cache
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\3.11.2017.exe
+C:\Users\Puscas\Desktop\Programare distribuita\3.11.2017\3.11.2017\obj\Debug\3.11.2017.pdb
