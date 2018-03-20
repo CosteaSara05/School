@@ -5,3 +5,10 @@ C:\Users\Student\Desktop\Nimic\Nimic\obj\Debug\Nimic.csprojResolveAssemblyRefere
 C:\Users\Student\Desktop\Nimic\Nimic\obj\Debug\Nimic.csproj.CoreCompileInputs.cache
 C:\Users\Student\Desktop\Nimic\Nimic\obj\Debug\Nimic.exe
 C:\Users\Student\Desktop\Nimic\Nimic\obj\Debug\Nimic.pdb
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\bin\Debug\Nimic.exe.config
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\bin\Debug\Nimic.exe
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\bin\Debug\Nimic.pdb
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\obj\Debug\Nimic.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\obj\Debug\Nimic.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\obj\Debug\Nimic.exe
+C:\Users\Student\Desktop\School\Year 3\Second Semester\For License\Nimic\Nimic\obj\Debug\Nimic.pdb
